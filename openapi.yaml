@@ -1,0 +1,163 @@
+openapi: 3.1.0
+info:
+  title: QB challenge Documentation
+  description: This is the documentation available for the qb challenge API
+  version: 0.0.1
+paths:
+  /health:
+    get:
+      operationId: getHealth
+      tags:
+        - health
+      summary: Get health
+      responses:
+        "200":
+          description: The request was successful, and the server has returned the
+            requested resource in the response body.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    examples:
+                      - ok
+                required:
+                  - status
+        "500":
+          $ref: "#/components/responses/InternalServerErrror"
+  /products:
+    get:
+      operationId: getProducts
+      summary: Get products
+      responses:
+        "200":
+          description: The request was successful, and the server has returned the
+            requested resource in the response body.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  products:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          examples:
+                            - 01234abc-d5ef-6ea7-bcd8-9ef0123a4b5c
+                        name:
+                          type: string
+                          examples:
+                            - Practical Cotton Computer
+                        description:
+                          type: string
+                          examples:
+                            - The magenta Sausages combines Ethiopia aesthetics
+                              with Krypton-based durability
+                        category:
+                          type: string
+                          examples:
+                            - Automotive
+                        image_url:
+                          type: string
+                          examples:
+                            - https://image_can_be_found_here
+                        price:
+                          type: string
+                          examples:
+                            - "144.99"
+                        stock_quantity:
+                          type: number
+                          examples:
+                            - 90
+                      required:
+                        - id
+                        - name
+                        - description
+                        - category
+                        - image_url
+                        - price
+                        - stock_quantity
+                required:
+                  - products
+                title: GetProductsOk
+        "400":
+          description: The server could not understand the request due to invalid syntax.
+            The client should modify the request and try again.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    expected:
+                      type: string
+                      examples:
+                        - string
+                    code:
+                      type: string
+                      examples:
+                        - invalid type
+                    path:
+                      type: array
+                      items:
+                        type: string
+                        examples:
+                          - page
+                    message:
+                      type: string
+                      examples:
+                        - "Invalid input: expected string, received undefined"
+                  required:
+                    - expected
+                    - code
+                    - path
+                    - message
+        "500":
+          $ref: "#/components/responses/InternalServerErrror"
+      parameters:
+        - in: query
+          name: page
+          required: false
+          style: form
+          description: The page number
+          explode: true
+          schema:
+            type: string
+            examples:
+              - "2"
+          allowReserved: false
+        - in: query
+          name: limit
+          required: false
+          style: form
+          description: The limit number
+          explode: true
+          schema:
+            type: string
+            examples:
+              - "10"
+          allowReserved: false
+      description: Get products with pagination
+      tags:
+        - products
+components:
+  responses:
+    InternalServerErrror:
+      description: The server encountered an unexpected condition that prevented it
+        from fulfilling the request. Report the issue to the support team if it
+        persists.
+      content:
+        application/json:
+          schema:
+            type: string
+            examples:
+              - Internal server error
+tags:
+  - name: health
+  - name: products

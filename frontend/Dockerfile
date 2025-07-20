@@ -12,7 +12,8 @@ RUN npm install -g pnpm
 RUN pnpm install
 
 # Copy source code
-COPY . .
+COPY /src .
+COPY /public .
 
 # Expose port
 EXPOSE 3000

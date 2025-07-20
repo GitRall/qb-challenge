@@ -18,4 +18,4 @@ COPY . .
 EXPOSE 3001
 
 # Start development server
-CMD ["pnpm", "dev"] 
+CMD ["pnpm", "dev"]

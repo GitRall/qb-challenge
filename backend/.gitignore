@@ -194,3 +194,4 @@ Thumbs.db
 # Backup files
 *.bak
 *.backup 
+/generated/prisma

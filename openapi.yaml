@@ -27,7 +27,7 @@ paths:
                   - status
         "500":
           $ref: "#/components/responses/InternalServerErrror"
-  /products:
+  /api/v1/products:
     get:
       operationId: getProducts
       summary: Get products

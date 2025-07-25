@@ -27,7 +27,8 @@ export async function GET(request: Request) {
         totalPages: 0,
         hasNextPage: false,
         hasPrevPage: false
-      }
+      },
+      error: true
     })
   }
 }

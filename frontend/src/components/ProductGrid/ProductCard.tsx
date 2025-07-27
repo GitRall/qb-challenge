@@ -4,7 +4,7 @@ import { AddToCartButton } from '@/components/Product/AddToCartButton'
 
 export function ProductCard({ product }: { product: Product }) {
     return (
-        <div className='product-card flex flex-col rounded-lg shadow-md p-3 bg-indigo-50 dark:bg-cyan-900'>
+        <div className='flex flex-col rounded-lg shadow-md p-3 bg-indigo-50 dark:bg-cyan-900'>
             <div className='flex items-center gap-4 mb-4'>
                 <Image className='rounded-md shadow-lg' src={product.image_url} height={80} width={80} alt={product.name}></Image>
                 <div>{product.name}</div>

@@ -1,13 +1,13 @@
 import { Product } from '@/types/Product'
 
-export function FilterProducts({ products, callback }: { products: Product[], callback: Function }) {
+export function FilterProducts({ products, callback }: { products: Product[], callback: (arr: Product[], value: string) => unknown }) {
 
     const handleInput = (event: React.ChangeEvent<HTMLInputElement>) => {
         const value = event.target.value.toLowerCase()
 
         // Early return empty array if no search value is set
         if (!value) {
-            callback([])
+            callback([], '')
             return
         }
         // Filter products on input value

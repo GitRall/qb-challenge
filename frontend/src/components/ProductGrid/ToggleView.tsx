@@ -1,11 +1,9 @@
-import { Product } from '@/types/Product'
-
-interface Labels {
+interface Label {
     left?: string
     right: string
 }
 
-export function ToggleView({ labels, callback }: { labels: Labels, callback: Function }) {
+export function ToggleView({ labels, callback }: { labels: Label, callback: (isChecked: boolean) => unknown }) {
 
     const handleToggle = (event: React.ChangeEvent<HTMLInputElement>) => {
         callback(event.target.checked)

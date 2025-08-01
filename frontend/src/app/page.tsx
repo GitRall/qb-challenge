@@ -8,10 +8,10 @@ export default function Home() {
       <h2>Welcome!</h2>
       <p>
         This challenge tests your ability to work with modern web technologies including React, Next.js, Node.js, and Docker. 
-        You'll be building upon an existing codebase to implement infinite scrolling for a product grid.
+        You&apos;ll be building upon an existing codebase to implement infinite scrolling for a product grid.
       </p>
 
-      <h2>What You'll Build</h2>
+      <h2>What You&apos;ll Build</h2>
       <p>
         The main challenge is to implement <strong>infinite scrolling</strong> for the product grid. 
         Currently, the grid shows only the first page of products. You need to:
@@ -26,7 +26,7 @@ export default function Home() {
 
       <h2>Getting Started</h2>
       <p>
-        Make sure you've read the <strong>README.md</strong> in the root directory for detailed setup instructions, 
+        Make sure you&apos;ve read the <strong>README.md</strong> in the root directory for detailed setup instructions, 
         technical requirements, and evaluation criteria.
       </p>
 

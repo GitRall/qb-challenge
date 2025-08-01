@@ -18,13 +18,13 @@ interface PaginationData {
 interface responseData {
     products: Product[]
     pagination: PaginationData
-    error?: Boolean
+    error?: boolean
 }
 
 type View = 'list' | 'grid'
 
 export function ProductGridSimple() {
-    const [error, setError] = useState<Boolean>(false)
+    const [error, setError] = useState<boolean>(false)
     const [view, setView] = useState<View>('list')
     const [products, setProducts] = useState<Product[]>([])
     const [pagination, setPagination] = useState<PaginationData>({
@@ -35,7 +35,7 @@ export function ProductGridSimple() {
         hasNextPage: false,
         hasPrevPage: false
     })
-    const [loading, setLoading] = useState(true)
+    const [loading, setLoading] = useState<boolean>(true)
     const observer = useRef<IntersectionObserver | null>(null)
     const [filteredProducts, setFilteredProducts] = useState<Product[]>([])
     const [searchValue, setSearchValue] = useState<string>('')
@@ -101,7 +101,7 @@ export function ProductGridSimple() {
 
     if (error) {
         return (
-            <div className='w-4/5 mx-auto text-center px-3 py-4 bg-red-900 rounded-lg'>Can't show products at this time, try again later.</div>
+            <div className='w-4/5 mx-auto text-center px-3 py-4 bg-red-900 rounded-lg'>Can&apos;t show products at this time, try again later.</div>
         )
     }
 

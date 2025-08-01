@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState, useRef, PropsWithChildren } from 'react'
+import { useEffect, useState, PropsWithChildren } from 'react'
 import { Product } from '@/types/Product'
 import { ProductCard } from '@/components/ProductGrid/ProductCard'
 import { ToggleView } from '@/components/ProductGrid/ToggleView'
@@ -20,7 +20,7 @@ interface PaginationData {
 interface responseData {
   products: Product[]
   pagination: PaginationData
-  error?: Boolean
+  error?: boolean
 }
 
 type View = 'list' | 'grid'
@@ -45,7 +45,7 @@ const gridComponents = {
     >
       {children}
     </div>
-  )
+  ),
 }
 
 const ItemWrapper = ({ children, ...props }: PropsWithChildren) => (
@@ -58,7 +58,7 @@ const ItemWrapper = ({ children, ...props }: PropsWithChildren) => (
 );
 
 export function ProductGrid() {
-  const [error, setError] = useState<Boolean>(false)
+  const [error, setError] = useState<boolean>(false)
   const [view, setView] = useState<View>('list')
   const [products, setProducts] = useState<Product[]>([])
   const [pagination, setPagination] = useState<PaginationData>({
@@ -69,10 +69,9 @@ export function ProductGrid() {
     hasNextPage: false,
     hasPrevPage: false
   })
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState<boolean>(true)
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([])
   const [searchValue, setSearchValue] = useState<string>('')
-  const observer = useRef<IntersectionObserver | null>(null)
 
   const handleProductFilter = (products: Product[], searchValue: string) => {
     setFilteredProducts(products)
@@ -127,7 +126,7 @@ export function ProductGrid() {
 
   if (error) {
     return (
-      <div className='w-4/5 mx-auto text-center px-3 py-4 bg-red-900 rounded-lg'>Can't show products at this time, try again later.</div>
+      <div className='w-4/5 mx-auto text-center px-3 py-4 bg-red-900 rounded-lg'>Can&apos;t show products at this time, try again later.</div>
     )
   }
 

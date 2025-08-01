@@ -26,12 +26,9 @@ importers:
       react-markdown:
         specifier: ^9.0.1
         version: 9.0.1(@types/react@19.0.1)(react@19.0.0)
-      react-virtualized-auto-sizer:
-        specifier: ^1.0.26
-        version: 1.0.26(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      react-window:
-        specifier: ^1.8.11
-        version: 1.8.11(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      react-virtuoso:
+        specifier: ^4.13.0
+        version: 4.13.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
     devDependencies:
       '@types/node':
         specifier: ^20
@@ -42,12 +39,6 @@ importers:
       '@types/react-dom':
         specifier: ^19
         version: 19.0.2(@types/react@19.0.1)
-      '@types/react-virtualized-auto-sizer':
-        specifier: ^1.0.8
-        version: 1.0.8(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@types/react-window':
-        specifier: ^1.8.8
-        version: 1.8.8
       postcss:
         specifier: ^8
         version: 8.4.49
@@ -63,10 +54,6 @@ packages:
   '@alloc/quick-lru@5.2.0':
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
-
-  '@babel/runtime@7.28.2':
-    resolution: {integrity: sha512-KHp2IflsnGywDjBWDkR9iEqiWSpc8GIi0lgTT3mOElT0PP1tG26P4tmFI2YvAdzgq9RGyoHZQEIEdZy6Ec5xCA==}
-    engines: {node: '>=6.9.0'}
 
   '@emnapi/runtime@1.3.1':
     resolution: {integrity: sha512-kEBmG8KyqtxJZv+ygbEim+KCGtIq1fC22Ms3S4ziXmYKm8uyoLX0MHONVKwp+9opg390VaKRNt4a7A9NwmpNhw==}
@@ -301,13 +288,6 @@ packages:
     resolution: {integrity: sha512-c1s+7TKFaDRRxr1TxccIX2u7sfCnc3RxkVyBIUA2lCpyqCF+QoAwQ/CBg7bsMdVwP120HEH143VQezKtef5nCg==}
     peerDependencies:
       '@types/react': ^19.0.0
-
-  '@types/react-virtualized-auto-sizer@1.0.8':
-    resolution: {integrity: sha512-keJpNyhiwfl2+N12G1ocCVA5ZDBArbPLe/S90X3kt7fam9naeHdaYYWbpe2sHczp70JWJ+2QLhBE8kLvLuVNjA==}
-    deprecated: This is a stub types definition. react-virtualized-auto-sizer provides its own type definitions, so you do not need this installed.
-
-  '@types/react-window@1.8.8':
-    resolution: {integrity: sha512-8Ls660bHR1AUA2kuRvVG9D/4XpRC6wjAaPT9dil7Ckc76eP9TKWZwwmgfq8Q1LANX3QNDnoU4Zp48A3w+zK69Q==}
 
   '@types/react@19.0.1':
     resolution: {integrity: sha512-YW6614BDhqbpR5KtUYzTA+zlA7nayzJRA9ljz9CQoxthR0sDisYZLuvSMsil36t4EH/uAt8T52Xb4sVw17G+SQ==}
@@ -629,9 +609,6 @@ packages:
   mdast-util-to-string@4.0.0:
     resolution: {integrity: sha512-0H44vDimn51F0YwvxSJSm0eCDOJTRlmN0R1yBh4HLj9wiV1Dn0QoXGbvFAWj2hSItVTlCmBF1hqKlIyUBVFLPg==}
 
-  memoize-one@5.2.1:
-    resolution: {integrity: sha512-zYiwtZUcYyXKo/np96AGZAckk+FWWsUdJ3cHGGmld7+AhvcWmQyGCYUh1hc4Q/pkOhb65dQR/pqCyK0cOaHz4Q==}
-
   merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
@@ -853,18 +830,11 @@ packages:
       '@types/react': '>=18'
       react: '>=18'
 
-  react-virtualized-auto-sizer@1.0.26:
-    resolution: {integrity: sha512-CblNyiNVw2o+hsa5/49NH2ogGxZ+t+3aweRvNSq7TVjDIlwk7ir4lencEg5HxHeSzwNarSkNkiu0qJSOXtxm5A==}
+  react-virtuoso@4.13.0:
+    resolution: {integrity: sha512-XHv2Fglpx80yFPdjZkV9d1baACKghg/ucpDFEXwaix7z0AfVQj+mF6lM+YQR6UC/TwzXG2rJKydRMb3+7iV3PA==}
     peerDependencies:
-      react: ^15.3.0 || ^16.0.0-alpha || ^17.0.0 || ^18.0.0 || ^19.0.0
-      react-dom: ^15.3.0 || ^16.0.0-alpha || ^17.0.0 || ^18.0.0 || ^19.0.0
-
-  react-window@1.8.11:
-    resolution: {integrity: sha512-+SRbUVT2scadgFSWx+R1P754xHPEqvcfSfVX10QYg6POOz+WNgkN48pS+BtZNIMGiL1HYrSEiCkwsMS15QogEQ==}
-    engines: {node: '>8.0.0'}
-    peerDependencies:
-      react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react: '>=16 || >=17 || >= 18 || >= 19'
+      react-dom: '>=16 || >=17 || >= 18 || >=19'
 
   react@19.0.0:
     resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
@@ -1064,8 +1034,6 @@ snapshots:
 
   '@alloc/quick-lru@5.2.0': {}
 
-  '@babel/runtime@7.28.2': {}
-
   '@emnapi/runtime@1.3.1':
     dependencies:
       tslib: 2.8.1
@@ -1252,17 +1220,6 @@ snapshots:
       undici-types: 6.19.8
 
   '@types/react-dom@19.0.2(@types/react@19.0.1)':
-    dependencies:
-      '@types/react': 19.0.1
-
-  '@types/react-virtualized-auto-sizer@1.0.8(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
-    dependencies:
-      react-virtualized-auto-sizer: 1.0.26(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-    transitivePeerDependencies:
-      - react
-      - react-dom
-
-  '@types/react-window@1.8.8':
     dependencies:
       '@types/react': 19.0.1
 
@@ -1630,8 +1587,6 @@ snapshots:
     dependencies:
       '@types/mdast': 4.0.4
 
-  memoize-one@5.2.1: {}
-
   merge2@1.4.1: {}
 
   micromark-core-commonmark@2.0.2:
@@ -1923,15 +1878,8 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  react-virtualized-auto-sizer@1.0.26(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  react-virtuoso@4.13.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
-      react: 19.0.0
-      react-dom: 19.0.0(react@19.0.0)
-
-  react-window@1.8.11(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
-    dependencies:
-      '@babel/runtime': 7.28.2
-      memoize-one: 5.2.1
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
 

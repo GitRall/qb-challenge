@@ -60,7 +60,7 @@ describe('Routes', () => {
       prismaClient.products.count = sinon.stub().resolves(total)
       prismaClient.products.findMany = sinon.stub().resolves(products)
 
-      const response = await agent.get('/products')
+      const response = await agent.get('/api/v1/products')
       assert.strictEqual(response.status, 200)
       assert.deepStrictEqual(response.body, {
         products,
@@ -82,7 +82,7 @@ describe('Routes', () => {
       prismaClient.products.count = sinon.stub().resolves(total)
       prismaClient.products.findMany = sinon.stub().resolves(products)
 
-      const response = await agent.get('/products?page=2')
+      const response = await agent.get('/api/v1/products?page=2')
       assert.strictEqual(response.status, 200)
       assert.deepStrictEqual(response.body, {
         products,
@@ -104,7 +104,7 @@ describe('Routes', () => {
       prismaClient.products.count = sinon.stub().resolves(total)
       prismaClient.products.findMany = sinon.stub().resolves(products)
 
-      const response = await agent.get('/products?limit=5')
+      const response = await agent.get('/api/v1/products?limit=5')
       assert.strictEqual(response.status, 200)
       assert.deepStrictEqual(response.body, {
         products,
@@ -120,7 +120,7 @@ describe('Routes', () => {
     })
 
     it('should throw validation error if string query parameter is not numeric', async () => {
-      const response = await agent.get('/products?page=foo&limit=bar')
+      const response = await agent.get('/api/v1/products?page=foo&limit=bar')
       assert.strictEqual(response.status, 400)
       assert.deepStrictEqual(response.body, {
         type: 'ValidationError',
@@ -150,7 +150,7 @@ describe('Routes', () => {
         return new Error('database error')
       })
 
-      const response = await agent.get('/products?page=1&limit=10')
+      const response = await agent.get('/api/v1/products?page=1&limit=10')
       assert.strictEqual(response.status, 500)
       assert.deepStrictEqual(response.body, {
         type: 'InternalServerError',

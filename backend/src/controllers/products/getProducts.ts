@@ -7,11 +7,7 @@ const bodySchema = z.object({
   limit: z.string().regex(/^\d+$/).transform(Number).default(10),
 })
 
-export default async (
-  req: Request,
-  res: Response,
-  next: NextFunction,
-) => {
+export default async (req: Request, res: Response, next: NextFunction) => {
   try {
     // Validating req body/params
     const body = bodySchema.parse({

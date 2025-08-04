@@ -12,7 +12,8 @@ paths:
       summary: Get health
       responses:
         "200":
-          description: The request was successful, and the server has returned the
+          description:
+            The request was successful, and the server has returned the
             requested resource in the response body.
           content:
             application/json:
@@ -33,7 +34,8 @@ paths:
       summary: Get products
       responses:
         "200":
-          description: The request was successful, and the server has returned the
+          description:
+            The request was successful, and the server has returned the
             requested resource in the response body.
           content:
             application/json:
@@ -86,7 +88,8 @@ paths:
                   - products
                 title: GetProductsOk
         "400":
-          description: The server could not understand the request due to invalid syntax.
+          description:
+            The server could not understand the request due to invalid syntax.
             The client should modify the request and try again.
           content:
             application/json:
@@ -146,10 +149,49 @@ paths:
       description: Get products with pagination
       tags:
         - products
+  /api/v1/categories:
+    get:
+      operationId: getCategories
+      summary: Get categories
+      responses:
+        "200":
+          description:
+            The request was successful, and the server has returned the
+            requested resource in the response body.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  categories:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          examples:
+                            - 1
+                        name:
+                          type: string
+                          examples:
+                            - Automotive
+                      required:
+                        - id
+                        - name
+                required:
+                  - categories
+                title: GetCategoriesOk
+        "500":
+          $ref: "#/components/responses/InternalServerErrror"
+      description: Get categories
+      tags:
+        - categories
 components:
   responses:
     InternalServerErrror:
-      description: The server encountered an unexpected condition that prevented it
+      description:
+        The server encountered an unexpected condition that prevented it
         from fulfilling the request. Report the issue to the support team if it
         persists.
       content:
@@ -161,3 +203,4 @@ components:
 tags:
   - name: health
   - name: products
+  - name: categories

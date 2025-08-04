@@ -57,8 +57,8 @@ describe('Routes', () => {
       const total = 20
       const products = mockProducts.slice(0, 10)
 
-      prismaClient.products.count = sinon.stub().resolves(total)
-      prismaClient.products.findMany = sinon.stub().resolves(products)
+      prismaClient.product.count = sinon.stub().resolves(total)
+      prismaClient.product.findMany = sinon.stub().resolves(products)
 
       const response = await agent.get('/api/v1/products')
       assert.strictEqual(response.status, 200)
@@ -79,8 +79,8 @@ describe('Routes', () => {
       const total = 20
       const products = mockProducts.slice(10, 20)
 
-      prismaClient.products.count = sinon.stub().resolves(total)
-      prismaClient.products.findMany = sinon.stub().resolves(products)
+      prismaClient.product.count = sinon.stub().resolves(total)
+      prismaClient.product.findMany = sinon.stub().resolves(products)
 
       const response = await agent.get('/api/v1/products?page=2')
       assert.strictEqual(response.status, 200)
@@ -101,8 +101,8 @@ describe('Routes', () => {
       const total = 20
       const products = mockProducts.slice(0, 5)
 
-      prismaClient.products.count = sinon.stub().resolves(total)
-      prismaClient.products.findMany = sinon.stub().resolves(products)
+      prismaClient.product.count = sinon.stub().resolves(total)
+      prismaClient.product.findMany = sinon.stub().resolves(products)
 
       const response = await agent.get('/api/v1/products?limit=5')
       assert.strictEqual(response.status, 200)
@@ -146,7 +146,7 @@ describe('Routes', () => {
     })
 
     it('should throw internal server error if unexpected server error happens', async () => {
-      prismaClient.products.count = sinon.stub().throws(() => {
+      prismaClient.product.count = sinon.stub().throws(() => {
         return new Error('database error')
       })
 

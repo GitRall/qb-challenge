@@ -5,7 +5,7 @@ export default [
     'Our golden-inspired Bacon brings a taste of luxury to your all lifestyle',
     273,
     'https://picsum.photos/seed/9d1bcdd6-ea7e-4a2f-922e-b1375b7a39cd/800/800',
-    'Garden',
+    9,
     74,
   ],
   [
@@ -14,7 +14,7 @@ export default [
     'Ergonomic Bacon made with Soft for all-day joyful support',
     265,
     'https://picsum.photos/seed/042ab037-c866-4044-82bb-0aa1b5b4ce73/800/800',
-    'Kids',
+    15,
     94,
   ],
   [
@@ -23,7 +23,7 @@ export default [
     'Savor the fresh essence in our Keyboard, designed for reasonable culinary adventures',
     366,
     'https://picsum.photos/seed/64d56bdf-fb10-4214-97c9-a199f122dce9/800/800',
-    'Automotive',
+    1,
     79,
   ],
   [
@@ -32,7 +32,7 @@ export default [
     'Stylish Towels designed to make you stand out with both looks',
     650,
     'https://picsum.photos/seed/268d3b86-43d9-4bf0-aaf9-cec5b7e6fe4e/800/800',
-    'Games',
+    8,
     38,
   ],
   [
@@ -41,7 +41,7 @@ export default [
     'Featuring Mercury-enhanced technology, our Ball offers unparalleled watery performance',
     245,
     'https://picsum.photos/seed/aa4f5237-8bf5-4957-acf1-37d6893817db/800/800',
-    'Outdoors',
+    18,
     12,
   ],
   [
@@ -50,7 +50,7 @@ export default [
     'Our fresh-inspired Shirt brings a taste of luxury to your posh lifestyle',
     770,
     'https://picsum.photos/seed/28309f9b-2f11-4562-a78a-230b9478d3f1/800/800',
-    'Computers',
+    6,
     2,
   ],
   [
@@ -59,7 +59,7 @@ export default [
     'Introducing the New Zealand-inspired Hat, blending cloudy style with local craftsmanship',
     551,
     'https://picsum.photos/seed/cdbd2578-6961-487b-b067-48dc08a902ee/800/800',
-    'Games',
+    8,
     77,
   ],
   [
@@ -68,7 +68,7 @@ export default [
     'Introducing the Syrian Arab Republic-inspired Sausages, blending jubilant style with local craftsmanship',
     557,
     'https://picsum.photos/seed/735cfa1c-7dff-40f8-b222-5045e31e4e17/800/800',
-    'Toys',
+    22,
     17,
   ],
   [
@@ -77,7 +77,7 @@ export default [
     'Our moist-inspired Pants brings a taste of luxury to your unsteady lifestyle',
     781,
     'https://picsum.photos/seed/1d5cbe49-4059-4b35-ba8a-aff906853dc7/800/800',
-    'Music',
+    17,
     27,
   ],
   [
@@ -86,7 +86,7 @@ export default [
     "Sanford - Effertz''s most advanced Gloves technology increases humiliating capabilities",
     822,
     'https://picsum.photos/seed/fa14951d-42ba-4777-9b4d-961b4b6f7031/800/800',
-    'Automotive',
+    1,
     100,
   ],
   [
@@ -95,7 +95,7 @@ export default [
     'The Louie Pants is the latest in a series of uncomfortable products from Abbott - Crooks',
     103,
     'https://picsum.photos/seed/74528598-b41b-4681-af48-da4a4922c46f/800/800',
-    'Beauty',
+    3,
     51,
   ],
   [
@@ -104,7 +104,7 @@ export default [
     'Savor the crispy essence in our Shirt, designed for responsible culinary adventures',
     167,
     'https://picsum.photos/seed/7d97e4c2-ebcb-4e23-862a-454e46992bd2/800/800',
-    'Grocery',
+    10,
     98,
   ],
   [
@@ -113,7 +113,7 @@ export default [
     'The ivory Fish combines Palau aesthetics with Fluorine-based durability',
     690,
     'https://picsum.photos/seed/23b31d65-9a9e-4f09-bb70-a7d4015eac17/800/800',
-    'Music',
+    17,
     96,
   ],
   [
@@ -122,7 +122,7 @@ export default [
     'Professional-grade Cheese perfect for troubled training and recreational use',
     705,
     'https://picsum.photos/seed/f9b02087-f6b8-484c-a533-9b88e5e8c90a/800/800',
-    'Automotive',
+    1,
     56,
   ],
   [
@@ -131,7 +131,7 @@ export default [
     'The sleek and prudent Pizza comes with pink LED lighting for smart functionality',
     539,
     'https://picsum.photos/seed/f2e924c6-6c2b-4b7f-b653-3d21d1dce66d/800/800',
-    'Automotive',
+    1,
     75,
   ],
   [
@@ -140,7 +140,7 @@ export default [
     'Introducing the Trinidad and Tobago-inspired Keyboard, blending biodegradable style with local craftsmanship',
     243,
     'https://picsum.photos/seed/d2fb356a-6224-4d9c-815b-273875c180ce/800/800',
-    'Jewelry',
+    14,
     84,
   ],
   [
@@ -149,7 +149,7 @@ export default [
     'Discover the gaseous new Ball with an exciting mix of Fresh ingredients',
     398,
     'https://picsum.photos/seed/ac5a2011-3586-4260-a992-cbace2584ab6/800/800',
-    'Industrial',
+    13,
     95,
   ],
   [
@@ -158,7 +158,7 @@ export default [
     'Oriental Gloves designed with Frozen for poor performance',
     125,
     'https://picsum.photos/seed/9b229ae5-ad76-4564-941d-b6a62b09de47/800/800',
-    'Grocery',
+    10,
     76,
   ],
   [
@@ -167,7 +167,7 @@ export default [
     'The sleek and serpentine Keyboard comes with teal LED lighting for smart functionality',
     158,
     'https://picsum.photos/seed/c2cf8448-d6a2-4547-8245-fdde02e8fab9/800/800',
-    'Shoes',
+    19,
     23,
   ],
   [
@@ -176,7 +176,7 @@ export default [
     'Innovative Salad featuring polished technology and Concrete construction',
     608,
     'https://picsum.photos/seed/62765771-ea2f-44e7-ad3c-127ba79b79ac/800/800',
-    'Industrial',
+    13,
     99,
   ],
   [
@@ -185,7 +185,7 @@ export default [
     'Our bee-friendly Bike ensures illiterate comfort for your pets',
     509,
     'https://picsum.photos/seed/3c051cff-aa7d-4187-881f-3b4b04fd1742/800/800',
-    'Garden',
+    9,
     13,
   ],
   [
@@ -194,7 +194,7 @@ export default [
     'The gold Chair combines Somalia aesthetics with Hydrogen-based durability',
     313,
     'https://picsum.photos/seed/6b8417d5-7192-4e91-b94b-c8741e423d57/800/800',
-    'Tools',
+    21,
     15,
   ],
   [
@@ -203,7 +203,7 @@ export default [
     'Savor the tender essence in our Bacon, designed for pleasant culinary adventures',
     554,
     'https://picsum.photos/seed/f2cc6f44-ea28-4a5b-ab35-901bdb8a1970/800/800',
-    'Baby',
+    2,
     22,
   ],
   [
@@ -212,7 +212,7 @@ export default [
     "Thompson Inc''s most advanced Keyboard technology increases gruesome capabilities",
     122,
     'https://picsum.photos/seed/c930cfa7-bf00-4ffe-b2db-37274672fede/800/800',
-    'Music',
+    17,
     38,
   ],
   [
@@ -221,7 +221,7 @@ export default [
     'Introducing the Bhutan-inspired Keyboard, blending first style with local craftsmanship',
     445,
     'https://picsum.photos/seed/2838fcf6-1d6f-4ed9-bd4e-9203047612ba/800/800',
-    'Kids',
+    15,
     30,
   ],
   [
@@ -230,7 +230,7 @@ export default [
     'Our salty-inspired Table brings a taste of luxury to your unique lifestyle',
     467,
     'https://picsum.photos/seed/61ef61af-b040-4739-a278-57a2f6c91068/800/800',
-    'Computers',
+    6,
     9,
   ],
   [
@@ -239,7 +239,7 @@ export default [
     'Experience the tan brilliance of our Bacon, perfect for trusty environments',
     251,
     'https://picsum.photos/seed/b2344dbc-671c-4571-8f75-03e9c7d1cebe/800/800',
-    'Grocery',
+    10,
     73,
   ],
   [
@@ -248,7 +248,7 @@ export default [
     'Experience the violet brilliance of our Chair, perfect for unwritten environments',
     851,
     'https://picsum.photos/seed/126c3e48-6071-4846-be53-5099bd06ad79/800/800',
-    'Home',
+    12,
     88,
   ],
   [
@@ -257,7 +257,7 @@ export default [
     'The sleek and incomparable Table comes with salmon LED lighting for smart functionality',
     188,
     'https://picsum.photos/seed/36ccccae-4a6a-4fcd-bf87-4712b76aa253/800/800',
-    'Clothing',
+    5,
     12,
   ],
   [
@@ -266,7 +266,7 @@ export default [
     'Professional-grade Shirt perfect for mealy training and recreational use',
     902,
     'https://picsum.photos/seed/842b76ca-47e9-43b6-8aae-489d819c31cd/800/800',
-    'Tools',
+    21,
     88,
   ],
   [
@@ -275,7 +275,7 @@ export default [
     'The Shea Chicken is the latest in a series of frivolous products from Kovacek, Mitchell and Ferry',
     400,
     'https://picsum.photos/seed/0905e187-6b84-409f-a2d3-da225de97604/800/800',
-    'Tools',
+    21,
     79,
   ],
   [
@@ -284,7 +284,7 @@ export default [
     'Innovative Computer featuring smug technology and Plastic construction',
     781,
     'https://picsum.photos/seed/c48a3df8-79fd-43f8-b737-a1b952c5ab62/800/800',
-    'Industrial',
+    13,
     15,
   ],
   [
@@ -293,7 +293,7 @@ export default [
     'Discover the bear-like agility of our Car, perfect for digital users',
     910,
     'https://picsum.photos/seed/d086dc51-8147-4ed4-b62a-5788f12da0ce/800/800',
-    'Beauty',
+    3,
     89,
   ],
   [
@@ -302,7 +302,7 @@ export default [
     'Professional-grade Hat perfect for phony training and recreational use',
     384,
     'https://picsum.photos/seed/9d6a0369-852c-43f7-b39e-6a549f81fefa/800/800',
-    'Electronics',
+    7,
     12,
   ],
   [
@@ -311,7 +311,7 @@ export default [
     'Introducing the Micronesia-inspired Mouse, blending bleak style with local craftsmanship',
     337,
     'https://picsum.photos/seed/52a81606-022a-4781-a9a0-f6f22aa74e7d/800/800',
-    'Electronics',
+    7,
     44,
   ],
   [
@@ -320,7 +320,7 @@ export default [
     'Featuring Bismuth-enhanced technology, our Bacon offers unparalleled major performance',
     863,
     'https://picsum.photos/seed/3d53b897-5f80-46ce-821c-c6ec6100156e/800/800',
-    'Sports',
+    20,
     27,
   ],
   [
@@ -329,7 +329,7 @@ export default [
     'Experience the teal brilliance of our Bike, perfect for unwelcome environments',
     805,
     'https://picsum.photos/seed/14815069-2782-4ccf-a3f6-c5951fcf2f2a/800/800',
-    'Movies',
+    16,
     68,
   ],
   [
@@ -338,7 +338,7 @@ export default [
     'The sleek and wordy Table comes with grey LED lighting for smart functionality',
     366,
     'https://picsum.photos/seed/224342cf-cbf6-4a23-bddc-84f6d29f6657/800/800',
-    'Tools',
+    21,
     28,
   ],
   [
@@ -347,7 +347,7 @@ export default [
     'Our crispy-inspired Cheese brings a taste of luxury to your puny lifestyle',
     434,
     'https://picsum.photos/seed/293af327-24d5-4ee6-ae21-984bf78b4f51/800/800',
-    'Electronics',
+    7,
     58,
   ],
   [
@@ -356,7 +356,7 @@ export default [
     'Professional-grade Bacon perfect for palatable training and recreational use',
     550,
     'https://picsum.photos/seed/86476c6e-b782-4ded-a92d-22839a3b9729/800/800',
-    'Home',
+    12,
     68,
   ],
   [
@@ -365,7 +365,7 @@ export default [
     "Rolfson - Davis''s most advanced Car technology increases energetic capabilities",
     917,
     'https://picsum.photos/seed/2d95ec4b-8f81-4cbb-a2df-f659babb6dc5/800/800',
-    'Garden',
+    9,
     23,
   ],
   [
@@ -374,7 +374,7 @@ export default [
     'Discover the flamingo-like agility of our Hat, perfect for dead users',
     666,
     'https://picsum.photos/seed/44b5a655-f567-4836-9c36-e7c0a28a29e4/800/800',
-    'Grocery',
+    10,
     55,
   ],
   [
@@ -383,7 +383,7 @@ export default [
     'Innovative Salad featuring brisk technology and Metal construction',
     486,
     'https://picsum.photos/seed/3bc03ce3-9b9a-4703-8940-deb39e7e4bed/800/800',
-    'Sports',
+    20,
     83,
   ],
   [
@@ -392,7 +392,7 @@ export default [
     'Professional-grade Hat perfect for curly training and recreational use',
     642,
     'https://picsum.photos/seed/e9153f7d-7cec-41e2-a009-398a2554fe99/800/800',
-    'Clothing',
+    5,
     23,
   ],
   [
@@ -401,7 +401,7 @@ export default [
     'New Bacon model with 6 GB RAM, 84 GB storage, and familiar features',
     694,
     'https://picsum.photos/seed/d547eea2-8ba4-4152-be2a-4bab0018e426/800/800',
-    'Clothing',
+    5,
     100,
   ],
   [
@@ -410,7 +410,7 @@ export default [
     'Innovative Gloves featuring agile technology and Rubber construction',
     899,
     'https://picsum.photos/seed/e24da997-ebd5-431c-bfcb-cfe45a59583e/800/800',
-    'Health',
+    11,
     69,
   ],
   [
@@ -419,7 +419,7 @@ export default [
     'The sleek and ripe Sausages comes with plum LED lighting for smart functionality',
     938,
     'https://picsum.photos/seed/8c5be70d-606e-4040-9d94-2fdc79a4bf2f/800/800',
-    'Health',
+    11,
     24,
   ],
   [
@@ -428,7 +428,7 @@ export default [
     'Ergonomic Shoes made with Concrete for all-day proper support',
     160,
     'https://picsum.photos/seed/322b1610-89ab-4c33-8c4e-e0155c57d4ae/800/800',
-    'Outdoors',
+    18,
     93,
   ],
   [
@@ -437,7 +437,7 @@ export default [
     'Refined Chicken designed with Rubber for squeaky performance',
     785,
     'https://picsum.photos/seed/59fa9285-cea1-41ba-9cab-745a684c5e06/800/800',
-    'Electronics',
+    7,
     94,
   ],
   [
@@ -446,7 +446,7 @@ export default [
     'Stylish Table designed to make you stand out with pitiful looks',
     392,
     'https://picsum.photos/seed/02abc9b5-07a5-4dd5-b0af-e3a92f9e759b/800/800',
-    'Music',
+    17,
     37,
   ],
   [
@@ -455,7 +455,7 @@ export default [
     'Our juicy-inspired Chicken brings a taste of luxury to your first lifestyle',
     813,
     'https://picsum.photos/seed/1794da1d-ee1f-421c-80b0-6603712b370f/800/800',
-    'Beauty',
+    3,
     15,
   ],
   [
@@ -464,7 +464,7 @@ export default [
     'Professional-grade Chair perfect for cruel training and recreational use',
     418,
     'https://picsum.photos/seed/517679d9-64e3-4b56-aec9-486b2815192a/800/800',
-    'Movies',
+    16,
     3,
   ],
   [
@@ -473,7 +473,7 @@ export default [
     'Innovative Gloves featuring bogus technology and Fresh construction',
     844,
     'https://picsum.photos/seed/ebb63fef-0154-4967-908b-d72e1b95dbab/800/800',
-    'Home',
+    12,
     29,
   ],
   [
@@ -482,7 +482,7 @@ export default [
     "Bailey - Barton''s most advanced Bacon technology increases annual capabilities",
     1000,
     'https://picsum.photos/seed/12cb2286-6d22-4838-b454-c8d967f909a9/800/800',
-    'Automotive',
+    1,
     68,
   ],
   [
@@ -491,7 +491,7 @@ export default [
     "Oberbrunner Inc''s most advanced Mouse technology increases wasteful capabilities",
     190,
     'https://picsum.photos/seed/383769bd-fbda-48a6-9b81-892ebb32e404/800/800',
-    'Games',
+    8,
     53,
   ],
   [
@@ -500,7 +500,7 @@ export default [
     'Experience the cyan brilliance of our Pants, perfect for second environments',
     647,
     'https://picsum.photos/seed/eb5a9dfa-e2e9-458e-90f7-c30fe79e11a8/800/800',
-    'Music',
+    17,
     52,
   ],
   [
@@ -509,7 +509,7 @@ export default [
     'Our tiger-friendly Bike ensures shoddy comfort for your pets',
     796,
     'https://picsum.photos/seed/94a152c3-4cd4-48ff-8b1d-229ba4f553a1/800/800',
-    'Automotive',
+    1,
     41,
   ],
   [
@@ -518,7 +518,7 @@ export default [
     'The indigo Towels combines Sao Tome and Principe aesthetics with Lutetium-based durability',
     981,
     'https://picsum.photos/seed/43683f9e-a33f-4915-b4c9-c727099e7107/800/800',
-    'Tools',
+    21,
     76,
   ],
   [
@@ -527,7 +527,7 @@ export default [
     'Experience the ivory brilliance of our Pants, perfect for extroverted environments',
     740,
     'https://picsum.photos/seed/fd6aa45d-d790-4bcf-a339-95d1320a19b9/800/800',
-    'Outdoors',
+    18,
     77,
   ],
   [
@@ -536,7 +536,7 @@ export default [
     'Experience the lavender brilliance of our Sausages, perfect for boring environments',
     665,
     'https://picsum.photos/seed/86c0426c-9ce6-435b-9d2a-0827d79592b5/800/800',
-    'Automotive',
+    1,
     86,
   ],
   [
@@ -545,7 +545,7 @@ export default [
     'Innovative Fish featuring acclaimed technology and Fresh construction',
     868,
     'https://picsum.photos/seed/b70a9b50-adbf-45b2-b0fe-bfde52dc2528/800/800',
-    'Health',
+    11,
     43,
   ],
   [
@@ -554,7 +554,7 @@ export default [
     'The sleek and front Gloves comes with violet LED lighting for smart functionality',
     145,
     'https://picsum.photos/seed/dde1a676-40c4-4813-b9ea-75a4ba072e1d/800/800',
-    'Garden',
+    9,
     72,
   ],
   [
@@ -563,7 +563,7 @@ export default [
     'Introducing the Kenya-inspired Chips, blending nifty style with local craftsmanship',
     491,
     'https://picsum.photos/seed/bfdd2092-0c1b-4786-aed3-2267b8e468d6/800/800',
-    'Outdoors',
+    18,
     12,
   ],
   [
@@ -572,7 +572,7 @@ export default [
     'Discover the average new Shoes with an exciting mix of Granite ingredients',
     484,
     'https://picsum.photos/seed/e6e65ceb-5044-44bc-8e57-ccce3a9c542f/800/800',
-    'Home',
+    12,
     65,
   ],
   [
@@ -581,7 +581,7 @@ export default [
     'New Gloves model with 36 GB RAM, 210 GB storage, and wealthy features',
     694,
     'https://picsum.photos/seed/6e27d4ad-044e-45f9-81ed-05cee1669e35/800/800',
-    'Movies',
+    16,
     62,
   ],
   [
@@ -590,7 +590,7 @@ export default [
     'Experience the tan brilliance of our Salad, perfect for brave environments',
     277,
     'https://picsum.photos/seed/4d6194e1-890f-42ea-8f61-d41e8970b55b/800/800',
-    'Books',
+    4,
     57,
   ],
   [
@@ -599,7 +599,7 @@ export default [
     'Savor the tangy essence in our Sausages, designed for flimsy culinary adventures',
     485,
     'https://picsum.photos/seed/de2b07f2-3843-449d-8bd4-64fbef78a3c8/800/800',
-    'Outdoors',
+    18,
     78,
   ],
   [
@@ -608,7 +608,7 @@ export default [
     'Discover the aware new Towels with an exciting mix of Concrete ingredients',
     240,
     'https://picsum.photos/seed/8d7615d8-9506-4f71-92f4-ee8dbacc2231/800/800',
-    'Tools',
+    21,
     13,
   ],
   [
@@ -617,7 +617,7 @@ export default [
     "Lynch, Abernathy and Schamberger''s most advanced Pizza technology increases runny capabilities",
     160,
     'https://picsum.photos/seed/cf1cc3cb-5273-459d-a0e1-8a3bab330055/800/800',
-    'Computers',
+    6,
     56,
   ],
   [
@@ -626,7 +626,7 @@ export default [
     'Featuring Hassium-enhanced technology, our Keyboard offers unparalleled black-and-white performance',
     426,
     'https://picsum.photos/seed/b3235cea-8cef-44d4-a9fe-a26df8ca0ae9/800/800',
-    'Sports',
+    20,
     96,
   ],
   [
@@ -635,7 +635,7 @@ export default [
     'The sleek and upbeat Tuna comes with lime LED lighting for smart functionality',
     475,
     'https://picsum.photos/seed/414fd3dd-392c-48f6-93be-12c61094656f/800/800',
-    'Jewelry',
+    14,
     25,
   ],
   [
@@ -644,7 +644,7 @@ export default [
     'Discover the horse-like agility of our Table, perfect for questionable users',
     323,
     'https://picsum.photos/seed/32fb6943-a518-4e0d-80ed-d45d335d0ae9/800/800',
-    'Movies',
+    16,
     33,
   ],
   [
@@ -653,7 +653,7 @@ export default [
     "Will, Tillman and Brekke''s most advanced Mouse technology increases winding capabilities",
     475,
     'https://picsum.photos/seed/09c31081-9504-4f4e-8b3a-8e73df0a64a1/800/800',
-    'Clothing',
+    5,
     27,
   ],
   [
@@ -662,7 +662,7 @@ export default [
     'Our creamy-inspired Car brings a taste of luxury to your compassionate lifestyle',
     591,
     'https://picsum.photos/seed/574ea140-33d3-40c2-b019-30616746ca5a/800/800',
-    'Kids',
+    15,
     34,
   ],
   [
@@ -671,7 +671,7 @@ export default [
     'Discover the physical new Bike with an exciting mix of Metal ingredients',
     546,
     'https://picsum.photos/seed/1ae6d2ad-f8d9-49ea-8867-64f91ad71cf1/800/800',
-    'Home',
+    12,
     43,
   ],
   [
@@ -680,7 +680,7 @@ export default [
     'Experience the gold brilliance of our Chair, perfect for dapper environments',
     878,
     'https://picsum.photos/seed/e6e5f78d-0480-44a8-a62f-b70f4dfd3ecb/800/800',
-    'Beauty',
+    3,
     58,
   ],
   [
@@ -689,7 +689,7 @@ export default [
     'The Fully-configurable dedicated system engine Bike offers reliable performance and glum design',
     465,
     'https://picsum.photos/seed/70887a48-9c68-455b-9c3e-4810ddc5f82d/800/800',
-    'Baby',
+    2,
     4,
   ],
   [
@@ -698,7 +698,7 @@ export default [
     'Stylish Mouse designed to make you stand out with grimy looks',
     426,
     'https://picsum.photos/seed/9cf22022-c0db-418b-ad27-4044f15bc1ef/800/800',
-    'Tools',
+    21,
     13,
   ],
   [
@@ -707,7 +707,7 @@ export default [
     'Our bear-friendly Table ensures sandy comfort for your pets',
     488,
     'https://picsum.photos/seed/4766b3a9-7efb-46ac-b42e-df0d7f85f314/800/800',
-    'Grocery',
+    10,
     87,
   ],
   [
@@ -716,7 +716,7 @@ export default [
     'Innovative Keyboard featuring tall technology and Rubber construction',
     413,
     'https://picsum.photos/seed/619186df-a57e-45a0-b550-d1af03fa2ed7/800/800',
-    'Automotive',
+    1,
     45,
   ],
   [
@@ -725,7 +725,7 @@ export default [
     'Introducing the New Zealand-inspired Fish, blending wise style with local craftsmanship',
     940,
     'https://picsum.photos/seed/2a3dbe07-3683-4adc-b978-3ef6276bdbb0/800/800',
-    'Kids',
+    15,
     95,
   ],
   [
@@ -734,7 +734,7 @@ export default [
     'The Domenic Salad is the latest in a series of mad products from Nikolaus, Wilderman and Bartoletti',
     833,
     'https://picsum.photos/seed/5dea0bdb-ab26-4ed2-9f45-5ee982f53cde/800/800',
-    'Industrial',
+    13,
     90,
   ],
   [
@@ -743,7 +743,7 @@ export default [
     'Stylish Chair designed to make you stand out with neighboring looks',
     317,
     'https://picsum.photos/seed/cf3cd71f-bb12-4f24-be3f-eec4205e8076/800/800',
-    'Tools',
+    21,
     61,
   ],
   [
@@ -752,7 +752,7 @@ export default [
     'The Jerrold Pizza is the latest in a series of brilliant products from Legros Inc',
     782,
     'https://picsum.photos/seed/89c7e4e1-5cec-4f5f-8f22-6c7c6ae84c34/800/800',
-    'Movies',
+    16,
     75,
   ],
   [
@@ -761,7 +761,7 @@ export default [
     'Ergonomic Soap made with Fresh for all-day frilly support',
     597,
     'https://picsum.photos/seed/a55570eb-a36c-48af-8893-b49d8e18d888/800/800',
-    'Shoes',
+    19,
     40,
   ],
   [
@@ -770,7 +770,7 @@ export default [
     'New teal Hat with ergonomic design for nocturnal comfort',
     844,
     'https://picsum.photos/seed/1a1c38d9-bae7-4a4f-b799-5bb35718bade/800/800',
-    'Industrial',
+    13,
     38,
   ],
   [
@@ -779,7 +779,7 @@ export default [
     'Experience the ivory brilliance of our Chicken, perfect for french environments',
     813,
     'https://picsum.photos/seed/b93f3228-e2b8-43c6-8bc1-eeae8895360f/800/800',
-    'Shoes',
+    19,
     23,
   ],
   [
@@ -788,7 +788,7 @@ export default [
     'Generic Chips designed with Fresh for enlightened performance',
     687,
     'https://picsum.photos/seed/7aa6966f-7e8c-46d6-89fb-8d2694ccb814/800/800',
-    'Clothing',
+    5,
     62,
   ],
   [
@@ -797,7 +797,7 @@ export default [
     'Savor the smoky essence in our Shoes, designed for little culinary adventures',
     339,
     'https://picsum.photos/seed/0edadfb5-02ed-4a07-ae08-6526dedcb6fe/800/800',
-    'Garden',
+    9,
     71,
   ],
   [
@@ -806,7 +806,7 @@ export default [
     'Innovative Shirt featuring cautious technology and Concrete construction',
     760,
     'https://picsum.photos/seed/f0ddd332-af6f-457e-8af1-d78f0394ed14/800/800',
-    'Industrial',
+    13,
     7,
   ],
   [
@@ -815,7 +815,7 @@ export default [
     'Electronic Pizza designed with Frozen for unwritten performance',
     703,
     'https://picsum.photos/seed/053886bf-35f8-4e6f-9d13-ed493979e738/800/800',
-    'Garden',
+    9,
     35,
   ],
   [
@@ -824,7 +824,7 @@ export default [
     'Elegant Chair designed with Cotton for yearly performance',
     426,
     'https://picsum.photos/seed/2389e921-fd7b-48b4-a289-868d6cce4533/800/800',
-    'Grocery',
+    10,
     88,
   ],
   [
@@ -833,7 +833,7 @@ export default [
     'The sleek and tattered Computer comes with salmon LED lighting for smart functionality',
     115,
     'https://picsum.photos/seed/f21fa2eb-8cb5-43f3-b4bc-95cbca7c2339/800/800',
-    'Jewelry',
+    14,
     50,
   ],
   [
@@ -842,7 +842,7 @@ export default [
     'Discover the political new Pants with an exciting mix of Bronze ingredients',
     476,
     'https://picsum.photos/seed/3ab1bf16-1aaa-4a19-891f-85fcff1b445a/800/800',
-    'Industrial',
+    13,
     2,
   ],
   [
@@ -851,7 +851,7 @@ export default [
     'Innovative Ball featuring hoarse technology and Concrete construction',
     318,
     'https://picsum.photos/seed/d655470e-defc-4011-bec0-41468d82a2a4/800/800',
-    'Music',
+    17,
     95,
   ],
   [
@@ -860,7 +860,7 @@ export default [
     'Featuring Oxygen-enhanced technology, our Fish offers unparalleled impeccable performance',
     198,
     'https://picsum.photos/seed/9a8df23b-79b4-4a9c-9936-37c690fa0f80/800/800',
-    'Sports',
+    20,
     35,
   ],
   [
@@ -869,7 +869,7 @@ export default [
     'The azure Towels combines Brazil aesthetics with Lanthanum-based durability',
     770,
     'https://picsum.photos/seed/52772ad1-54e7-4189-accd-fbe30c6b898c/800/800',
-    'Automotive',
+    1,
     86,
   ],
   [
@@ -878,7 +878,7 @@ export default [
     "Abbott Inc''s most advanced Table technology increases gentle capabilities",
     969,
     'https://picsum.photos/seed/06ce61d1-b855-46f7-9bff-f335ea6cd4bd/800/800',
-    'Automotive',
+    1,
     12,
   ],
   [
@@ -887,7 +887,7 @@ export default [
     'The sleek and official Hat comes with red LED lighting for smart functionality',
     126,
     'https://picsum.photos/seed/70e4543e-5ee3-4959-8248-0d5eceb613e9/800/800',
-    'Jewelry',
+    14,
     34,
   ],
   [
@@ -896,7 +896,7 @@ export default [
     'The Roxane Keyboard is the latest in a series of pointed products from Vandervort Group',
     772,
     'https://picsum.photos/seed/ecaa6979-2b48-49ca-88a3-905e78b9c923/800/800',
-    'Home',
+    12,
     4,
   ],
   [
@@ -905,7 +905,7 @@ export default [
     'New Shirt model with 92 GB RAM, 356 GB storage, and complicated features',
     699,
     'https://picsum.photos/seed/10a10d74-8555-4cad-a7ff-509828f0dfad/800/800',
-    'Tools',
+    21,
     84,
   ],
   [
@@ -914,7 +914,7 @@ export default [
     'Ergonomic Pizza made with Metal for all-day corny support',
     718,
     'https://picsum.photos/seed/acbbfad7-7b14-4512-a7ed-6f15a0a05a7b/800/800',
-    'Baby',
+    2,
     4,
   ],
   [
@@ -923,7 +923,7 @@ export default [
     'Discover the dull new Table with an exciting mix of Granite ingredients',
     322,
     'https://picsum.photos/seed/05512f04-9b8c-4b2f-b314-94668ba2bd8b/800/800',
-    'Shoes',
+    19,
     61,
   ],
   [
@@ -932,7 +932,7 @@ export default [
     'Stylish Keyboard designed to make you stand out with outlandish looks',
     491,
     'https://picsum.photos/seed/36e6e5f1-0a60-4ede-8026-a2d4cd2ac23c/800/800',
-    'Jewelry',
+    14,
     22,
   ],
   [
@@ -941,7 +941,7 @@ export default [
     'The Configurable data-driven archive Cheese offers reliable performance and shrill design',
     614,
     'https://picsum.photos/seed/ce9932b0-1a07-4662-8a6a-ad129239889a/800/800',
-    'Electronics',
+    7,
     41,
   ],
   [
@@ -950,7 +950,7 @@ export default [
     'Discover the giraffe-like agility of our Chicken, perfect for profitable users',
     116,
     'https://picsum.photos/seed/2b048b9b-aaeb-43d3-aef4-c5aacc108089/800/800',
-    'Books',
+    4,
     85,
   ],
   [
@@ -959,7 +959,7 @@ export default [
     'Savor the crispy essence in our Fish, designed for definitive culinary adventures',
     819,
     'https://picsum.photos/seed/e7be1468-0fe7-4b2f-9225-14212e9de61d/800/800',
-    'Industrial',
+    13,
     71,
   ],
   [
@@ -968,7 +968,7 @@ export default [
     'Featuring Tungsten-enhanced technology, our Towels offers unparalleled brave performance',
     423,
     'https://picsum.photos/seed/07e04e95-81c2-4e6d-999b-da7d5fa08753/800/800',
-    'Automotive',
+    1,
     42,
   ],
   [
@@ -977,7 +977,7 @@ export default [
     'Stylish Pants designed to make you stand out with made-up looks',
     323,
     'https://picsum.photos/seed/eda4e9c2-fec4-486a-b97f-4195529d8ea5/800/800',
-    'Games',
+    8,
     44,
   ],
   [
@@ -986,7 +986,7 @@ export default [
     'The lime Salad combines Iraq aesthetics with Samarium-based durability',
     857,
     'https://picsum.photos/seed/d30b9623-1425-4e05-a59e-039a807c8682/800/800',
-    'Sports',
+    20,
     56,
   ],
   [
@@ -995,7 +995,7 @@ export default [
     'Discover the horse-like agility of our Hat, perfect for ample users',
     445,
     'https://picsum.photos/seed/ae35aea8-ce59-499c-b927-f81200f776f9/800/800',
-    'Outdoors',
+    18,
     68,
   ],
   [
@@ -1004,7 +1004,7 @@ export default [
     'Introducing the Malawi-inspired Hat, blending kaleidoscopic style with local craftsmanship',
     378,
     'https://picsum.photos/seed/9c239074-0847-4849-891b-8759a02eef7a/800/800',
-    'Grocery',
+    10,
     14,
   ],
   [
@@ -1013,7 +1013,7 @@ export default [
     'Innovative Chips featuring sick technology and Metal construction',
     738,
     'https://picsum.photos/seed/2ca5eeb9-d041-4d61-8d01-dd31b7efa667/800/800',
-    'Industrial',
+    13,
     61,
   ],
   [
@@ -1022,7 +1022,7 @@ export default [
     'The fuchsia Bike combines Norfolk Island aesthetics with Silver-based durability',
     589,
     'https://picsum.photos/seed/97d3beb2-22ca-46a7-bf93-7a696cfff4eb/800/800',
-    'Home',
+    12,
     75,
   ],
   [
@@ -1031,7 +1031,7 @@ export default [
     'Stylish Hat designed to make you stand out with smug looks',
     209,
     'https://picsum.photos/seed/05e9f4ff-9e8b-4a3d-92b6-af4d2186fce2/800/800',
-    'Beauty',
+    3,
     67,
   ],
   [
@@ -1040,7 +1040,7 @@ export default [
     "Lueilwitz - Feest''s most advanced Table technology increases made-up capabilities",
     727,
     'https://picsum.photos/seed/5ec896d2-088f-4c58-b925-b49ba2a87eff/800/800',
-    'Electronics',
+    7,
     44,
   ],
   [
@@ -1049,7 +1049,7 @@ export default [
     'The mint green Fish combines Trinidad and Tobago aesthetics with Nitrogen-based durability',
     509,
     'https://picsum.photos/seed/26944499-8246-4fde-986c-0413d853de42/800/800',
-    'Clothing',
+    5,
     58,
   ],
   [
@@ -1058,7 +1058,7 @@ export default [
     'New Cheese model with 95 GB RAM, 232 GB storage, and miserable features',
     996,
     'https://picsum.photos/seed/c9b689d0-5a22-4b8e-a4ef-09aa7bcada47/800/800',
-    'Outdoors',
+    18,
     46,
   ],
   [
@@ -1067,7 +1067,7 @@ export default [
     'Our rhinoceros-friendly Pants ensures colorless comfort for your pets',
     549,
     'https://picsum.photos/seed/838b4e3d-76a5-429e-8cb0-02a148595dc1/800/800',
-    'Sports',
+    20,
     1,
   ],
   [
@@ -1076,7 +1076,7 @@ export default [
     'New violet Sausages with ergonomic design for best comfort',
     953,
     'https://picsum.photos/seed/1593d9ab-875a-499b-aefe-2488b2458638/800/800',
-    'Home',
+    12,
     95,
   ],
   [
@@ -1085,7 +1085,7 @@ export default [
     'The Cullen Soap is the latest in a series of tender products from Schmidt and Sons',
     675,
     'https://picsum.photos/seed/f2469b48-86e6-42ae-9892-c5a58420bda9/800/800',
-    'Movies',
+    16,
     76,
   ],
   [
@@ -1094,7 +1094,7 @@ export default [
     'Ergonomic Sausages made with Cotton for all-day superficial support',
     404,
     'https://picsum.photos/seed/aa6b6d6c-ad28-4cd2-adbb-cd332edc1f1d/800/800',
-    'Shoes',
+    19,
     22,
   ],
   [
@@ -1103,7 +1103,7 @@ export default [
     'Elegant Shoes designed with Frozen for plump performance',
     663,
     'https://picsum.photos/seed/1bfd0439-c662-4f30-9a16-2edf9dc1c7b5/800/800',
-    'Sports',
+    20,
     91,
   ],
   [
@@ -1112,7 +1112,7 @@ export default [
     'Savor the juicy essence in our Table, designed for vengeful culinary adventures',
     619,
     'https://picsum.photos/seed/a8fb12d8-dd64-4511-97d5-d08289f5b2ee/800/800',
-    'Garden',
+    9,
     12,
   ],
   [
@@ -1121,7 +1121,7 @@ export default [
     'The sleek and spanish Bacon comes with fuchsia LED lighting for smart functionality',
     624,
     'https://picsum.photos/seed/f4f46574-6551-4066-8dd9-0e4738438d0d/800/800',
-    'Toys',
+    22,
     35,
   ],
   [
@@ -1130,7 +1130,7 @@ export default [
     'New green Chips with ergonomic design for spirited comfort',
     212,
     'https://picsum.photos/seed/3655dfa5-9e8f-4e8b-a364-2eaa84dd9768/800/800',
-    'Music',
+    17,
     64,
   ],
   [
@@ -1139,7 +1139,7 @@ export default [
     'Professional-grade Mouse perfect for hateful training and recreational use',
     975,
     'https://picsum.photos/seed/22352b35-b7a5-4945-b515-6fd076a23a1f/800/800',
-    'Jewelry',
+    14,
     64,
   ],
   [
@@ -1148,7 +1148,7 @@ export default [
     'Professional-grade Chicken perfect for taut training and recreational use',
     422,
     'https://picsum.photos/seed/200bfa18-089e-4aa5-a4d0-7293641d0ff6/800/800',
-    'Outdoors',
+    18,
     89,
   ],
   [
@@ -1157,7 +1157,7 @@ export default [
     'The lime Hat combines Zimbabwe aesthetics with Silicon-based durability',
     782,
     'https://picsum.photos/seed/d8a2fa61-796e-459d-9e8e-330cd647a22d/800/800',
-    'Tools',
+    21,
     80,
   ],
   [
@@ -1166,7 +1166,7 @@ export default [
     'The fuchsia Ball combines Ethiopia aesthetics with Tennessine-based durability',
     707,
     'https://picsum.photos/seed/c0722869-05ef-4b63-aafe-bdb44eb55c9b/800/800',
-    'Grocery',
+    10,
     82,
   ],
   [
@@ -1175,7 +1175,7 @@ export default [
     'The pink Chicken combines Eritrea aesthetics with Selenium-based durability',
     732,
     'https://picsum.photos/seed/b150ae2c-8a6d-489d-9eec-eaa50705b24e/800/800',
-    'Outdoors',
+    18,
     97,
   ],
   [
@@ -1184,7 +1184,7 @@ export default [
     "Paucek, Becker and Mohr''s most advanced Chips technology increases true capabilities",
     514,
     'https://picsum.photos/seed/4771e971-0042-4108-bc90-cb5356838197/800/800',
-    'Baby',
+    2,
     91,
   ],
   [
@@ -1193,7 +1193,7 @@ export default [
     'Innovative Chair featuring grave technology and Plastic construction',
     616,
     'https://picsum.photos/seed/37a65ef9-7b2b-4ea1-86ca-5366dd3d16f4/800/800',
-    'Tools',
+    21,
     23,
   ],
   [
@@ -1202,7 +1202,7 @@ export default [
     'Stylish Shoes designed to make you stand out with sizzling looks',
     404,
     'https://picsum.photos/seed/7ba25af3-c320-42fa-8ec1-31a334a38202/800/800',
-    'Health',
+    11,
     93,
   ],
   [
@@ -1211,7 +1211,7 @@ export default [
     'The Phased real-time middleware Table offers reliable performance and lawful design',
     678,
     'https://picsum.photos/seed/483bc409-6779-4bc6-8e18-c79bccebbc1a/800/800',
-    'Clothing',
+    5,
     68,
   ],
   [
@@ -1220,7 +1220,7 @@ export default [
     'The purple Car combines Puerto Rico aesthetics with Plutonium-based durability',
     166,
     'https://picsum.photos/seed/8639272b-9470-4504-abb4-05329def0f4d/800/800',
-    'Computers',
+    6,
     94,
   ],
   [
@@ -1229,7 +1229,7 @@ export default [
     'The Multi-tiered 24 hour software Chips offers reliable performance and untidy design',
     561,
     'https://picsum.photos/seed/a2b7ac68-d679-4fb9-a3e0-cc5f992e9acf/800/800',
-    'Music',
+    17,
     15,
   ],
   [
@@ -1238,7 +1238,7 @@ export default [
     'Bespoke Hat designed with Metal for first performance',
     506,
     'https://picsum.photos/seed/55c9c811-539a-40e6-af4d-4b77ff4ff266/800/800',
-    'Outdoors',
+    18,
     43,
   ],
   [
@@ -1247,7 +1247,7 @@ export default [
     "Collier, Rath and Steuber''s most advanced Bacon technology increases gaseous capabilities",
     186,
     'https://picsum.photos/seed/3fb5f6f8-e377-4a65-81be-b714c8c80e0f/800/800',
-    'Toys',
+    22,
     1,
   ],
   [
@@ -1256,7 +1256,7 @@ export default [
     'Innovative Car featuring rusty technology and Plastic construction',
     688,
     'https://picsum.photos/seed/0e52395a-ad0c-4084-903b-6a9553501c4e/800/800',
-    'Grocery',
+    10,
     89,
   ],
   [
@@ -1265,7 +1265,7 @@ export default [
     'Ergonomic Fish made with Cotton for all-day zesty support',
     688,
     'https://picsum.photos/seed/33672559-284a-4197-b05a-a9ed71863c13/800/800',
-    'Garden',
+    9,
     38,
   ],
   [
@@ -1274,7 +1274,7 @@ export default [
     'Discover the avaricious new Sausages with an exciting mix of Bronze ingredients',
     686,
     'https://picsum.photos/seed/07aff3d4-75d0-419b-b30a-6992f8101378/800/800',
-    'Outdoors',
+    18,
     71,
   ],
   [
@@ -1283,7 +1283,7 @@ export default [
     'Experience the salmon brilliance of our Computer, perfect for grimy environments',
     199,
     'https://picsum.photos/seed/6f5c3889-bc96-426d-a131-414e1bf4b3fd/800/800',
-    'Health',
+    11,
     47,
   ],
   [
@@ -1292,7 +1292,7 @@ export default [
     'The Customizable zero administration moderator Chips offers reliable performance and unselfish design',
     393,
     'https://picsum.photos/seed/45e4cb0c-e410-4d01-9762-8fb813b67859/800/800',
-    'Grocery',
+    10,
     96,
   ],
   [
@@ -1301,7 +1301,7 @@ export default [
     'The Justina Bike is the latest in a series of sour products from Hauck, Legros and Cummerata',
     401,
     'https://picsum.photos/seed/7bd90e44-d992-44fb-a190-383e91fa1a6e/800/800',
-    'Computers',
+    6,
     15,
   ],
   [
@@ -1310,7 +1310,7 @@ export default [
     'Our rich-inspired Cheese brings a taste of luxury to your poor lifestyle',
     282,
     'https://picsum.photos/seed/91227d98-e83c-4f65-b483-46d55e95215a/800/800',
-    'Shoes',
+    19,
     27,
   ],
   [
@@ -1319,7 +1319,7 @@ export default [
     'Ergonomic Car made with Wooden for all-day optimal support',
     705,
     'https://picsum.photos/seed/5fb8cfc1-295a-4f75-83bb-3e662f27c7d8/800/800',
-    'Health',
+    11,
     32,
   ],
   [
@@ -1328,7 +1328,7 @@ export default [
     'Our fluffy-inspired Pants brings a taste of luxury to your spiteful lifestyle',
     357,
     'https://picsum.photos/seed/b151aeaf-8570-4766-b46b-e98503a02f66/800/800',
-    'Music',
+    17,
     13,
   ],
   [
@@ -1337,7 +1337,7 @@ export default [
     "Torp, Purdy and Ryan''s most advanced Computer technology increases rotten capabilities",
     133,
     'https://picsum.photos/seed/58e34512-a63b-4255-82c8-675b607b9738/800/800',
-    'Clothing',
+    5,
     31,
   ],
   [
@@ -1346,7 +1346,7 @@ export default [
     'The Compatible optimizing algorithm Pizza offers reliable performance and odd design',
     121,
     'https://picsum.photos/seed/0d128a20-da9c-41bf-860f-cb31d892227e/800/800',
-    'Books',
+    4,
     50,
   ],
   [
@@ -1355,7 +1355,7 @@ export default [
     'Discover the glaring new Towels with an exciting mix of Fresh ingredients',
     758,
     'https://picsum.photos/seed/86de60f5-9674-482b-8d10-f60cc8ea049d/800/800',
-    'Clothing',
+    5,
     31,
   ],
   [
@@ -1364,7 +1364,7 @@ export default [
     'The Lenora Ball is the latest in a series of tender products from Bechtelar, Vandervort and Schulist',
     246,
     'https://picsum.photos/seed/7958c2a5-0e0e-40d5-941d-8f93bb753fb1/800/800',
-    'Kids',
+    15,
     33,
   ],
   [
@@ -1373,7 +1373,7 @@ export default [
     'Experience the ivory brilliance of our Sausages, perfect for pastel environments',
     912,
     'https://picsum.photos/seed/b6c98887-1589-45bf-9770-ee8995c1a400/800/800',
-    'Jewelry',
+    14,
     97,
   ],
   [
@@ -1382,7 +1382,7 @@ export default [
     'The sleek and competent Salad comes with magenta LED lighting for smart functionality',
     593,
     'https://picsum.photos/seed/e904f039-038f-4367-82ff-3be2e20eef5a/800/800',
-    'Music',
+    17,
     64,
   ],
   [
@@ -1391,7 +1391,7 @@ export default [
     'Discover the dolphin-like agility of our Shirt, perfect for elegant users',
     594,
     'https://picsum.photos/seed/374e7cee-259a-4871-ae57-befe6b6e1f40/800/800',
-    'Home',
+    12,
     79,
   ],
   [
@@ -1400,7 +1400,7 @@ export default [
     'New Salad model with 38 GB RAM, 18 GB storage, and thorough features',
     887,
     'https://picsum.photos/seed/7a6d85ab-3404-48eb-986e-8db5ce340459/800/800',
-    'Industrial',
+    13,
     24,
   ],
   [
@@ -1409,7 +1409,7 @@ export default [
     'The User-centric hybrid help-desk Car offers reliable performance and official design',
     932,
     'https://picsum.photos/seed/70936a55-7329-4862-b59e-7b22e6b32133/800/800',
-    'Garden',
+    9,
     94,
   ],
   [
@@ -1418,7 +1418,7 @@ export default [
     'Savor the spicy essence in our Cheese, designed for minty culinary adventures',
     437,
     'https://picsum.photos/seed/188b965d-d16d-462d-90f0-c5136bf20f40/800/800',
-    'Grocery',
+    10,
     52,
   ],
   [
@@ -1427,7 +1427,7 @@ export default [
     'Experience the azure brilliance of our Car, perfect for fortunate environments',
     307,
     'https://picsum.photos/seed/3c4bcf38-9082-4503-9e69-f5c7cbe8b15a/800/800',
-    'Grocery',
+    10,
     2,
   ],
   [
@@ -1436,7 +1436,7 @@ export default [
     'The AI-driven zero trust frame Car offers reliable performance and slimy design',
     922,
     'https://picsum.photos/seed/f9147dde-14b1-4440-955b-03053a02541e/800/800',
-    'Garden',
+    9,
     67,
   ],
   [
@@ -1445,7 +1445,7 @@ export default [
     'Discover the gecko-like agility of our Salad, perfect for authorized users',
     818,
     'https://picsum.photos/seed/b3d978ef-fde7-4603-a6d6-849be7d92c8f/800/800',
-    'Jewelry',
+    14,
     63,
   ],
   [
@@ -1454,7 +1454,7 @@ export default [
     'The Smart incremental orchestration Chips offers reliable performance and accurate design',
     301,
     'https://picsum.photos/seed/b9b1d0f0-628b-43d6-b826-cec203e94c9f/800/800',
-    'Games',
+    8,
     35,
   ],
   [
@@ -1463,7 +1463,7 @@ export default [
     'Professional-grade Shirt perfect for idealistic training and recreational use',
     563,
     'https://picsum.photos/seed/f25effb9-1579-4205-bbf5-f08bc71338ba/800/800',
-    'Outdoors',
+    18,
     39,
   ],
   [
@@ -1472,7 +1472,7 @@ export default [
     'Featuring Lutetium-enhanced technology, our Salad offers unparalleled dutiful performance',
     521,
     'https://picsum.photos/seed/095f98ee-d7f2-4b4f-9f2b-b0e1d440cfc4/800/800',
-    'Tools',
+    21,
     1,
   ],
   [
@@ -1481,7 +1481,7 @@ export default [
     'Our juicy-inspired Mouse brings a taste of luxury to your blind lifestyle',
     747,
     'https://picsum.photos/seed/7f464ee2-b87d-4cf7-93ec-7c1ae9aca43d/800/800',
-    'Games',
+    8,
     91,
   ],
   [
@@ -1490,7 +1490,7 @@ export default [
     'Experience the cyan brilliance of our Shirt, perfect for legal environments',
     562,
     'https://picsum.photos/seed/0587167f-9adc-4ac1-9c09-a20301062ae2/800/800',
-    'Health',
+    11,
     59,
   ],
   [
@@ -1499,7 +1499,7 @@ export default [
     'Discover the dull new Chips with an exciting mix of Wooden ingredients',
     718,
     'https://picsum.photos/seed/054af539-72a0-46a2-a4bf-22242ba508a4/800/800',
-    'Baby',
+    2,
     10,
   ],
   [
@@ -1508,7 +1508,7 @@ export default [
     "The Leland Mouse is the latest in a series of grimy products from O''Kon and Sons",
     899,
     'https://picsum.photos/seed/eeea2f8b-3423-40b3-98ce-ff6c8900d4aa/800/800',
-    'Baby',
+    2,
     23,
   ],
   [
@@ -1517,7 +1517,7 @@ export default [
     'The magenta Table combines Saint Kitts and Nevis aesthetics with Holmium-based durability',
     443,
     'https://picsum.photos/seed/5068c041-0814-48ea-bd52-09e3f8512cc3/800/800',
-    'Music',
+    17,
     68,
   ],
   [
@@ -1526,7 +1526,7 @@ export default [
     'New Keyboard model with 36 GB RAM, 838 GB storage, and speedy features',
     543,
     'https://picsum.photos/seed/395814b6-963d-44a9-87c9-fe0e5caee2f9/800/800',
-    'Clothing',
+    5,
     26,
   ],
   [
@@ -1535,7 +1535,7 @@ export default [
     'Our squirrel-friendly Hat ensures talkative comfort for your pets',
     885,
     'https://picsum.photos/seed/8cc0133a-701d-46a9-82d4-053885285d96/800/800',
-    'Electronics',
+    7,
     2,
   ],
   [
@@ -1544,7 +1544,7 @@ export default [
     'New tan Car with ergonomic design for petty comfort',
     881,
     'https://picsum.photos/seed/ab15da71-51dc-480f-ab77-2423148845d7/800/800',
-    'Beauty',
+    3,
     49,
   ],
   [
@@ -1553,7 +1553,7 @@ export default [
     'The sleek and damp Bacon comes with white LED lighting for smart functionality',
     620,
     'https://picsum.photos/seed/9bfcd73d-92f9-4707-9677-60726bfde146/800/800',
-    'Industrial',
+    13,
     48,
   ],
   [
@@ -1562,7 +1562,7 @@ export default [
     'The Vella Shoes is the latest in a series of roasted products from Spinka LLC',
     929,
     'https://picsum.photos/seed/820cf40b-e4d4-4977-8dd5-f3f6600b9849/800/800',
-    'Shoes',
+    19,
     97,
   ],
   [
@@ -1571,7 +1571,7 @@ export default [
     'The Operative logistical functionalities Fish offers reliable performance and silky design',
     833,
     'https://picsum.photos/seed/f06ec1d6-e38f-4190-80e1-b73001e09ce8/800/800',
-    'Automotive',
+    1,
     32,
   ],
   [
@@ -1580,7 +1580,7 @@ export default [
     "Introducing the Lao People''s Democratic Republic-inspired Cheese, blending fair style with local craftsmanship",
     692,
     'https://picsum.photos/seed/475aab50-9dc4-48c8-a6db-a3387546c556/800/800',
-    'Tools',
+    21,
     62,
   ],
   [
@@ -1589,7 +1589,7 @@ export default [
     'The Helena Cheese is the latest in a series of comfortable products from King and Sons',
     604,
     'https://picsum.photos/seed/6d6c1171-5898-483c-8685-1fbee5105267/800/800',
-    'Kids',
+    15,
     19,
   ],
   [
@@ -1598,7 +1598,7 @@ export default [
     'The yellow Gloves combines Ghana aesthetics with Lead-based durability',
     883,
     'https://picsum.photos/seed/19b99410-941a-4f92-b71e-d4b8a8f54d19/800/800',
-    'Industrial',
+    13,
     25,
   ],
   [
@@ -1607,7 +1607,7 @@ export default [
     'New Towels model with 43 GB RAM, 18 GB storage, and tiny features',
     268,
     'https://picsum.photos/seed/1d6c8fe3-cf51-4b23-9893-d67243d2eba8/800/800',
-    'Grocery',
+    10,
     89,
   ],
   [
@@ -1616,7 +1616,7 @@ export default [
     'Stylish Mouse designed to make you stand out with extroverted looks',
     761,
     'https://picsum.photos/seed/ffc1b254-840c-44de-929d-e3494766df63/800/800',
-    'Toys',
+    22,
     95,
   ],
   [
@@ -1625,7 +1625,7 @@ export default [
     'The sleek and intelligent Chicken comes with white LED lighting for smart functionality',
     936,
     'https://picsum.photos/seed/99a50681-a3cf-47b1-b0f1-80e85c94f286/800/800',
-    'Tools',
+    21,
     80,
   ],
   [
@@ -1634,7 +1634,7 @@ export default [
     "Konopelski - Turcotte''s most advanced Bacon technology increases enraged capabilities",
     699,
     'https://picsum.photos/seed/d850f7c4-b220-4c59-9678-627a8639d1f2/800/800',
-    'Outdoors',
+    18,
     93,
   ],
   [
@@ -1643,7 +1643,7 @@ export default [
     'The Optional incremental matrix Computer offers reliable performance and steep design',
     415,
     'https://picsum.photos/seed/43f3123b-5c09-4fd8-b9ec-1c048981ce44/800/800',
-    'Games',
+    8,
     59,
   ],
   [
@@ -1652,7 +1652,7 @@ export default [
     'Featuring Bohrium-enhanced technology, our Chair offers unparalleled those performance',
     369,
     'https://picsum.photos/seed/8e1b3ac7-7ff8-4476-91f7-e799a42345da/800/800',
-    'Books',
+    4,
     2,
   ],
   [
@@ -1661,7 +1661,7 @@ export default [
     'Refined Soap designed with Cotton for red performance',
     909,
     'https://picsum.photos/seed/b74930ac-44b0-4c83-a180-da9669503aec/800/800',
-    'Outdoors',
+    18,
     42,
   ],
   [
@@ -1670,7 +1670,7 @@ export default [
     'New green Keyboard with ergonomic design for elastic comfort',
     716,
     'https://picsum.photos/seed/7742961c-04e5-406b-a842-6134a8e2ce87/800/800',
-    'Electronics',
+    7,
     83,
   ],
   [
@@ -1679,7 +1679,7 @@ export default [
     'Savor the spicy essence in our Gloves, designed for vain culinary adventures',
     183,
     'https://picsum.photos/seed/634dbd6b-59b3-4344-bf12-2540d6c973d1/800/800',
-    'Kids',
+    15,
     76,
   ],
   [
@@ -1688,7 +1688,7 @@ export default [
     'The olive Chicken combines Zambia aesthetics with Livermorium-based durability',
     717,
     'https://picsum.photos/seed/8251f1c6-a477-49c7-86d9-c9c8f9c4c46a/800/800',
-    'Garden',
+    9,
     23,
   ],
   [
@@ -1697,7 +1697,7 @@ export default [
     'Handcrafted Chair designed with Concrete for elementary performance',
     723,
     'https://picsum.photos/seed/63941357-fa15-40cb-942d-910cf9afa36d/800/800',
-    'Shoes',
+    19,
     78,
   ],
   [
@@ -1706,7 +1706,7 @@ export default [
     'The Alvis Shoes is the latest in a series of subtle products from Senger - Goyette',
     951,
     'https://picsum.photos/seed/30f09763-512c-456b-b625-0b5f470cd7c5/800/800',
-    'Toys',
+    22,
     75,
   ],
   [
@@ -1715,7 +1715,7 @@ export default [
     'New cyan Chair with ergonomic design for untrue comfort',
     972,
     'https://picsum.photos/seed/03073373-ada7-4d91-9530-daf9a3354cee/800/800',
-    'Sports',
+    20,
     57,
   ],
   [
@@ -1724,7 +1724,7 @@ export default [
     'New blue Chair with ergonomic design for lucky comfort',
     355,
     'https://picsum.photos/seed/8b3494ce-b29f-458c-b017-186d234f1ce8/800/800',
-    'Jewelry',
+    14,
     65,
   ],
   [
@@ -1733,7 +1733,7 @@ export default [
     'Ergonomic Ball made with Soft for all-day puny support',
     680,
     'https://picsum.photos/seed/655f351f-61d4-4890-af27-5d5267bbc1ca/800/800',
-    'Outdoors',
+    18,
     85,
   ],
   [
@@ -1742,7 +1742,7 @@ export default [
     'Experience the azure brilliance of our Car, perfect for bony environments',
     667,
     'https://picsum.photos/seed/65bb0f8f-caf7-4527-878d-584b5175edd9/800/800',
-    'Tools',
+    21,
     32,
   ],
   [
@@ -1751,7 +1751,7 @@ export default [
     'Savor the savory essence in our Pizza, designed for worldly culinary adventures',
     120,
     'https://picsum.photos/seed/88ded64c-c09d-4ad7-a92e-93de2e40d483/800/800',
-    'Movies',
+    16,
     31,
   ],
   [
@@ -1760,7 +1760,7 @@ export default [
     'Professional-grade Salad perfect for black training and recreational use',
     479,
     'https://picsum.photos/seed/f75a76cd-6ed4-4a10-ab90-b2a8babf82b2/800/800',
-    'Toys',
+    22,
     66,
   ],
   [
@@ -1769,7 +1769,7 @@ export default [
     'New salmon Pizza with ergonomic design for short-term comfort',
     330,
     'https://picsum.photos/seed/e1f85d22-6652-40c8-b25d-3ba01749a9c2/800/800',
-    'Tools',
+    21,
     67,
   ],
   [
@@ -1778,7 +1778,7 @@ export default [
     'Discover the fish-like agility of our Pants, perfect for classic users',
     459,
     'https://picsum.photos/seed/21f54271-8fbe-431b-a7ef-abda101ba89b/800/800',
-    'Beauty',
+    3,
     16,
   ],
   [
@@ -1787,7 +1787,7 @@ export default [
     'The gold Computer combines Dominica aesthetics with Seaborgium-based durability',
     863,
     'https://picsum.photos/seed/24452914-121a-4461-8fec-780194a845dd/800/800',
-    'Outdoors',
+    18,
     80,
   ],
   [
@@ -1796,7 +1796,7 @@ export default [
     'Experience the pink brilliance of our Bacon, perfect for brisk environments',
     433,
     'https://picsum.photos/seed/5443808f-37d6-44ab-a774-c7afbaa3f2f8/800/800',
-    'Outdoors',
+    18,
     12,
   ],
   [
@@ -1805,7 +1805,7 @@ export default [
     'The white Tuna combines Italy aesthetics with Seaborgium-based durability',
     758,
     'https://picsum.photos/seed/41b9cccf-4755-47ec-a504-9423287bd129/800/800',
-    'Automotive',
+    1,
     67,
   ],
   [
@@ -1814,7 +1814,7 @@ export default [
     'The Automated context-sensitive analyzer Shirt offers reliable performance and glossy design',
     290,
     'https://picsum.photos/seed/26bb5405-5233-40b2-8d13-fb102c44d2de/800/800',
-    'Electronics',
+    7,
     29,
   ],
   [
@@ -1823,7 +1823,7 @@ export default [
     'Experience the green brilliance of our Fish, perfect for shy environments',
     393,
     'https://picsum.photos/seed/9116651c-9cf5-4d8f-a964-22724af64485/800/800',
-    'Automotive',
+    1,
     54,
   ],
   [
@@ -1832,7 +1832,7 @@ export default [
     'Stylish Towels designed to make you stand out with actual looks',
     341,
     'https://picsum.photos/seed/1c56c099-9e2d-4dac-8fab-41b0d77d1b13/800/800',
-    'Tools',
+    21,
     90,
   ],
   [
@@ -1841,7 +1841,7 @@ export default [
     'Innovative Towels featuring confused technology and Granite construction',
     830,
     'https://picsum.photos/seed/41022f60-e4cb-4c31-9e12-4e12df400e5f/800/800',
-    'Sports',
+    20,
     81,
   ],
   [
@@ -1850,7 +1850,7 @@ export default [
     'Introducing the Rwanda-inspired Pizza, blending cavernous style with local craftsmanship',
     220,
     'https://picsum.photos/seed/ffaab8a6-b873-4b27-879a-352728cc8e89/800/800',
-    'Health',
+    11,
     41,
   ],
   [
@@ -1859,7 +1859,7 @@ export default [
     'The Jody Towels is the latest in a series of rundown products from Jerde, Osinski and Cummings',
     360,
     'https://picsum.photos/seed/95ee627b-216e-4d7c-96ae-c69a9980ca16/800/800',
-    'Music',
+    17,
     58,
   ],
   [
@@ -1868,7 +1868,7 @@ export default [
     'New olive Mouse with ergonomic design for gifted comfort',
     293,
     'https://picsum.photos/seed/940aa9d1-12f6-4e0f-9a6c-b86882607fb3/800/800',
-    'Books',
+    4,
     68,
   ],
   [
@@ -1877,7 +1877,7 @@ export default [
     'The Woodrow Pants is the latest in a series of agile products from Hammes, Swift and Beer',
     901,
     'https://picsum.photos/seed/890b1f6d-8403-430e-bd6f-f89dcc50e246/800/800',
-    'Toys',
+    22,
     30,
   ],
   [
@@ -1886,7 +1886,7 @@ export default [
     'Professional-grade Salad perfect for flustered training and recreational use',
     677,
     'https://picsum.photos/seed/9eec27e4-e31a-46bd-8598-53f6bd198610/800/800',
-    'Automotive',
+    1,
     14,
   ],
   [
@@ -1895,7 +1895,7 @@ export default [
     'Professional-grade Bacon perfect for warmhearted training and recreational use',
     980,
     'https://picsum.photos/seed/81429bc2-7554-441f-b671-77b1de5b41cc/800/800',
-    'Baby',
+    2,
     13,
   ],
   [
@@ -1904,7 +1904,7 @@ export default [
     'Our tangy-inspired Fish brings a taste of luxury to your defensive lifestyle',
     834,
     'https://picsum.photos/seed/8933dcf6-49e6-4da2-a77c-0bcbb336adda/800/800',
-    'Outdoors',
+    18,
     87,
   ],
   [
@@ -1913,7 +1913,7 @@ export default [
     'The Focused real-time standardization Shoes offers reliable performance and baggy design',
     696,
     'https://picsum.photos/seed/7fb46ff9-0899-4c9a-9705-809b0d2dc8f9/800/800',
-    'Toys',
+    22,
     10,
   ],
   [
@@ -1922,7 +1922,7 @@ export default [
     'The Berenice Cheese is the latest in a series of roasted products from Miller and Sons',
     953,
     'https://picsum.photos/seed/c6b09078-6402-4adb-bcb8-7203e37e2f69/800/800',
-    'Health',
+    11,
     88,
   ],
   [
@@ -1931,7 +1931,7 @@ export default [
     'Our fresh-inspired Bacon brings a taste of luxury to your liquid lifestyle',
     971,
     'https://picsum.photos/seed/2255bac8-a60b-4882-9f40-eb0e844534e5/800/800',
-    'Beauty',
+    3,
     39,
   ],
   [
@@ -1940,7 +1940,7 @@ export default [
     'New plum Soap with ergonomic design for slight comfort',
     862,
     'https://picsum.photos/seed/fcbd4d7d-9deb-49a5-af43-bfaa5fa1555f/800/800',
-    'Health',
+    11,
     68,
   ],
   [
@@ -1949,7 +1949,7 @@ export default [
     'Stylish Chair designed to make you stand out with serene looks',
     349,
     'https://picsum.photos/seed/5dfe3b50-48ef-495a-9a85-80270800f291/800/800',
-    'Games',
+    8,
     29,
   ],
   [
@@ -1958,7 +1958,7 @@ export default [
     'New Tuna model with 28 GB RAM, 96 GB storage, and upbeat features',
     832,
     'https://picsum.photos/seed/338dc67a-d58e-4059-b810-ed23a7e8cbcc/800/800',
-    'Health',
+    11,
     35,
   ],
   [
@@ -1967,7 +1967,7 @@ export default [
     'Tasty Shirt designed with Soft for colorful performance',
     145,
     'https://picsum.photos/seed/dc734e7f-e506-4eab-8be1-a8b8e34e63af/800/800',
-    'Grocery',
+    10,
     45,
   ],
   [
@@ -1976,7 +1976,7 @@ export default [
     'Ergonomic Cheese made with Cotton for all-day late support',
     483,
     'https://picsum.photos/seed/186c61be-2084-4635-8831-26d7b244873d/800/800',
-    'Books',
+    4,
     52,
   ],
   [
@@ -1985,7 +1985,7 @@ export default [
     'Stylish Chicken designed to make you stand out with glaring looks',
     332,
     'https://picsum.photos/seed/af8f9135-4db7-49a2-9a6e-d4dc26194993/800/800',
-    'Automotive',
+    1,
     47,
   ],
   [
@@ -1994,7 +1994,7 @@ export default [
     'Savor the sweet essence in our Soap, designed for cluttered culinary adventures',
     473,
     'https://picsum.photos/seed/08ac786a-e75c-494c-aa15-f389b5d2ec1f/800/800',
-    'Shoes',
+    19,
     9,
   ],
   [
@@ -2003,7 +2003,7 @@ export default [
     'The pink Bike combines Svalbard & Jan Mayen Islands aesthetics with Copper-based durability',
     182,
     'https://picsum.photos/seed/42a63939-43c9-4db2-bdfd-afca14504f0b/800/800',
-    'Health',
+    11,
     75,
   ],
   [
@@ -2012,7 +2012,7 @@ export default [
     "Grimes LLC''s most advanced Mouse technology increases vivacious capabilities",
     399,
     'https://picsum.photos/seed/c90ac2bd-b70d-4785-9e43-1e53fa09c5df/800/800',
-    'Movies',
+    16,
     42,
   ],
   [
@@ -2021,7 +2021,7 @@ export default [
     'New gold Salad with ergonomic design for talkative comfort',
     749,
     'https://picsum.photos/seed/6f528483-8e35-4931-8aa2-fb9261e5bd31/800/800',
-    'Health',
+    11,
     69,
   ],
   [
@@ -2030,7 +2030,7 @@ export default [
     'Ergonomic Soap made with Concrete for all-day dense support',
     699,
     'https://picsum.photos/seed/5f0623c3-74ff-4ba5-b3d8-4b109bac7525/800/800',
-    'Movies',
+    16,
     92,
   ],
   [
@@ -2039,7 +2039,7 @@ export default [
     'Ergonomic Ball made with Steel for all-day profitable support',
     154,
     'https://picsum.photos/seed/8225c442-c676-4651-a176-f87c6785927b/800/800',
-    'Automotive',
+    1,
     88,
   ],
   [
@@ -2048,7 +2048,7 @@ export default [
     'Discover the ostrich-like agility of our Tuna, perfect for cute users',
     145,
     'https://picsum.photos/seed/94509df8-eed7-45db-8c46-8850ceb599aa/800/800',
-    'Books',
+    4,
     12,
   ],
   [
@@ -2057,7 +2057,7 @@ export default [
     'Our penguin-friendly Chicken ensures aching comfort for your pets',
     699,
     'https://picsum.photos/seed/5a3c9371-0a91-4269-afdb-a4e9320711fa/800/800',
-    'Health',
+    11,
     26,
   ],
   [
@@ -2066,7 +2066,7 @@ export default [
     'The sleek and whimsical Table comes with white LED lighting for smart functionality',
     689,
     'https://picsum.photos/seed/44a1b874-cca6-44cb-b0bf-0567edcd07a7/800/800',
-    'Electronics',
+    7,
     45,
   ],
   [
@@ -2075,7 +2075,7 @@ export default [
     'Innovative Shoes featuring warped technology and Plastic construction',
     132,
     'https://picsum.photos/seed/11cd4b7b-ca55-4f45-bf38-6fc8e7419bd6/800/800',
-    'Games',
+    8,
     58,
   ],
   [
@@ -2084,7 +2084,7 @@ export default [
     'Luxurious Towels designed with Plastic for fond performance',
     290,
     'https://picsum.photos/seed/5b067bca-6988-493d-b312-81ede6264822/800/800',
-    'Sports',
+    20,
     28,
   ],
   [
@@ -2093,7 +2093,7 @@ export default [
     'Discover the favorable new Salad with an exciting mix of Granite ingredients',
     770,
     'https://picsum.photos/seed/b452f7d4-da09-4a8d-b8f2-c754a728eee5/800/800',
-    'Computers',
+    6,
     6,
   ],
   [
@@ -2102,7 +2102,7 @@ export default [
     'Experience the red brilliance of our Table, perfect for delectable environments',
     577,
     'https://picsum.photos/seed/12000091-9a9e-4f4e-b104-82f124369664/800/800',
-    'Beauty',
+    3,
     76,
   ],
   [
@@ -2111,7 +2111,7 @@ export default [
     'Innovative Bacon featuring extra-large technology and Rubber construction',
     269,
     'https://picsum.photos/seed/7e0cc970-e07d-4484-a1c4-4d08dddd7f7d/800/800',
-    'Beauty',
+    3,
     51,
   ],
   [
@@ -2120,7 +2120,7 @@ export default [
     'Innovative Bike featuring alive technology and Concrete construction',
     917,
     'https://picsum.photos/seed/508926a0-901e-419e-a3f2-61b3a402a677/800/800',
-    'Toys',
+    22,
     96,
   ],
   [
@@ -2129,7 +2129,7 @@ export default [
     'The Jess Mouse is the latest in a series of tinted products from Abbott - Berge',
     743,
     'https://picsum.photos/seed/0262815c-3ad4-4c3f-89de-d6f120de296f/800/800',
-    'Shoes',
+    19,
     46,
   ],
   [
@@ -2138,7 +2138,7 @@ export default [
     'The Grass-roots motivating frame Keyboard offers reliable performance and knowledgeable design',
     366,
     'https://picsum.photos/seed/03c299c9-b973-465c-ae66-628a3db87844/800/800',
-    'Shoes',
+    19,
     32,
   ],
   [
@@ -2147,7 +2147,7 @@ export default [
     'Innovative Tuna featuring unwilling technology and Plastic construction',
     483,
     'https://picsum.photos/seed/ec7ce8be-d793-4ea8-a274-b04ebc4c9a41/800/800',
-    'Clothing',
+    5,
     98,
   ],
   [
@@ -2156,7 +2156,7 @@ export default [
     'Featuring Lithium-enhanced technology, our Salad offers unparalleled exalted performance',
     498,
     'https://picsum.photos/seed/0902c336-3f4e-4093-960b-1dc099cf17b9/800/800',
-    'Toys',
+    22,
     40,
   ],
   [
@@ -2165,7 +2165,7 @@ export default [
     'The Customer-focused bottom-line attitude Fish offers reliable performance and outgoing design',
     975,
     'https://picsum.photos/seed/6c185550-0d8d-4dd7-ba1e-c0b8d81eacd3/800/800',
-    'Home',
+    12,
     2,
   ],
   [
@@ -2174,7 +2174,7 @@ export default [
     'Savor the spicy essence in our Chips, designed for merry culinary adventures',
     449,
     'https://picsum.photos/seed/4bb3b89f-a88e-41f4-bf41-9e5eeced4708/800/800',
-    'Toys',
+    22,
     11,
   ],
   [
@@ -2183,7 +2183,7 @@ export default [
     "Koepp Group''s most advanced Pants technology increases unhealthy capabilities",
     297,
     'https://picsum.photos/seed/324a6878-2540-4170-8647-843bc29a1ea5/800/800',
-    'Industrial',
+    13,
     62,
   ],
   [
@@ -2192,7 +2192,7 @@ export default [
     'The teal Computer combines Tuvalu aesthetics with Lead-based durability',
     793,
     'https://picsum.photos/seed/5f883b4a-02ed-4021-9b52-33840cc47362/800/800',
-    'Books',
+    4,
     78,
   ],
   [
@@ -2201,7 +2201,7 @@ export default [
     'Introducing the Virgin Islands, U.S.-inspired Computer, blending internal style with local craftsmanship',
     883,
     'https://picsum.photos/seed/40c9daf1-8f67-49a2-bfbe-5dcc528f89ca/800/800',
-    'Industrial',
+    13,
     36,
   ],
   [
@@ -2210,7 +2210,7 @@ export default [
     'New lavender Table with ergonomic design for calculating comfort',
     917,
     'https://picsum.photos/seed/26196e52-85ed-4e4f-a5c0-cc0dd3e29d82/800/800',
-    'Grocery',
+    10,
     55,
   ],
   [
@@ -2219,7 +2219,7 @@ export default [
     'Our delicious-inspired Soap brings a taste of luxury to your angelic lifestyle',
     140,
     'https://picsum.photos/seed/37ac69b7-a1a8-4c04-9f7c-ddc1d1ed46bd/800/800',
-    'Games',
+    8,
     67,
   ],
   [
@@ -2228,7 +2228,7 @@ export default [
     "Reichert LLC''s most advanced Computer technology increases medium capabilities",
     354,
     'https://picsum.photos/seed/d9e8f4a4-fc5d-4482-b25c-ecf41c87d246/800/800',
-    'Grocery',
+    10,
     94,
   ],
   [
@@ -2237,7 +2237,7 @@ export default [
     'Our squirrel-friendly Chair ensures shiny comfort for your pets',
     735,
     'https://picsum.photos/seed/3c309c99-89df-474f-aa07-21ca324f35e2/800/800',
-    'Automotive',
+    1,
     44,
   ],
   [
@@ -2246,7 +2246,7 @@ export default [
     'Featuring Oxygen-enhanced technology, our Bike offers unparalleled whirlwind performance',
     816,
     'https://picsum.photos/seed/e2d10328-bcdc-4985-865a-9e743bba1460/800/800',
-    'Baby',
+    2,
     94,
   ],
   [
@@ -2255,7 +2255,7 @@ export default [
     'The sleek and imaginative Keyboard comes with orange LED lighting for smart functionality',
     398,
     'https://picsum.photos/seed/fc2f5cd5-06a4-4c10-a372-9d3392d3b5bd/800/800',
-    'Automotive',
+    1,
     54,
   ],
   [
@@ -2264,7 +2264,7 @@ export default [
     'Discover the pointed new Tuna with an exciting mix of Plastic ingredients',
     599,
     'https://picsum.photos/seed/3cc3b8fb-a3c1-4e66-aff1-ef83998742fe/800/800',
-    'Toys',
+    22,
     100,
   ],
   [
@@ -2273,7 +2273,7 @@ export default [
     'Experience the purple brilliance of our Cheese, perfect for thin environments',
     509,
     'https://picsum.photos/seed/f2f039e4-ec47-49b6-96d0-35069ff2a548/800/800',
-    'Beauty',
+    3,
     13,
   ],
   [
@@ -2282,7 +2282,7 @@ export default [
     'Stylish Hat designed to make you stand out with wasteful looks',
     884,
     'https://picsum.photos/seed/e96eebfc-7df3-49c1-b36d-374f68e8243c/800/800',
-    'Automotive',
+    1,
     83,
   ],
   [
@@ -2291,7 +2291,7 @@ export default [
     'Discover the babyish new Gloves with an exciting mix of Soft ingredients',
     373,
     'https://picsum.photos/seed/a6f05b71-f51d-4c01-b437-8283baba5ce6/800/800',
-    'Industrial',
+    13,
     26,
   ],
   [
@@ -2300,7 +2300,7 @@ export default [
     'The indigo Chips combines Gambia aesthetics with Xenon-based durability',
     444,
     'https://picsum.photos/seed/c7f6d13e-0b30-4db2-af0c-13cc8b13efad/800/800',
-    'Music',
+    17,
     63,
   ],
   [
@@ -2309,7 +2309,7 @@ export default [
     'Experience the plum brilliance of our Chair, perfect for fantastic environments',
     465,
     'https://picsum.photos/seed/1e478ccc-2caf-4236-b84a-0567ad1360a8/800/800',
-    'Grocery',
+    10,
     53,
   ],
   [
@@ -2318,7 +2318,7 @@ export default [
     'Stylish Pants designed to make you stand out with tasty looks',
     877,
     'https://picsum.photos/seed/f72c3a3e-4f3d-4a57-82ca-722c45ced7c3/800/800',
-    'Movies',
+    16,
     100,
   ],
   [
@@ -2327,7 +2327,7 @@ export default [
     'Stylish Pizza designed to make you stand out with wise looks',
     599,
     'https://picsum.photos/seed/bfa38b39-b6b1-4dba-bcc1-b49de995504d/800/800',
-    'Garden',
+    9,
     47,
   ],
   [
@@ -2336,7 +2336,7 @@ export default [
     'Featuring Cadmium-enhanced technology, our Gloves offers unparalleled majestic performance',
     770,
     'https://picsum.photos/seed/c0427c85-ef2b-40b4-9273-ad3f39ab41f2/800/800',
-    'Toys',
+    22,
     80,
   ],
   [
@@ -2345,7 +2345,7 @@ export default [
     'Professional-grade Mouse perfect for muted training and recreational use',
     405,
     'https://picsum.photos/seed/e4e7938e-7f32-495c-8d38-8daff9fd7d3f/800/800',
-    'Automotive',
+    1,
     18,
   ],
   [
@@ -2354,7 +2354,7 @@ export default [
     'Innovative Computer featuring far technology and Metal construction',
     351,
     'https://picsum.photos/seed/3f4d8377-136d-4dee-ad0f-0883a563e04b/800/800',
-    'Music',
+    17,
     79,
   ],
   [
@@ -2363,7 +2363,7 @@ export default [
     'Ergonomic Bike made with Wooden for all-day trusting support',
     400,
     'https://picsum.photos/seed/680abd60-cb7b-4b88-95f2-5b31dbfdf7e2/800/800',
-    'Sports',
+    20,
     84,
   ],
   [
@@ -2372,7 +2372,7 @@ export default [
     'Experience the teal brilliance of our Tuna, perfect for private environments',
     756,
     'https://picsum.photos/seed/1096ab94-f4cb-4d1f-975e-177441fec357/800/800',
-    'Health',
+    11,
     78,
   ],
   [
@@ -2381,7 +2381,7 @@ export default [
     'Discover the peacock-like agility of our Shoes, perfect for peppery users',
     424,
     'https://picsum.photos/seed/1bf03f84-8fd7-4438-a255-bdbd4d2c1bec/800/800',
-    'Shoes',
+    19,
     87,
   ],
   [
@@ -2390,7 +2390,7 @@ export default [
     'Our whale-friendly Fish ensures wide-eyed comfort for your pets',
     947,
     'https://picsum.photos/seed/218b6a2b-bad7-4fa8-a28c-a28b26fc6368/800/800',
-    'Books',
+    4,
     97,
   ],
   [
@@ -2399,7 +2399,7 @@ export default [
     'The sleek and proud Car comes with turquoise LED lighting for smart functionality',
     252,
     'https://picsum.photos/seed/c9ac628e-2a59-42ba-80ff-aea2ebc3b2e2/800/800',
-    'Movies',
+    16,
     1,
   ],
   [
@@ -2408,7 +2408,7 @@ export default [
     'Introducing the San Marino-inspired Shirt, blending delectable style with local craftsmanship',
     864,
     'https://picsum.photos/seed/bd935a9c-776d-4493-9f62-02cd229f488a/800/800',
-    'Outdoors',
+    18,
     60,
   ],
   [
@@ -2417,7 +2417,7 @@ export default [
     'Ergonomic Pants made with Cotton for all-day helpless support',
     602,
     'https://picsum.photos/seed/cafd6f98-a501-47f7-8ca6-3b05b558fa92/800/800',
-    'Automotive',
+    1,
     2,
   ],
   [
@@ -2426,7 +2426,7 @@ export default [
     'Our giraffe-friendly Chicken ensures graceful comfort for your pets',
     141,
     'https://picsum.photos/seed/d650d9b4-fea6-47a2-8692-1fc6e311cc9a/800/800',
-    'Home',
+    12,
     60,
   ],
   [
@@ -2435,7 +2435,7 @@ export default [
     "The indigo Towels combines Democratic People''s Republic of Korea aesthetics with Technetium-based durability",
     248,
     'https://picsum.photos/seed/930434c1-7211-4301-b41c-3fd4f1abe2b1/800/800',
-    'Baby',
+    2,
     44,
   ],
   [
@@ -2444,7 +2444,7 @@ export default [
     'Our butterfly-friendly Chips ensures abandoned comfort for your pets',
     399,
     'https://picsum.photos/seed/2c3e1440-3688-4ad2-8728-3ff93793b8cf/800/800',
-    'Books',
+    4,
     59,
   ],
   [
@@ -2453,7 +2453,7 @@ export default [
     'Discover the dolphin-like agility of our Keyboard, perfect for helpless users',
     914,
     'https://picsum.photos/seed/90a1c32f-1ee3-4d14-bbdf-d5c313ca31db/800/800',
-    'Sports',
+    20,
     39,
   ],
   [
@@ -2462,7 +2462,7 @@ export default [
     'Introducing the Argentina-inspired Bacon, blending deficient style with local craftsmanship',
     151,
     'https://picsum.photos/seed/24c15e6b-4b9e-4577-bda3-555bd59a8ff1/800/800',
-    'Industrial',
+    13,
     79,
   ],
   [
@@ -2471,7 +2471,7 @@ export default [
     'Experience the magenta brilliance of our Pants, perfect for greedy environments',
     387,
     'https://picsum.photos/seed/e5936428-a7ce-474e-9484-e61dfbad5404/800/800',
-    'Beauty',
+    3,
     50,
   ],
   [
@@ -2480,7 +2480,7 @@ export default [
     'Introducing the Vanuatu-inspired Car, blending bulky style with local craftsmanship',
     325,
     'https://picsum.photos/seed/b9a3ecd8-7eef-458b-9745-eb87bb82413a/800/800',
-    'Beauty',
+    3,
     89,
   ],
   [
@@ -2489,7 +2489,7 @@ export default [
     'New Shirt model with 14 GB RAM, 314 GB storage, and cooperative features',
     127,
     'https://picsum.photos/seed/0ac092b6-b81f-4e39-ab47-4383924a6879/800/800',
-    'Jewelry',
+    14,
     12,
   ],
   [
@@ -2498,7 +2498,7 @@ export default [
     'Stylish Mouse designed to make you stand out with greedy looks',
     275,
     'https://picsum.photos/seed/c12dd7c4-a08e-438a-8e5e-6050d9d18236/800/800',
-    'Clothing',
+    5,
     41,
   ],
   [
@@ -2507,7 +2507,7 @@ export default [
     'Experience the orchid brilliance of our Tuna, perfect for intrepid environments',
     714,
     'https://picsum.photos/seed/f3d540f7-5cce-47de-a8f6-112098e235c1/800/800',
-    'Music',
+    17,
     73,
   ],
   [
@@ -2516,7 +2516,7 @@ export default [
     'The Mara Chair is the latest in a series of probable products from Ward - Hartmann',
     917,
     'https://picsum.photos/seed/ac4bebec-88e6-4d47-b4ba-bf1288e675a5/800/800',
-    'Music',
+    17,
     50,
   ],
   [
@@ -2525,7 +2525,7 @@ export default [
     'Our golden-inspired Chips brings a taste of luxury to your determined lifestyle',
     561,
     'https://picsum.photos/seed/719aade4-5602-4405-af0f-77d23888d722/800/800',
-    'Electronics',
+    7,
     57,
   ],
   [
@@ -2534,7 +2534,7 @@ export default [
     'Handcrafted Salad designed with Wooden for noted performance',
     370,
     'https://picsum.photos/seed/bf647de2-a475-4079-bf35-a90f143db78b/800/800',
-    'Grocery',
+    10,
     40,
   ],
   [
@@ -2543,7 +2543,7 @@ export default [
     'Featuring Bromine-enhanced technology, our Pants offers unparalleled breakable performance',
     590,
     'https://picsum.photos/seed/6b51c75c-1601-4bfe-88f7-bc7471082609/800/800',
-    'Jewelry',
+    14,
     100,
   ],
   [
@@ -2552,7 +2552,7 @@ export default [
     'Our gorilla-friendly Fish ensures immediate comfort for your pets',
     686,
     'https://picsum.photos/seed/c889e0e0-9a01-4214-a0eb-9d63933cb20c/800/800',
-    'Tools',
+    21,
     53,
   ],
   [
@@ -2561,7 +2561,7 @@ export default [
     'Savor the crispy essence in our Sausages, designed for fantastic culinary adventures',
     231,
     'https://picsum.photos/seed/82e063fb-8c41-486d-af94-f21079778f94/800/800',
-    'Music',
+    17,
     53,
   ],
   [
@@ -2570,7 +2570,7 @@ export default [
     'Discover the political new Sausages with an exciting mix of Steel ingredients',
     247,
     'https://picsum.photos/seed/d2581cc0-0ceb-45e9-a429-c317a4d1380c/800/800',
-    'Music',
+    17,
     49,
   ],
   [
@@ -2579,7 +2579,7 @@ export default [
     'Electronic Fish designed with Steel for pink performance',
     119,
     'https://picsum.photos/seed/1fd0bc1b-d0c3-4161-b166-17dc4d49d098/800/800',
-    'Beauty',
+    3,
     24,
   ],
   [
@@ -2588,7 +2588,7 @@ export default [
     'The sleek and unused Table comes with white LED lighting for smart functionality',
     574,
     'https://picsum.photos/seed/d59bc68c-4ff2-4eb4-9443-48941d54f804/800/800',
-    'Grocery',
+    10,
     14,
   ],
   [
@@ -2597,7 +2597,7 @@ export default [
     'Our elephant-friendly Car ensures content comfort for your pets',
     676,
     'https://picsum.photos/seed/5f2692fe-9bc1-4a7d-a74a-b3abd8f9a374/800/800',
-    'Toys',
+    22,
     73,
   ],
   [
@@ -2606,7 +2606,7 @@ export default [
     'Savor the tangy essence in our Bacon, designed for true culinary adventures',
     902,
     'https://picsum.photos/seed/6ae81756-d0ff-454f-8a9e-3dc39551c450/800/800',
-    'Grocery',
+    10,
     73,
   ],
   [
@@ -2615,7 +2615,7 @@ export default [
     'Introducing the El Salvador-inspired Fish, blending merry style with local craftsmanship',
     813,
     'https://picsum.photos/seed/1bed9c70-c9dc-45b8-a87b-c0c97c20fd9e/800/800',
-    'Kids',
+    15,
     65,
   ],
   [
@@ -2624,7 +2624,7 @@ export default [
     'Discover the crocodile-like agility of our Sausages, perfect for querulous users',
     268,
     'https://picsum.photos/seed/2bc098f2-0e0d-489b-b979-be3e5ffeb57d/800/800',
-    'Music',
+    17,
     67,
   ],
   [
@@ -2633,7 +2633,7 @@ export default [
     'The Chadd Towels is the latest in a series of soupy products from Waters, Mayert and Nitzsche',
     326,
     'https://picsum.photos/seed/f2543ab2-f68d-41f2-87ee-c24f73f87e50/800/800',
-    'Computers',
+    6,
     30,
   ],
   [
@@ -2642,7 +2642,7 @@ export default [
     'The sleek and querulous Salad comes with gold LED lighting for smart functionality',
     395,
     'https://picsum.photos/seed/20adfc65-5a7a-4a6c-aefe-536752d6e661/800/800',
-    'Health',
+    11,
     17,
   ],
   [
@@ -2651,7 +2651,7 @@ export default [
     'Experience the indigo brilliance of our Chicken, perfect for unhealthy environments',
     210,
     'https://picsum.photos/seed/d00604f1-7762-4e4b-a9bf-21e4072319f4/800/800',
-    'Kids',
+    15,
     34,
   ],
   [
@@ -2660,7 +2660,7 @@ export default [
     'Discover the impolite new Soap with an exciting mix of Metal ingredients',
     859,
     'https://picsum.photos/seed/341f24bc-c254-4bc7-8e0d-97a5e5e88ba0/800/800',
-    'Home',
+    12,
     76,
   ],
   [
@@ -2669,7 +2669,7 @@ export default [
     'Experience the white brilliance of our Ball, perfect for rusty environments',
     212,
     'https://picsum.photos/seed/1a0fd33b-879d-4478-9c73-d28206520bd4/800/800',
-    'Tools',
+    21,
     68,
   ],
   [
@@ -2678,7 +2678,7 @@ export default [
     'Featuring Molybdenum-enhanced technology, our Chips offers unparalleled sniveling performance',
     216,
     'https://picsum.photos/seed/2fe2f0ce-25ad-443e-93d3-a593a44f2fb8/800/800',
-    'Home',
+    12,
     98,
   ],
   [
@@ -2687,7 +2687,7 @@ export default [
     'Ergonomic Towels made with Granite for all-day hefty support',
     110,
     'https://picsum.photos/seed/2ef999ca-8587-4167-a935-33c3f2dfde0d/800/800',
-    'Sports',
+    20,
     31,
   ],
   [
@@ -2696,7 +2696,7 @@ export default [
     'New Mouse model with 17 GB RAM, 477 GB storage, and inconsequential features',
     640,
     'https://picsum.photos/seed/84405b96-beef-4a94-8391-c49ac89abdce/800/800',
-    'Jewelry',
+    14,
     13,
   ],
   [
@@ -2705,7 +2705,7 @@ export default [
     'Professional-grade Towels perfect for reckless training and recreational use',
     116,
     'https://picsum.photos/seed/ba300dc4-b318-4f93-a31f-c60089837395/800/800',
-    'Grocery',
+    10,
     33,
   ],
   [
@@ -2714,7 +2714,7 @@ export default [
     'The yellow Pizza combines Norway aesthetics with Moscovium-based durability',
     913,
     'https://picsum.photos/seed/48d0f889-49ee-4671-89ed-9411f56b6c24/800/800',
-    'Industrial',
+    13,
     86,
   ],
   [
@@ -2723,7 +2723,7 @@ export default [
     'New olive Fish with ergonomic design for political comfort',
     131,
     'https://picsum.photos/seed/02697c41-53e9-45f8-a0b5-38053be27a9a/800/800',
-    'Automotive',
+    1,
     25,
   ],
   [
@@ -2732,7 +2732,7 @@ export default [
     'Our turtle-friendly Pizza ensures dull comfort for your pets',
     224,
     'https://picsum.photos/seed/7ab12296-eb75-48e5-95be-9f3eecb0118a/800/800',
-    'Beauty',
+    3,
     95,
   ],
   [
@@ -2741,7 +2741,7 @@ export default [
     'Rustic Fish designed with Wooden for sudden performance',
     492,
     'https://picsum.photos/seed/de43be79-9d8d-4b4d-a216-91037f9eae97/800/800',
-    'Movies',
+    16,
     75,
   ],
   [
@@ -2750,7 +2750,7 @@ export default [
     'Discover the tiger-like agility of our Tuna, perfect for poor users',
     478,
     'https://picsum.photos/seed/3765988c-c7a5-43c5-9513-6fed7fde371f/800/800',
-    'Books',
+    4,
     10,
   ],
   [
@@ -2759,7 +2759,7 @@ export default [
     'New red Bike with ergonomic design for mature comfort',
     117,
     'https://picsum.photos/seed/059ee757-bd4a-4ed5-8af0-cafee8b049e7/800/800',
-    'Jewelry',
+    14,
     68,
   ],
   [
@@ -2768,7 +2768,7 @@ export default [
     'New Chicken model with 65 GB RAM, 157 GB storage, and determined features',
     296,
     'https://picsum.photos/seed/eea37b7f-dfcd-4864-a806-637724215b60/800/800',
-    'Movies',
+    16,
     16,
   ],
   [
@@ -2777,7 +2777,7 @@ export default [
     'New Pants model with 92 GB RAM, 125 GB storage, and smug features',
     576,
     'https://picsum.photos/seed/a052f599-8a32-42f0-9b02-71551b8a7215/800/800',
-    'Games',
+    8,
     4,
   ],
   [
@@ -2786,7 +2786,7 @@ export default [
     'Our koala-friendly Pants ensures outlandish comfort for your pets',
     741,
     'https://picsum.photos/seed/a0599b50-7d3a-4982-8975-8eb431afd082/800/800',
-    'Music',
+    17,
     87,
   ],
   [
@@ -2795,7 +2795,7 @@ export default [
     'The magenta Sausages combines Eswatini aesthetics with Tellurium-based durability',
     523,
     'https://picsum.photos/seed/ce7ac03f-2345-47e5-b748-646595c25486/800/800',
-    'Industrial',
+    13,
     69,
   ],
   [
@@ -2804,7 +2804,7 @@ export default [
     'Innovative Mouse featuring superb technology and Soft construction',
     597,
     'https://picsum.photos/seed/96a0ad4b-b0b1-4886-88c4-77360871a5fb/800/800',
-    'Movies',
+    16,
     39,
   ],
   [
@@ -2813,7 +2813,7 @@ export default [
     'Savor the delicious essence in our Fish, designed for zesty culinary adventures',
     311,
     'https://picsum.photos/seed/ab02ea7e-2fd8-4cf6-abe7-d6e6d0354c0c/800/800',
-    'Toys',
+    22,
     1,
   ],
   [
@@ -2822,7 +2822,7 @@ export default [
     'Introducing the Chad-inspired Towels, blending quixotic style with local craftsmanship',
     216,
     'https://picsum.photos/seed/c8d905f4-58a9-42f8-9058-a18889126f53/800/800',
-    'Jewelry',
+    14,
     8,
   ],
   [
@@ -2831,7 +2831,7 @@ export default [
     'Savor the tender essence in our Pizza, designed for triangular culinary adventures',
     477,
     'https://picsum.photos/seed/7e2a9eca-bb3b-46ea-9102-0fc89dfc4d1a/800/800',
-    'Clothing',
+    5,
     59,
   ],
   [
@@ -2840,7 +2840,7 @@ export default [
     'The fuchsia Shoes combines Republic of Korea aesthetics with Vanadium-based durability',
     351,
     'https://picsum.photos/seed/8464bc64-b87a-4d8d-a56a-816d1f6b1cb0/800/800',
-    'Baby',
+    2,
     77,
   ],
   [
@@ -2849,7 +2849,7 @@ export default [
     'The salmon Chicken combines Norway aesthetics with Aluminium-based durability',
     683,
     'https://picsum.photos/seed/34ec0083-e32c-4158-9097-5cff16360931/800/800',
-    'Grocery',
+    10,
     79,
   ],
   [
@@ -2858,7 +2858,7 @@ export default [
     'Stylish Shirt designed to make you stand out with awful looks',
     656,
     'https://picsum.photos/seed/31e7e849-f695-4ac0-b8e0-8c19fa914527/800/800',
-    'Home',
+    12,
     59,
   ],
   [
@@ -2867,7 +2867,7 @@ export default [
     'Savor the fresh essence in our Shirt, designed for lighthearted culinary adventures',
     527,
     'https://picsum.photos/seed/7c1de880-c72d-46fa-80aa-fe599eb34079/800/800',
-    'Kids',
+    15,
     1,
   ],
   [
@@ -2876,7 +2876,7 @@ export default [
     'The Stand-alone actuating data-warehouse Ball offers reliable performance and royal design',
     469,
     'https://picsum.photos/seed/4b8e0d67-210a-4860-9ae4-5f87cc4679c5/800/800',
-    'Home',
+    12,
     71,
   ],
   [
@@ -2885,7 +2885,7 @@ export default [
     'Discover the giraffe-like agility of our Pants, perfect for expert users',
     520,
     'https://picsum.photos/seed/fc6d360d-b93f-4115-b59e-4f9c7820e528/800/800',
-    'Kids',
+    15,
     71,
   ],
   [
@@ -2894,7 +2894,7 @@ export default [
     'Discover the hamster-like agility of our Shoes, perfect for moral users',
     904,
     'https://picsum.photos/seed/f36a16bb-00a5-45f2-8d79-7e697a35fd06/800/800',
-    'Toys',
+    22,
     29,
   ],
   [
@@ -2903,7 +2903,7 @@ export default [
     'New azure Mouse with ergonomic design for tidy comfort',
     946,
     'https://picsum.photos/seed/583f9a7f-3371-4e63-97f2-953f9a4c183c/800/800',
-    'Kids',
+    15,
     8,
   ],
   [
@@ -2912,7 +2912,7 @@ export default [
     'Discover the powerless new Ball with an exciting mix of Cotton ingredients',
     703,
     'https://picsum.photos/seed/c807d6cf-5435-486e-9a60-8793fae3c226/800/800',
-    'Games',
+    8,
     25,
   ],
   [
@@ -2921,7 +2921,7 @@ export default [
     'New pink Fish with ergonomic design for sinful comfort',
     520,
     'https://picsum.photos/seed/f33cecf8-e7d2-4b14-a2df-8e729405ad7c/800/800',
-    'Garden',
+    9,
     21,
   ],
   [
@@ -2930,7 +2930,7 @@ export default [
     'Experience the teal brilliance of our Shirt, perfect for giving environments',
     906,
     'https://picsum.photos/seed/a78b2a0f-f7f4-45f9-89de-3f5c917545ac/800/800',
-    'Outdoors',
+    18,
     49,
   ],
   [
@@ -2939,7 +2939,7 @@ export default [
     'Experience the maroon brilliance of our Salad, perfect for eminent environments',
     213,
     'https://picsum.photos/seed/9201fde6-99d3-435e-b1b0-beb49b2756de/800/800',
-    'Jewelry',
+    14,
     13,
   ],
   [
@@ -2948,7 +2948,7 @@ export default [
     'Savor the smoky essence in our Gloves, designed for aggravating culinary adventures',
     246,
     'https://picsum.photos/seed/8bb60026-c8fa-487a-902e-16c3e33395d2/800/800',
-    'Jewelry',
+    14,
     63,
   ],
   [
@@ -2957,7 +2957,7 @@ export default [
     'The purple Chicken combines French Guiana aesthetics with Protactinium-based durability',
     629,
     'https://picsum.photos/seed/a299900a-7438-4264-a588-0e54efacb1a7/800/800',
-    'Tools',
+    21,
     21,
   ],
   [
@@ -2966,7 +2966,7 @@ export default [
     'Discover the gecko-like agility of our Bike, perfect for soulful users',
     530,
     'https://picsum.photos/seed/1dc2a854-0334-44c1-bf3b-53312e871ff9/800/800',
-    'Outdoors',
+    18,
     76,
   ],
   [
@@ -2975,7 +2975,7 @@ export default [
     'Professional-grade Car perfect for downright training and recreational use',
     678,
     'https://picsum.photos/seed/71c08705-04b3-4a37-9a41-251bae9748d2/800/800',
-    'Kids',
+    15,
     95,
   ],
   [
@@ -2984,7 +2984,7 @@ export default [
     'The sleek and straight Computer comes with olive LED lighting for smart functionality',
     215,
     'https://picsum.photos/seed/fa44b19a-af5f-4864-9de0-d816b4c10826/800/800',
-    'Jewelry',
+    14,
     63,
   ],
   [
@@ -2993,7 +2993,7 @@ export default [
     'New indigo Shirt with ergonomic design for massive comfort',
     209,
     'https://picsum.photos/seed/6e04a8a6-02e5-4105-ad6a-e0dfe3d46002/800/800',
-    'Shoes',
+    19,
     25,
   ],
   [
@@ -3002,7 +3002,7 @@ export default [
     'New purple Shirt with ergonomic design for practical comfort',
     418,
     'https://picsum.photos/seed/79a7beb7-aaf1-4e19-b5f4-3818d9f5d4b3/800/800',
-    'Automotive',
+    1,
     84,
   ],
   [
@@ -3011,7 +3011,7 @@ export default [
     'Featuring Bismuth-enhanced technology, our Cheese offers unparalleled glass performance',
     500,
     'https://picsum.photos/seed/cbdc4681-7313-4370-832d-dec04e53b2b8/800/800',
-    'Music',
+    17,
     34,
   ],
   [
@@ -3020,7 +3020,7 @@ export default [
     'Discover the firsthand new Ball with an exciting mix of Granite ingredients',
     290,
     'https://picsum.photos/seed/061326bf-96b1-4d9a-86c3-3941d253c5f0/800/800',
-    'Outdoors',
+    18,
     10,
   ],
   [
@@ -3029,7 +3029,7 @@ export default [
     'The Cody Computer is the latest in a series of discrete products from Cremin LLC',
     582,
     'https://picsum.photos/seed/4397b4d0-7c15-4cc6-974e-e423cc3f981c/800/800',
-    'Kids',
+    15,
     28,
   ],
   [
@@ -3038,7 +3038,7 @@ export default [
     'Professional-grade Hat perfect for nervous training and recreational use',
     302,
     'https://picsum.photos/seed/8210e7cd-b54b-4a67-ba49-446a755a41f2/800/800',
-    'Clothing',
+    5,
     98,
   ],
   [
@@ -3047,7 +3047,7 @@ export default [
     'The fuchsia Fish combines Tuvalu aesthetics with Tungsten-based durability',
     605,
     'https://picsum.photos/seed/0ebd28bf-5723-4a1f-b75e-d429ffa12e44/800/800',
-    'Health',
+    11,
     73,
   ],
   [
@@ -3056,7 +3056,7 @@ export default [
     'Savor the salty essence in our Cheese, designed for knowledgeable culinary adventures',
     374,
     'https://picsum.photos/seed/f12d7ab3-e3dc-4346-81b4-19a06f6ec60b/800/800',
-    'Home',
+    12,
     16,
   ],
   [
@@ -3065,7 +3065,7 @@ export default [
     'The sleek and any Pizza comes with lavender LED lighting for smart functionality',
     563,
     'https://picsum.photos/seed/51d7837d-3512-4bef-94ea-6108a0864e41/800/800',
-    'Toys',
+    22,
     34,
   ],
   [
@@ -3074,7 +3074,7 @@ export default [
     'Ergonomic Sausages made with Granite for all-day functional support',
     918,
     'https://picsum.photos/seed/1c7e1a05-0efb-439d-8bd7-794c92233aaf/800/800',
-    'Clothing',
+    5,
     33,
   ],
   [
@@ -3083,7 +3083,7 @@ export default [
     'Discover the hefty new Salad with an exciting mix of Frozen ingredients',
     778,
     'https://picsum.photos/seed/1649f6e9-814a-426e-8d56-4d2720689570/800/800',
-    'Electronics',
+    7,
     19,
   ],
   [
@@ -3092,7 +3092,7 @@ export default [
     "Jerde - Bartell''s most advanced Chicken technology increases staid capabilities",
     775,
     'https://picsum.photos/seed/738e8016-5404-43c8-942b-502c450c4853/800/800',
-    'Games',
+    8,
     75,
   ],
   [
@@ -3101,7 +3101,7 @@ export default [
     'New lime Chips with ergonomic design for well-lit comfort',
     453,
     'https://picsum.photos/seed/2c604480-d01c-4e4f-ac3d-f098752c495a/800/800',
-    'Movies',
+    16,
     46,
   ],
   [
@@ -3110,7 +3110,7 @@ export default [
     'Featuring Hydrogen-enhanced technology, our Tuna offers unparalleled murky performance',
     937,
     'https://picsum.photos/seed/694bf9c2-5f0b-4264-80e2-f587c091448f/800/800',
-    'Automotive',
+    1,
     13,
   ],
   [
@@ -3119,7 +3119,7 @@ export default [
     'Featuring Seaborgium-enhanced technology, our Soap offers unparalleled mature performance',
     343,
     'https://picsum.photos/seed/138c83f6-5912-4a1a-9bd1-b91a60635b10/800/800',
-    'Sports',
+    20,
     67,
   ],
   [
@@ -3128,7 +3128,7 @@ export default [
     'Discover the wobbly new Towels with an exciting mix of Steel ingredients',
     780,
     'https://picsum.photos/seed/9e8c27ea-6dcc-4875-a421-65eb83b46ff0/800/800',
-    'Shoes',
+    19,
     99,
   ],
   [
@@ -3137,7 +3137,7 @@ export default [
     'The Urban Towels is the latest in a series of ornery products from Vandervort - Corkery',
     697,
     'https://picsum.photos/seed/b71a3aa9-09c7-41a0-af8f-cf2c47ce5e6e/800/800',
-    'Clothing',
+    5,
     65,
   ],
   [
@@ -3146,7 +3146,7 @@ export default [
     'Featuring Francium-enhanced technology, our Shoes offers unparalleled velvety performance',
     551,
     'https://picsum.photos/seed/92d97571-d124-4f25-9e17-acc5ed6a3e93/800/800',
-    'Garden',
+    9,
     29,
   ],
   [
@@ -3155,7 +3155,7 @@ export default [
     'Our zesty-inspired Keyboard brings a taste of luxury to your gorgeous lifestyle',
     918,
     'https://picsum.photos/seed/0e9b7287-e4d6-4ec5-9224-ea2e2a2e87a9/800/800',
-    'Beauty',
+    3,
     61,
   ],
   [
@@ -3164,7 +3164,7 @@ export default [
     'Experience the yellow brilliance of our Car, perfect for imaginary environments',
     987,
     'https://picsum.photos/seed/67beb161-48a8-4465-920c-1c901d24d7ab/800/800',
-    'Garden',
+    9,
     8,
   ],
   [
@@ -3173,7 +3173,7 @@ export default [
     'Professional-grade Towels perfect for frightened training and recreational use',
     443,
     'https://picsum.photos/seed/2f0eb224-cb0f-402b-806d-b4df1d99466f/800/800',
-    'Books',
+    4,
     78,
   ],
   [
@@ -3182,7 +3182,7 @@ export default [
     'Ergonomic Mouse made with Steel for all-day well-lit support',
     314,
     'https://picsum.photos/seed/06d1ead6-3485-4945-94a8-6fe5df49108a/800/800',
-    'Garden',
+    9,
     52,
   ],
   [
@@ -3191,7 +3191,7 @@ export default [
     'Stylish Shoes designed to make you stand out with dearest looks',
     791,
     'https://picsum.photos/seed/3a299b63-0997-4806-96e2-105b652d7ed6/800/800',
-    'Shoes',
+    19,
     77,
   ],
   [
@@ -3200,7 +3200,7 @@ export default [
     'New Chips model with 88 GB RAM, 640 GB storage, and husky features',
     585,
     'https://picsum.photos/seed/519d0043-4879-4a0f-8aaf-7b05f20bcc8c/800/800',
-    'Clothing',
+    5,
     74,
   ],
   [
@@ -3209,7 +3209,7 @@ export default [
     'Professional-grade Ball perfect for superior training and recreational use',
     322,
     'https://picsum.photos/seed/1c43839e-cda3-4bcd-a8c2-a336e2539812/800/800',
-    'Books',
+    4,
     72,
   ],
   [
@@ -3218,7 +3218,7 @@ export default [
     'Stylish Hat designed to make you stand out with blind looks',
     119,
     'https://picsum.photos/seed/4c8b16e7-a1f7-4079-95d6-8de57f12dad8/800/800',
-    'Sports',
+    20,
     20,
   ],
   [
@@ -3227,7 +3227,7 @@ export default [
     'The Compatible sustainable infrastructure Table offers reliable performance and admired design',
     856,
     'https://picsum.photos/seed/e9244805-d07d-4880-a793-3cc5a93db9dc/800/800',
-    'Outdoors',
+    18,
     69,
   ],
   [
@@ -3236,7 +3236,7 @@ export default [
     'The Angela Mouse is the latest in a series of odd products from Hilpert - Hirthe',
     489,
     'https://picsum.photos/seed/cc1b8e42-9984-4c4f-8264-aaa990451faa/800/800',
-    'Health',
+    11,
     10,
   ],
   [
@@ -3245,7 +3245,7 @@ export default [
     'New Shirt model with 45 GB RAM, 996 GB storage, and steep features',
     339,
     'https://picsum.photos/seed/609c680f-13e1-41d3-84d8-32c0c52e39e8/800/800',
-    'Movies',
+    16,
     55,
   ],
   [
@@ -3254,7 +3254,7 @@ export default [
     'New orchid Cheese with ergonomic design for smart comfort',
     858,
     'https://picsum.photos/seed/35227c81-7a82-4e2b-a4db-f66526db229b/800/800',
-    'Games',
+    8,
     4,
   ],
   [
@@ -3263,7 +3263,7 @@ export default [
     'Professional-grade Pizza perfect for cute training and recreational use',
     258,
     'https://picsum.photos/seed/7ad7f383-5bea-469b-832d-04ea4f2611cb/800/800',
-    'Sports',
+    20,
     25,
   ],
   [
@@ -3272,7 +3272,7 @@ export default [
     'New Chips model with 17 GB RAM, 574 GB storage, and thorny features',
     871,
     'https://picsum.photos/seed/8c84a9f0-71d5-49e2-9443-ab7d5d8a755f/800/800',
-    'Grocery',
+    10,
     96,
   ],
   [
@@ -3281,7 +3281,7 @@ export default [
     'Professional-grade Chair perfect for circular training and recreational use',
     731,
     'https://picsum.photos/seed/f318943f-0f70-4bc7-a9f2-f5762d32e321/800/800',
-    'Home',
+    12,
     99,
   ],
   [
@@ -3290,7 +3290,7 @@ export default [
     'Stylish Chair designed to make you stand out with voluminous looks',
     494,
     'https://picsum.photos/seed/313c2491-d66c-4d06-a8f8-4244b83dc84a/800/800',
-    'Computers',
+    6,
     59,
   ],
   [
@@ -3299,7 +3299,7 @@ export default [
     'Innovative Table featuring well-documented technology and Plastic construction',
     395,
     'https://picsum.photos/seed/7df7192d-5143-4a3b-b507-569efedec832/800/800',
-    'Computers',
+    6,
     40,
   ],
   [
@@ -3308,7 +3308,7 @@ export default [
     'Featuring Rutherfordium-enhanced technology, our Mouse offers unparalleled eminent performance',
     948,
     'https://picsum.photos/seed/685cfd0d-5343-4a4e-9bd1-1bda61cb5e68/800/800',
-    'Books',
+    4,
     5,
   ],
   [
@@ -3317,7 +3317,7 @@ export default [
     'Stylish Tuna designed to make you stand out with dual looks',
     853,
     'https://picsum.photos/seed/d3a2a39c-47bf-4f12-9d55-fdcc39d8ae2c/800/800',
-    'Industrial',
+    13,
     52,
   ],
   [
@@ -3326,7 +3326,7 @@ export default [
     'Our crispy-inspired Cheese brings a taste of luxury to your extroverted lifestyle',
     300,
     'https://picsum.photos/seed/05ee96b1-7132-48e9-a9d0-4893ea767914/800/800',
-    'Outdoors',
+    18,
     58,
   ],
   [
@@ -3335,7 +3335,7 @@ export default [
     'Introducing the Morocco-inspired Chair, blending linear style with local craftsmanship',
     265,
     'https://picsum.photos/seed/043a2afd-6a2c-4c44-8bd7-40b1480a083d/800/800',
-    'Garden',
+    9,
     20,
   ],
   [
@@ -3344,7 +3344,7 @@ export default [
     'Discover the fox-like agility of our Shoes, perfect for vivid users',
     389,
     'https://picsum.photos/seed/702a12a4-8af5-4d51-b771-c8e32b01ab11/800/800',
-    'Toys',
+    22,
     69,
   ],
   [
@@ -3353,7 +3353,7 @@ export default [
     'Experience the tan brilliance of our Soap, perfect for granular environments',
     312,
     'https://picsum.photos/seed/86036e4f-fc41-44a3-84aa-90cc40bc4ca7/800/800',
-    'Shoes',
+    19,
     22,
   ],
   [
@@ -3362,7 +3362,7 @@ export default [
     'Introducing the Turkey-inspired Sausages, blending useless style with local craftsmanship',
     444,
     'https://picsum.photos/seed/3881131a-c107-41b3-a4b6-7ee74dfa2cc7/800/800',
-    'Baby',
+    2,
     84,
   ],
   [
@@ -3371,7 +3371,7 @@ export default [
     'Stylish Shirt designed to make you stand out with rusty looks',
     724,
     'https://picsum.photos/seed/449ca618-2aa3-4cb6-85af-c7caf5475c94/800/800',
-    'Industrial',
+    13,
     98,
   ],
   [
@@ -3380,7 +3380,7 @@ export default [
     'Professional-grade Computer perfect for colossal training and recreational use',
     950,
     'https://picsum.photos/seed/e4f5c782-ac2c-4d15-a1e6-9f8e26aa6d80/800/800',
-    'Sports',
+    20,
     94,
   ],
   [
@@ -3389,7 +3389,7 @@ export default [
     'Professional-grade Mouse perfect for delectable training and recreational use',
     809,
     'https://picsum.photos/seed/52c54380-3728-446b-8b5b-ea264afa75b5/800/800',
-    'Beauty',
+    3,
     41,
   ],
   [
@@ -3398,7 +3398,7 @@ export default [
     'Ergonomic Shoes made with Metal for all-day sore support',
     205,
     'https://picsum.photos/seed/db3fd267-e696-4055-8acd-8beaf5f60d4d/800/800',
-    'Home',
+    12,
     35,
   ],
   [
@@ -3407,7 +3407,7 @@ export default [
     'Introducing the Tokelau-inspired Fish, blending lanky style with local craftsmanship',
     767,
     'https://picsum.photos/seed/561608ad-e24d-4e49-9581-aa0e1ed4dc5e/800/800',
-    'Books',
+    4,
     63,
   ],
   [
@@ -3416,7 +3416,7 @@ export default [
     'Innovative Sausages featuring familiar technology and Metal construction',
     232,
     'https://picsum.photos/seed/1ed1f9f6-b671-4c0c-8afd-b9722a4834eb/800/800',
-    'Tools',
+    21,
     11,
   ],
   [
@@ -3425,7 +3425,7 @@ export default [
     'Our bird-friendly Mouse ensures assured comfort for your pets',
     671,
     'https://picsum.photos/seed/932406e8-75d6-4bab-a685-b370ab8950e1/800/800',
-    'Baby',
+    2,
     47,
   ],
   [
@@ -3434,7 +3434,7 @@ export default [
     'Stylish Chips designed to make you stand out with dapper looks',
     329,
     'https://picsum.photos/seed/a87f78a5-d7ac-4b2d-a0fa-514a7f58b73a/800/800',
-    'Music',
+    17,
     77,
   ],
   [
@@ -3443,7 +3443,7 @@ export default [
     'The Madaline Sausages is the latest in a series of unimportant products from Sporer - Tremblay',
     108,
     'https://picsum.photos/seed/b89c44aa-7acf-4778-89de-bbc10e736f10/800/800',
-    'Shoes',
+    19,
     17,
   ],
   [
@@ -3452,7 +3452,7 @@ export default [
     'Stylish Chips designed to make you stand out with instructive looks',
     744,
     'https://picsum.photos/seed/b742db26-6709-41e0-b3fd-a8a621dc53c5/800/800',
-    'Grocery',
+    10,
     1,
   ],
   [
@@ -3461,7 +3461,7 @@ export default [
     'The AI-driven zero defect knowledge base Ball offers reliable performance and plain design',
     770,
     'https://picsum.photos/seed/775bf861-08ad-4f38-af83-5571e92216fc/800/800',
-    'Music',
+    17,
     12,
   ],
   [
@@ -3470,7 +3470,7 @@ export default [
     'New Hat model with 91 GB RAM, 362 GB storage, and hoarse features',
     732,
     'https://picsum.photos/seed/cdb1d8d0-148b-40b2-8a8b-bae808905a6c/800/800',
-    'Jewelry',
+    14,
     1,
   ],
   [
@@ -3479,7 +3479,7 @@ export default [
     'Experience the yellow brilliance of our Towels, perfect for likable environments',
     287,
     'https://picsum.photos/seed/c59392ba-9960-4ee8-b2b3-de6a23f4d02e/800/800',
-    'Automotive',
+    1,
     24,
   ],
   [
@@ -3488,7 +3488,7 @@ export default [
     'New azure Car with ergonomic design for shrill comfort',
     915,
     'https://picsum.photos/seed/d68cb0fa-2a26-4390-812e-e0babab679d0/800/800',
-    'Games',
+    8,
     50,
   ],
   [
@@ -3497,7 +3497,7 @@ export default [
     'Savor the zesty essence in our Fish, designed for every culinary adventures',
     973,
     'https://picsum.photos/seed/0be49afb-e78a-43a9-8fa0-b78fd20bae5f/800/800',
-    'Beauty',
+    3,
     75,
   ],
   [
@@ -3506,7 +3506,7 @@ export default [
     'Discover the koala-like agility of our Salad, perfect for muddy users',
     402,
     'https://picsum.photos/seed/ed6f3e5b-0a24-453d-b9fd-fd63930c8a5d/800/800',
-    'Baby',
+    2,
     76,
   ],
   [
@@ -3515,7 +3515,7 @@ export default [
     'Discover the squirrel-like agility of our Shoes, perfect for crazy users',
     121,
     'https://picsum.photos/seed/41dbf6de-144e-48dd-8593-5e7c072b8fd7/800/800',
-    'Music',
+    17,
     65,
   ],
   [
@@ -3524,7 +3524,7 @@ export default [
     'New silver Chair with ergonomic design for regular comfort',
     291,
     'https://picsum.photos/seed/fb373b20-a292-4c21-8ec2-0b2569bc3aea/800/800',
-    'Music',
+    17,
     3,
   ],
   [
@@ -3533,7 +3533,7 @@ export default [
     'Electronic Table designed with Wooden for stained performance',
     723,
     'https://picsum.photos/seed/e43d1a4c-e954-4742-920f-14007f6ba26b/800/800',
-    'Tools',
+    21,
     68,
   ],
   [
@@ -3542,7 +3542,7 @@ export default [
     'The sleek and cooperative Fish comes with black LED lighting for smart functionality',
     753,
     'https://picsum.photos/seed/708e9fd7-3bed-4c6c-b4e5-584eca9c9087/800/800',
-    'Clothing',
+    5,
     28,
   ],
   [
@@ -3551,7 +3551,7 @@ export default [
     'Discover the incomparable new Chicken with an exciting mix of Wooden ingredients',
     346,
     'https://picsum.photos/seed/21fd9ac4-1a27-4e60-b11d-6c2f751abf0c/800/800',
-    'Clothing',
+    5,
     99,
   ],
   [
@@ -3560,7 +3560,7 @@ export default [
     'Experience the turquoise brilliance of our Car, perfect for last environments',
     482,
     'https://picsum.photos/seed/913dfc2a-8a03-4d40-a5a6-09d9f976e357/800/800',
-    'Tools',
+    21,
     74,
   ],
   [
@@ -3569,7 +3569,7 @@ export default [
     'Savor the moist essence in our Cheese, designed for prickly culinary adventures',
     890,
     'https://picsum.photos/seed/8584be6c-c3a7-4598-90b7-64cd68e5148b/800/800',
-    'Grocery',
+    10,
     18,
   ],
   [
@@ -3578,7 +3578,7 @@ export default [
     'Featuring Hafnium-enhanced technology, our Shoes offers unparalleled bulky performance',
     748,
     'https://picsum.photos/seed/7c3b578e-23d1-4796-bf4c-60d012c213e2/800/800',
-    'Beauty',
+    3,
     22,
   ],
   [
@@ -3587,7 +3587,7 @@ export default [
     'Introducing the Jordan-inspired Hat, blending acclaimed style with local craftsmanship',
     207,
     'https://picsum.photos/seed/2184025d-c1cb-4d5a-ad63-4174a9355d6c/800/800',
-    'Electronics',
+    7,
     71,
   ],
   [
@@ -3596,7 +3596,7 @@ export default [
     'Experience the plum brilliance of our Chips, perfect for mealy environments',
     986,
     'https://picsum.photos/seed/22909f7f-4b91-4c57-a8b7-18a711f3459c/800/800',
-    'Kids',
+    15,
     98,
   ],
   [
@@ -3605,7 +3605,7 @@ export default [
     'The Sharable reciprocal matrix Sausages offers reliable performance and artistic design',
     260,
     'https://picsum.photos/seed/abdb529c-4f06-4627-95ab-d992e1e7373b/800/800',
-    'Clothing',
+    5,
     62,
   ],
   [
@@ -3614,7 +3614,7 @@ export default [
     'The Self-enabling immersive ability Pants offers reliable performance and nervous design',
     787,
     'https://picsum.photos/seed/f0a3a96b-2ba6-4b24-965a-f37c838296f5/800/800',
-    'Sports',
+    20,
     21,
   ],
   [
@@ -3623,7 +3623,7 @@ export default [
     'Our monkey-friendly Soap ensures drab comfort for your pets',
     131,
     'https://picsum.photos/seed/b47c5e77-c754-4f99-922e-987825ae37dc/800/800',
-    'Health',
+    11,
     31,
   ],
   [
@@ -3632,7 +3632,7 @@ export default [
     "Koss and Sons''s most advanced Bacon technology increases uncomfortable capabilities",
     821,
     'https://picsum.photos/seed/09dbd734-3bf1-4ebb-af6f-7dd335541408/800/800',
-    'Music',
+    17,
     25,
   ],
   [
@@ -3641,7 +3641,7 @@ export default [
     "Breitenberg - Greenfelder''s most advanced Bike technology increases last capabilities",
     146,
     'https://picsum.photos/seed/7c4fcaad-26c5-4f51-975f-c88f9f5073d5/800/800',
-    'Industrial',
+    13,
     99,
   ],
   [
@@ -3650,7 +3650,7 @@ export default [
     'Experience the orchid brilliance of our Pants, perfect for weary environments',
     639,
     'https://picsum.photos/seed/71887b4b-235a-4be7-af68-9c4b9156ccf8/800/800',
-    'Computers',
+    6,
     41,
   ],
   [
@@ -3659,7 +3659,7 @@ export default [
     'Featuring Xenon-enhanced technology, our Mouse offers unparalleled powerful performance',
     910,
     'https://picsum.photos/seed/e60de5d6-3d62-48a4-9585-b04e2d2fc191/800/800',
-    'Electronics',
+    7,
     75,
   ],
   [
@@ -3668,7 +3668,7 @@ export default [
     'Featuring Lawrencium-enhanced technology, our Mouse offers unparalleled male performance',
     298,
     'https://picsum.photos/seed/027e383a-3f19-4e65-820e-780d8e9479bd/800/800',
-    'Electronics',
+    7,
     87,
   ],
   [
@@ -3677,7 +3677,7 @@ export default [
     "O''Conner, Towne and Schowalter''s most advanced Tuna technology increases competent capabilities",
     569,
     'https://picsum.photos/seed/57492008-f39d-4a8c-8bdd-75454401d35f/800/800',
-    'Home',
+    12,
     20,
   ],
   [
@@ -3686,7 +3686,7 @@ export default [
     'Innovative Sausages featuring rotten technology and Granite construction',
     373,
     'https://picsum.photos/seed/223fbcd8-1afd-427a-814d-1dddc092d865/800/800',
-    'Jewelry',
+    14,
     35,
   ],
   [
@@ -3695,7 +3695,7 @@ export default [
     'The pink Computer combines Western Sahara aesthetics with Aluminium-based durability',
     929,
     'https://picsum.photos/seed/bd232253-0bdb-45fb-a492-05f5fa9ed051/800/800',
-    'Movies',
+    16,
     18,
   ],
   [
@@ -3704,7 +3704,7 @@ export default [
     'The Secured logistical capability Gloves offers reliable performance and sleepy design',
     474,
     'https://picsum.photos/seed/2bd160c5-047e-457a-92f1-99f16aec9f8b/800/800',
-    'Automotive',
+    1,
     72,
   ],
   [
@@ -3713,7 +3713,7 @@ export default [
     'Professional-grade Salad perfect for odd training and recreational use',
     927,
     'https://picsum.photos/seed/3920f40a-18e1-4a4e-85ae-83ddd4cb3ba6/800/800',
-    'Computers',
+    6,
     20,
   ],
   [
@@ -3722,7 +3722,7 @@ export default [
     'Discover the tiger-like agility of our Computer, perfect for secondary users',
     395,
     'https://picsum.photos/seed/aaa57934-ffa5-4b59-a320-cd261d986f36/800/800',
-    'Jewelry',
+    14,
     40,
   ],
   [
@@ -3731,7 +3731,7 @@ export default [
     'Discover the putrid new Salad with an exciting mix of Steel ingredients',
     588,
     'https://picsum.photos/seed/76a73daf-3207-4907-955f-526e5616e2b2/800/800',
-    'Automotive',
+    1,
     19,
   ],
   [
@@ -3740,7 +3740,7 @@ export default [
     'New Car model with 8 GB RAM, 352 GB storage, and probable features',
     827,
     'https://picsum.photos/seed/4838359d-f14d-4f04-8f9c-06611a431873/800/800',
-    'Computers',
+    6,
     100,
   ],
   [
@@ -3749,7 +3749,7 @@ export default [
     'Introducing the Macao-inspired Mouse, blending similar style with local craftsmanship',
     638,
     'https://picsum.photos/seed/2727d1a7-dbba-4f61-aad6-8e270028e754/800/800',
-    'Grocery',
+    10,
     96,
   ],
   [
@@ -3758,7 +3758,7 @@ export default [
     'Ergonomic Chair made with Fresh for all-day calculating support',
     770,
     'https://picsum.photos/seed/0a1c10d8-79bd-47c2-8378-536d4eda1571/800/800',
-    'Toys',
+    22,
     95,
   ],
   [
@@ -3767,7 +3767,7 @@ export default [
     'Discover the polar bear-like agility of our Gloves, perfect for fruitful users',
     784,
     'https://picsum.photos/seed/baa4099c-8100-47f1-8900-a18bbed289bd/800/800',
-    'Tools',
+    21,
     80,
   ],
   [
@@ -3776,7 +3776,7 @@ export default [
     'The Fredy Shoes is the latest in a series of fixed products from McGlynn, Moore and Effertz',
     975,
     'https://picsum.photos/seed/5513a722-8e5e-4dba-a785-a86af254bdc3/800/800',
-    'Outdoors',
+    18,
     76,
   ],
   [
@@ -3785,7 +3785,7 @@ export default [
     'The turquoise Table combines Tanzania aesthetics with Platinum-based durability',
     516,
     'https://picsum.photos/seed/088886ba-6c23-4ac9-a873-96311f89f85d/800/800',
-    'Tools',
+    21,
     83,
   ],
   [
@@ -3794,7 +3794,7 @@ export default [
     'The Grass-roots national forecast Table offers reliable performance and hefty design',
     853,
     'https://picsum.photos/seed/18cce298-73b5-4a6a-bed2-0f557ab11b7a/800/800',
-    'Home',
+    12,
     8,
   ],
   [
@@ -3803,7 +3803,7 @@ export default [
     'Licensed Pants designed with Fresh for boiling performance',
     502,
     'https://picsum.photos/seed/2d96a8ee-3dbc-481b-9087-21ee0b7263da/800/800',
-    'Shoes',
+    19,
     18,
   ],
   [
@@ -3812,7 +3812,7 @@ export default [
     'Our golden-inspired Towels brings a taste of luxury to your frail lifestyle',
     326,
     'https://picsum.photos/seed/82083958-1de2-421b-925f-c797caaebe60/800/800',
-    'Music',
+    17,
     96,
   ],
   [
@@ -3821,7 +3821,7 @@ export default [
     'The Compatible maximized generative AI Keyboard offers reliable performance and hefty design',
     330,
     'https://picsum.photos/seed/69d92de6-585c-4b63-96f9-601307a04074/800/800',
-    'Health',
+    11,
     87,
   ],
   [
@@ -3830,7 +3830,7 @@ export default [
     "Rutherford, Rosenbaum and Dach''s most advanced Tuna technology increases metallic capabilities",
     139,
     'https://picsum.photos/seed/1fbcbf87-e835-409d-b3d4-d084550a26fe/800/800',
-    'Automotive',
+    1,
     86,
   ],
   [
@@ -3839,7 +3839,7 @@ export default [
     'The Programmable high-level data-warehouse Mouse offers reliable performance and worldly design',
     129,
     'https://picsum.photos/seed/adce07b4-8ab7-4a3c-93b8-89555e16f11d/800/800',
-    'Outdoors',
+    18,
     28,
   ],
   [
@@ -3848,7 +3848,7 @@ export default [
     'Stylish Ball designed to make you stand out with winged looks',
     977,
     'https://picsum.photos/seed/ac65e00a-8e3d-4d60-be0b-f663c96255a4/800/800',
-    'Health',
+    11,
     81,
   ],
   [
@@ -3857,7 +3857,7 @@ export default [
     'Our fluffy-inspired Fish brings a taste of luxury to your free lifestyle',
     748,
     'https://picsum.photos/seed/02e62aca-b07e-4b8c-aee7-d673153a2c09/800/800',
-    'Movies',
+    16,
     15,
   ],
   [
@@ -3866,7 +3866,7 @@ export default [
     'Experience the teal brilliance of our Chair, perfect for scornful environments',
     336,
     'https://picsum.photos/seed/505789ef-a32b-49c8-b5a5-f723d6537bc5/800/800',
-    'Clothing',
+    5,
     83,
   ],
   [
@@ -3875,7 +3875,7 @@ export default [
     'Featuring Gallium-enhanced technology, our Cheese offers unparalleled tangible performance',
     806,
     'https://picsum.photos/seed/b88b0f60-b909-41f1-93a5-d90e300b33d7/800/800',
-    'Movies',
+    16,
     8,
   ],
   [
@@ -3884,7 +3884,7 @@ export default [
     'Experience the white brilliance of our Salad, perfect for tattered environments',
     159,
     'https://picsum.photos/seed/d077475a-e6bc-445a-affc-ef5aaef409ae/800/800',
-    'Games',
+    8,
     37,
   ],
   [
@@ -3893,7 +3893,7 @@ export default [
     "The Remington Chair is the latest in a series of monthly products from O''Hara - Feeney",
     354,
     'https://picsum.photos/seed/d9520d22-f811-4c46-be0d-d14a3fd5dcaa/800/800',
-    'Industrial',
+    13,
     6,
   ],
   [
@@ -3902,7 +3902,7 @@ export default [
     'Recycled Fish designed with Concrete for prudent performance',
     638,
     'https://picsum.photos/seed/79732500-b3e1-4873-b378-e8385a7fcd97/800/800',
-    'Toys',
+    22,
     37,
   ],
   [
@@ -3911,7 +3911,7 @@ export default [
     'Discover the peacock-like agility of our Pizza, perfect for uneven users',
     211,
     'https://picsum.photos/seed/e8b820a6-8872-4906-ba65-0893a12b350d/800/800',
-    'Industrial',
+    13,
     54,
   ],
   [
@@ -3920,7 +3920,7 @@ export default [
     'Stylish Cheese designed to make you stand out with ethical looks',
     204,
     'https://picsum.photos/seed/c371705d-3579-41bd-93c2-ffffe69a6ab3/800/800',
-    'Electronics',
+    7,
     26,
   ],
   [
@@ -3929,7 +3929,7 @@ export default [
     'Professional-grade Towels perfect for overcooked training and recreational use',
     366,
     'https://picsum.photos/seed/fe3f7f86-bd94-4666-a278-7d1d54e773b0/800/800',
-    'Baby',
+    2,
     13,
   ],
   [
@@ -3938,7 +3938,7 @@ export default [
     'The Cross-platform local data-warehouse Shirt offers reliable performance and silver design',
     172,
     'https://picsum.photos/seed/44f28c6e-406d-4e6b-9193-e8f96da0f500/800/800',
-    'Clothing',
+    5,
     34,
   ],
   [
@@ -3947,7 +3947,7 @@ export default [
     'Savor the fluffy essence in our Gloves, designed for brave culinary adventures',
     475,
     'https://picsum.photos/seed/a532ce40-767d-4fbd-b1fa-d241b8bcf651/800/800',
-    'Movies',
+    16,
     60,
   ],
   [
@@ -3956,7 +3956,7 @@ export default [
     'The Reactive system-worthy approach Pants offers reliable performance and earnest design',
     206,
     'https://picsum.photos/seed/b247d0b9-4c14-4c41-9f02-3c69b258ec6f/800/800',
-    'Music',
+    17,
     50,
   ],
   [
@@ -3965,7 +3965,7 @@ export default [
     'Our eagle-friendly Fish ensures authentic comfort for your pets',
     309,
     'https://picsum.photos/seed/aec475f1-79c5-40bd-bb9c-e5e4d6ea59c4/800/800',
-    'Grocery',
+    10,
     79,
   ],
   [
@@ -3974,7 +3974,7 @@ export default [
     'Professional-grade Mouse perfect for idolized training and recreational use',
     116,
     'https://picsum.photos/seed/30f58c49-54af-4f5c-a2a1-7db7e9fa48ed/800/800',
-    'Games',
+    8,
     24,
   ],
   [
@@ -3983,7 +3983,7 @@ export default [
     'The magenta Sausages combines Ethiopia aesthetics with Krypton-based durability',
     144,
     'https://picsum.photos/seed/01445abe-b3ac-4ce0-bdf2-4fd0158e2b9f/800/800',
-    'Automotive',
+    1,
     64,
   ],
   [
@@ -3992,7 +3992,7 @@ export default [
     'New ivory Chicken with ergonomic design for common comfort',
     695,
     'https://picsum.photos/seed/b242c12d-ba9e-48b0-9e66-544532a3b02d/800/800',
-    'Clothing',
+    5,
     87,
   ],
   [
@@ -4001,7 +4001,7 @@ export default [
     'The sleek and hoarse Ball comes with orange LED lighting for smart functionality',
     823,
     'https://picsum.photos/seed/31a0f9ee-9702-4c4b-8d3b-14caac93aea3/800/800',
-    'Electronics',
+    7,
     90,
   ],
   [
@@ -4010,7 +4010,7 @@ export default [
     'Discover the cow-like agility of our Shirt, perfect for wealthy users',
     399,
     'https://picsum.photos/seed/961731f1-d762-43df-a3e2-d9bdd736c601/800/800',
-    'Games',
+    8,
     68,
   ],
   [
@@ -4019,7 +4019,7 @@ export default [
     'Ergonomic Sausages made with Metal for all-day free support',
     237,
     'https://picsum.photos/seed/85b1110e-9bbe-4387-a89b-023956ce5d41/800/800',
-    'Shoes',
+    19,
     78,
   ],
   [
@@ -4028,7 +4028,7 @@ export default [
     "Stoltenberg Inc''s most advanced Ball technology increases filthy capabilities",
     388,
     'https://picsum.photos/seed/46c966d8-d1bb-45cc-8e49-2bf6da442882/800/800',
-    'Movies',
+    16,
     81,
   ],
   [
@@ -4037,7 +4037,7 @@ export default [
     'Stylish Salad designed to make you stand out with another looks',
     376,
     'https://picsum.photos/seed/76c0710f-f9cf-40e4-b698-ede15ae461dc/800/800',
-    'Home',
+    12,
     16,
   ],
   [
@@ -4046,7 +4046,7 @@ export default [
     'Experience the red brilliance of our Cheese, perfect for joyful environments',
     567,
     'https://picsum.photos/seed/4b7fe190-2251-4617-b7a5-2db3c67c0d16/800/800',
-    'Games',
+    8,
     73,
   ],
   [
@@ -4055,7 +4055,7 @@ export default [
     'The Jacinto Bike is the latest in a series of oblong products from Boyer - Boehm',
     709,
     'https://picsum.photos/seed/618ea3ee-7a75-45f3-b012-36806fdf060b/800/800',
-    'Computers',
+    6,
     3,
   ],
   [
@@ -4064,7 +4064,7 @@ export default [
     'New Bike model with 86 GB RAM, 227 GB storage, and pale features',
     648,
     'https://picsum.photos/seed/22dfd9e0-cc72-49f3-b57a-c4c52bd17780/800/800',
-    'Home',
+    12,
     33,
   ],
   [
@@ -4073,7 +4073,7 @@ export default [
     'Ergonomic Chicken made with Metal for all-day wiggly support',
     874,
     'https://picsum.photos/seed/d08adc2d-7349-40dd-819e-0b29cabaae2c/800/800',
-    'Music',
+    17,
     81,
   ],
   [
@@ -4082,7 +4082,7 @@ export default [
     'Professional-grade Chips perfect for smart training and recreational use',
     110,
     'https://picsum.photos/seed/42d6af6a-f510-4768-bbe4-08a912280eaf/800/800',
-    'Electronics',
+    7,
     25,
   ],
   [
@@ -4091,7 +4091,7 @@ export default [
     'The Secured client-server project Gloves offers reliable performance and that design',
     352,
     'https://picsum.photos/seed/50c8d92c-d771-4324-8eb0-6db04726b8a9/800/800',
-    'Movies',
+    16,
     65,
   ],
   [
@@ -4100,7 +4100,7 @@ export default [
     'New orange Ball with ergonomic design for tepid comfort',
     394,
     'https://picsum.photos/seed/81ede689-394b-4b5e-a47d-bf3f72667346/800/800',
-    'Home',
+    12,
     88,
   ],
   [
@@ -4109,7 +4109,7 @@ export default [
     'Our golden-inspired Keyboard brings a taste of luxury to your shiny lifestyle',
     817,
     'https://picsum.photos/seed/7d91e9df-dac6-4e46-ab27-54c1b1456e13/800/800',
-    'Beauty',
+    3,
     56,
   ],
   [
@@ -4118,7 +4118,7 @@ export default [
     'The sleek and spotless Bacon comes with white LED lighting for smart functionality',
     274,
     'https://picsum.photos/seed/24eb7a62-fa80-4623-ae78-8e3b128dd27e/800/800',
-    'Outdoors',
+    18,
     3,
   ],
   [
@@ -4127,7 +4127,7 @@ export default [
     'Handmade Chicken designed with Rubber for punctual performance',
     338,
     'https://picsum.photos/seed/295a0cb5-843c-4723-bdbe-6b69237e274e/800/800',
-    'Garden',
+    9,
     19,
   ],
   [
@@ -4136,7 +4136,7 @@ export default [
     'Professional-grade Fish perfect for rotten training and recreational use',
     339,
     'https://picsum.photos/seed/999133ce-331c-4236-90fc-036949bd82b6/800/800',
-    'Beauty',
+    3,
     62,
   ],
   [
@@ -4145,7 +4145,7 @@ export default [
     'Introducing the Turkmenistan-inspired Keyboard, blending portly style with local craftsmanship',
     628,
     'https://picsum.photos/seed/658daabc-451a-4e57-bc36-936a6ad25ba9/800/800',
-    'Health',
+    11,
     74,
   ],
   [
@@ -4154,7 +4154,7 @@ export default [
     'Introducing the Libyan Arab Jamahiriya-inspired Gloves, blending edible style with local craftsmanship',
     977,
     'https://picsum.photos/seed/6258ab86-9d80-4797-948a-c06f230c13d1/800/800',
-    'Automotive',
+    1,
     34,
   ],
   [
@@ -4163,7 +4163,7 @@ export default [
     'Savor the savory essence in our Sausages, designed for meaty culinary adventures',
     881,
     'https://picsum.photos/seed/c02ed144-06e6-4093-94e7-422f315d91f4/800/800',
-    'Automotive',
+    1,
     13,
   ],
   [
@@ -4172,7 +4172,7 @@ export default [
     'The maroon Bike combines Zimbabwe aesthetics with Beryllium-based durability',
     471,
     'https://picsum.photos/seed/19780166-f1cd-4b48-b43a-7a6d1e5f516e/800/800',
-    'Books',
+    4,
     45,
   ],
   [
@@ -4181,7 +4181,7 @@ export default [
     'Professional-grade Soap perfect for scratchy training and recreational use',
     818,
     'https://picsum.photos/seed/719f32df-4c61-4b04-8fba-96b357cd9543/800/800',
-    'Movies',
+    16,
     39,
   ],
   [
@@ -4190,7 +4190,7 @@ export default [
     'The sleek and rotating Sausages comes with orchid LED lighting for smart functionality',
     308,
     'https://picsum.photos/seed/d508ee8e-e98a-4d0a-b421-68ed7a66d7b6/800/800',
-    'Garden',
+    9,
     62,
   ],
   [
@@ -4199,7 +4199,7 @@ export default [
     'The Face to face mission-critical data-warehouse Salad offers reliable performance and unfortunate design',
     693,
     'https://picsum.photos/seed/f0fa5d80-732e-4005-b004-2ac8051b0f1e/800/800',
-    'Sports',
+    20,
     30,
   ],
   [
@@ -4208,7 +4208,7 @@ export default [
     'Professional-grade Fish perfect for separate training and recreational use',
     780,
     'https://picsum.photos/seed/b8c0fb75-577a-4ce8-95ba-599c8fe19442/800/800',
-    'Outdoors',
+    18,
     72,
   ],
   [
@@ -4217,7 +4217,7 @@ export default [
     'The sleek and concrete Chair comes with sky blue LED lighting for smart functionality',
     386,
     'https://picsum.photos/seed/399bf9ac-5093-4d07-a4f3-a0c20314f5ad/800/800',
-    'Industrial',
+    13,
     35,
   ],
   [
@@ -4226,7 +4226,7 @@ export default [
     'The sleek and unripe Tuna comes with cyan LED lighting for smart functionality',
     519,
     'https://picsum.photos/seed/4328b173-c483-4177-b222-0ad787faf86a/800/800',
-    'Grocery',
+    10,
     9,
   ],
   [
@@ -4235,7 +4235,7 @@ export default [
     'Experience the mint green brilliance of our Shoes, perfect for untrue environments',
     333,
     'https://picsum.photos/seed/9c21b00c-6867-44c2-97e2-8c99c8b9adbe/800/800',
-    'Movies',
+    16,
     40,
   ],
   [
@@ -4244,7 +4244,7 @@ export default [
     'Introducing the Hungary-inspired Keyboard, blending rare style with local craftsmanship',
     777,
     'https://picsum.photos/seed/17cf424d-7784-45c1-974b-e09b2e978a92/800/800',
-    'Tools',
+    21,
     85,
   ],
   [
@@ -4253,7 +4253,7 @@ export default [
     'Discover the radiant new Sausages with an exciting mix of Granite ingredients',
     107,
     'https://picsum.photos/seed/ca1dcb7b-6af3-4faa-bfd7-b450d4543d60/800/800',
-    'Toys',
+    22,
     97,
   ],
   [
@@ -4262,7 +4262,7 @@ export default [
     'The sleek and unwritten Sausages comes with violet LED lighting for smart functionality',
     903,
     'https://picsum.photos/seed/8cd43907-871c-4ac1-941a-f24176ad7457/800/800',
-    'Kids',
+    15,
     72,
   ],
   [
@@ -4271,7 +4271,7 @@ export default [
     'Ergonomic Shoes made with Rubber for all-day excitable support',
     152,
     'https://picsum.photos/seed/04472905-0a11-44d9-970e-c1e98b87945c/800/800',
-    'Jewelry',
+    14,
     36,
   ],
   [
@@ -4280,7 +4280,7 @@ export default [
     'Professional-grade Car perfect for juvenile training and recreational use',
     866,
     'https://picsum.photos/seed/a32b5856-6c3a-4239-8f24-b9e3472190dc/800/800',
-    'Home',
+    12,
     8,
   ],
   [
@@ -4289,7 +4289,7 @@ export default [
     'Our sweet-inspired Bacon brings a taste of luxury to your subdued lifestyle',
     785,
     'https://picsum.photos/seed/c842e078-65a0-4933-9973-a52cdfb259b6/800/800',
-    'Clothing',
+    5,
     71,
   ],
   [
@@ -4298,7 +4298,7 @@ export default [
     'Discover the elephant-like agility of our Table, perfect for glass users',
     143,
     'https://picsum.photos/seed/ba82b639-6fe0-4ab4-a928-0b0207279983/800/800',
-    'Baby',
+    2,
     53,
   ],
   [
@@ -4307,7 +4307,7 @@ export default [
     'The Front-line responsive local area network Pants offers reliable performance and roasted design',
     665,
     'https://picsum.photos/seed/ae7c71da-d1bb-4518-991f-3396e8e0c55a/800/800',
-    'Health',
+    11,
     24,
   ],
   [
@@ -4316,7 +4316,7 @@ export default [
     'Gorgeous Bacon designed with Plastic for cute performance',
     868,
     'https://picsum.photos/seed/7a25a124-663f-4c2f-9fb2-209af3c6709d/800/800',
-    'Automotive',
+    1,
     20,
   ],
   [
@@ -4325,7 +4325,7 @@ export default [
     'Our creamy-inspired Bike brings a taste of luxury to your pure lifestyle',
     545,
     'https://picsum.photos/seed/4bedbbd8-b35a-4488-aa12-b0919260c4e7/800/800',
-    'Toys',
+    22,
     2,
   ],
   [
@@ -4334,7 +4334,7 @@ export default [
     'The Brent Pants is the latest in a series of faraway products from Bins, Cartwright and Daniel',
     916,
     'https://picsum.photos/seed/26091153-1d83-4eb9-9783-7b1943f027cd/800/800',
-    'Baby',
+    2,
     69,
   ],
   [
@@ -4343,7 +4343,7 @@ export default [
     'Featuring Lithium-enhanced technology, our Mouse offers unparalleled shrill performance',
     795,
     'https://picsum.photos/seed/8ca04df8-5601-47fe-882a-f07a881103a6/800/800',
-    'Electronics',
+    7,
     31,
   ],
   [
@@ -4352,7 +4352,7 @@ export default [
     'Our bee-friendly Ball ensures trusting comfort for your pets',
     709,
     'https://picsum.photos/seed/8404ad23-6aac-4e8f-b745-1a7d95498487/800/800',
-    'Electronics',
+    7,
     40,
   ],
   [
@@ -4361,7 +4361,7 @@ export default [
     'Awesome Chicken designed with Metal for impish performance',
     880,
     'https://picsum.photos/seed/13730bb6-9b79-4865-a90b-c886015f9e96/800/800',
-    'Beauty',
+    3,
     57,
   ],
   [
@@ -4370,7 +4370,7 @@ export default [
     'Our fresh-inspired Ball brings a taste of luxury to your well-worn lifestyle',
     443,
     'https://picsum.photos/seed/fc69b4f5-5a2d-4612-8a50-25b6b81dc97e/800/800',
-    'Computers',
+    6,
     86,
   ],
   [
@@ -4379,7 +4379,7 @@ export default [
     'New Shoes model with 29 GB RAM, 46 GB storage, and rewarding features',
     633,
     'https://picsum.photos/seed/a9a4dd29-989f-478f-a37c-64ce5b6c0b57/800/800',
-    'Industrial',
+    13,
     8,
   ],
   [
@@ -4388,7 +4388,7 @@ export default [
     'Our zesty-inspired Table brings a taste of luxury to your damp lifestyle',
     136,
     'https://picsum.photos/seed/d7b77715-def8-4181-b324-7e1fb6cda9d2/800/800',
-    'Books',
+    4,
     100,
   ],
   [
@@ -4397,7 +4397,7 @@ export default [
     'Stylish Chips designed to make you stand out with blind looks',
     489,
     'https://picsum.photos/seed/b5f798e0-59ff-4b0a-8c08-87a2db88f196/800/800',
-    'Music',
+    17,
     93,
   ],
   [
@@ -4406,7 +4406,7 @@ export default [
     'Stylish Bacon designed to make you stand out with bright looks',
     477,
     'https://picsum.photos/seed/a02f4703-7be4-40c0-9640-52be0df2b2bd/800/800',
-    'Baby',
+    2,
     12,
   ],
   [
@@ -4415,7 +4415,7 @@ export default [
     'Our moist-inspired Chair brings a taste of luxury to your respectful lifestyle',
     679,
     'https://picsum.photos/seed/67285bdd-9df0-426b-b0e6-9c7a9d3a0d6b/800/800',
-    'Movies',
+    16,
     59,
   ],
   [
@@ -4424,7 +4424,7 @@ export default [
     'Experience the cyan brilliance of our Soap, perfect for nautical environments',
     590,
     'https://picsum.photos/seed/65e6ab39-f203-41e2-8edb-70403ea9fd59/800/800',
-    'Games',
+    8,
     52,
   ],
   [
@@ -4433,7 +4433,7 @@ export default [
     'The indigo Towels combines Guam aesthetics with Terbium-based durability',
     355,
     'https://picsum.photos/seed/0b27a45d-8afa-42c6-9c1a-23871a37c46a/800/800',
-    'Jewelry',
+    14,
     15,
   ],
   [
@@ -4442,7 +4442,7 @@ export default [
     'Stylish Salad designed to make you stand out with strict looks',
     856,
     'https://picsum.photos/seed/99f56027-bbad-4577-8634-26f074401dd1/800/800',
-    'Beauty',
+    3,
     91,
   ],
   [
@@ -4451,7 +4451,7 @@ export default [
     'Discover the worthy new Car with an exciting mix of Steel ingredients',
     964,
     'https://picsum.photos/seed/f9f178ab-da3a-4f0f-a50c-d59ac2cdc4ac/800/800',
-    'Grocery',
+    10,
     94,
   ],
   [
@@ -4460,7 +4460,7 @@ export default [
     'The sleek and wrathful Salad comes with purple LED lighting for smart functionality',
     602,
     'https://picsum.photos/seed/526c3406-dd90-41fc-b3f0-8daaf2e17280/800/800',
-    'Health',
+    11,
     100,
   ],
   [
@@ -4469,7 +4469,7 @@ export default [
     'The Tyreek Pants is the latest in a series of private products from Schoen - Wilderman',
     508,
     'https://picsum.photos/seed/3f91b507-6b30-497f-86c7-7389fd690a32/800/800',
-    'Outdoors',
+    18,
     93,
   ],
   [
@@ -4478,7 +4478,7 @@ export default [
     'The Stevie Chair is the latest in a series of moral products from Metz, Fritsch and Hilpert',
     941,
     'https://picsum.photos/seed/2e85db54-8f18-4b12-9f20-fe0d0bd42af3/800/800',
-    'Games',
+    8,
     9,
   ],
   [
@@ -4487,7 +4487,7 @@ export default [
     'The Exclusive 24 hour application Ball offers reliable performance and simple design',
     652,
     'https://picsum.photos/seed/bf721fbb-3777-403f-91e7-7720a8793b9a/800/800',
-    'Clothing',
+    5,
     62,
   ],
   [
@@ -4496,7 +4496,7 @@ export default [
     'Professional-grade Chicken perfect for limited training and recreational use',
     741,
     'https://picsum.photos/seed/efdc47b8-d2c1-4b45-b279-d9ed1a6943ee/800/800',
-    'Clothing',
+    5,
     83,
   ],
 ]

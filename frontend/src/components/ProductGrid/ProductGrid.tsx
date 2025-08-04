@@ -2,6 +2,7 @@
 
 import { useEffect, useState, PropsWithChildren } from 'react'
 import { Product } from '@/types/Product'
+import { Category } from '@/types/Category'
 import { ProductCard } from '@/components/ProductGrid/ProductCard'
 import { ToggleView } from '@/components/ProductGrid/ToggleView'
 import { FilterProducts } from '@/components/Product/FilterProducts'
@@ -17,10 +18,16 @@ interface PaginationData {
   hasPrevPage: boolean
 }
 
-interface responseData {
+interface ProductsResponseData {
   products: Product[]
   pagination: PaginationData
   error?: boolean
+}
+
+
+
+interface CategoriesResponseData {
+  categories: Category[]
 }
 
 type View = 'list' | 'grid'
@@ -69,14 +76,10 @@ export function ProductGrid() {
     hasNextPage: false,
     hasPrevPage: false
   })
+  const [categories, setCategories] = useState<Category[]>([])
   const [loading, setLoading] = useState<boolean>(true)
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([])
-  const [searchValue, setSearchValue] = useState<string>('')
-
-  const handleProductFilter = (products: Product[], searchValue: string) => {
-    setFilteredProducts(products)
-    setSearchValue(searchValue)
-  }
+  const [isFiltering, setIsFiltering] = useState<boolean>(false)
 
   const handleToggleSwitch = (isChecked: boolean) => {
     setView(isChecked ? 'grid' : 'list')
@@ -86,7 +89,7 @@ export function ProductGrid() {
     setLoading(true)
     try {
       const response = await fetch(`/api/products?page=${page}&limit=${limit}`)
-      const data: responseData = await response.json()
+      const data: ProductsResponseData = await response.json()
       setProducts(products => [...products, ...data.products])
       setPagination(() => { return { ...data.pagination } })
 
@@ -101,8 +104,19 @@ export function ProductGrid() {
     }
   }
 
+  const fetchCategories = async () => {
+    try {
+      const response = await fetch('/api/categories')
+      const data: CategoriesResponseData = await response.json()
+      setCategories(data.categories)
+    } catch (error) {
+      console.error('Error fetching categories:', error)
+    }
+  }
+
   useEffect(() => {
     fetchProducts()
+    fetchCategories()
   }, [])
 
   const Footer = () => {
@@ -141,18 +155,22 @@ export function ProductGrid() {
         callback={handleToggleSwitch}
       />
 
-      <div className='w-[50%] mb-4'>
+      <div className='mb-4'>
         <FilterProducts
           products={products}
-          callback={handleProductFilter}
+          callback={(products, isFiltering) => {
+            setFilteredProducts(products)
+            setIsFiltering(isFiltering)
+          }}
+          categories={categories}
         />
       </div>
 
       {view === 'list' ? <Virtuoso
         useWindowScroll
         totalCount={pagination.total}
-        data={!!searchValue ? filteredProducts : products}
-        endReached={() => pagination.hasNextPage && !searchValue ? fetchProducts(pagination.page + 1) : null}
+        data={isFiltering ? filteredProducts : products}
+        endReached={() => pagination.hasNextPage && !isFiltering ? fetchProducts(pagination.page + 1) : null}
         components={{ Footer }}
         itemContent={(_, product) => (
           <div className='grid gap-4 mb-5'>
@@ -164,9 +182,9 @@ export function ProductGrid() {
         <VirtuosoGrid
           useWindowScroll
           totalCount={pagination.total}
-          data={!!searchValue ? filteredProducts : products}
+          data={isFiltering ? filteredProducts : products}
           components={{ List: gridComponents.List, Item: gridComponents.Item, Footer }}
-          endReached={() => pagination.hasNextPage && !searchValue ? fetchProducts(pagination.page + 1) : null}
+          endReached={() => pagination.hasNextPage && !isFiltering ? fetchProducts(pagination.page + 1) : null}
           itemContent={(_, product) => <ItemWrapper>
             <ProductCard product={product} />
           </ItemWrapper>}

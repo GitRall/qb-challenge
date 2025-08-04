@@ -22,11 +22,14 @@ export default async (req: Request, res: Response, next: NextFunction) => {
     // Parallel fetching of data from database
     const [total, rows] = await Promise.all([
       // Get total count for pagination metadata
-      prisma.products.count(),
+      prisma.product.count(),
       // Get paginated products
-      prisma.products.findMany({
+      prisma.product.findMany({
         skip: offset,
         take: limit,
+        include: {
+          category: true
+        }
       }),
     ])
 

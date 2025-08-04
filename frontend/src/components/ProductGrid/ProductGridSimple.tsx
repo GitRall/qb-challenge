@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useRef, useCallback } from 'react'
 import { Product } from '@/types/Product'
+import { Category } from '@/types/Category'
 import { ProductCard } from '@/components/ProductGrid/ProductCard'
 import { ToggleView } from '@/components/ProductGrid/ToggleView'
 import { FilterProducts } from '@/components/Product/FilterProducts'
@@ -15,10 +16,14 @@ interface PaginationData {
     hasPrevPage: boolean
 }
 
-interface responseData {
+interface ProductsResponseData {
     products: Product[]
     pagination: PaginationData
     error?: boolean
+}
+
+interface CategoriesResponseData {
+  categories: Category[]
 }
 
 type View = 'list' | 'grid'
@@ -35,15 +40,11 @@ export function ProductGridSimple() {
         hasNextPage: false,
         hasPrevPage: false
     })
+    const [categories, setCategories] = useState<Category[]>([])
     const [loading, setLoading] = useState<boolean>(true)
     const observer = useRef<IntersectionObserver | null>(null)
     const [filteredProducts, setFilteredProducts] = useState<Product[]>([])
-    const [searchValue, setSearchValue] = useState<string>('')
-
-    const handleProductFilter = (products: Product[], searchValue: string) => {
-        setFilteredProducts(products)
-        setSearchValue(searchValue)
-    }
+    const [isFiltering, setIsFiltering] = useState<boolean>(false)
 
     const handleToggleSwitch = (isChecked: boolean) => {
         setView(isChecked ? 'grid' : 'list')
@@ -53,7 +54,7 @@ export function ProductGridSimple() {
         setLoading(true)
         try {
             const response = await fetch(`/api/products?page=${page}&limit=${limit}`)
-            const data: responseData = await response.json()
+            const data: ProductsResponseData = await response.json()
             setProducts(products => [...products, ...data.products])
             setPagination(() => { return { ...data.pagination } })
 
@@ -68,12 +69,23 @@ export function ProductGridSimple() {
         }
     }
 
+    const fetchCategories = async () => {
+        try {
+            const response = await fetch('/api/categories')
+            const data: CategoriesResponseData = await response.json()
+            setCategories(data.categories)
+        } catch (error) {
+            console.error('Error fetching categories:', error)
+        }
+    }
+
     const cleanupObserver = () => {
         if (observer.current) observer.current.disconnect()
     }
 
     useEffect(() => {
         fetchProducts()
+        fetchCategories()
 
         return () => {
             cleanupObserver()
@@ -116,16 +128,20 @@ export function ProductGridSimple() {
                 callback={handleToggleSwitch}
             />
 
-            <div className='w-[50%] mb-4'>
+            <div className='mb-4'>
                 <FilterProducts
                     products={products}
-                    callback={handleProductFilter}
+                    callback={(products, isFiltering) => {
+                        setFilteredProducts(products)
+                        setIsFiltering(isFiltering)
+                    }}
+                    categories={categories}
                 />
             </div>
 
             {/* ProductCards */}
             <div className={`grid gap-4 ${view === 'grid' ? ' grid-cols-3' : ''}`}>
-                {!!searchValue ?
+                {!!isFiltering ?
                     filteredProducts.map((product) => (
                         <ProductCard product={product} key={product.id} />
                     )) :
@@ -135,7 +151,7 @@ export function ProductGridSimple() {
             </div>
 
             {/* Bottom element being observed for infinite scrolling */}
-            <div ref={!searchValue ? observedElement : null} className='py-10'>
+            <div ref={!isFiltering ? observedElement : null} className='py-10'>
                 {loading ?
                     <div className='flex justify-center'>
                         <div className='m-4' role="status">

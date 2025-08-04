@@ -17,20 +17,44 @@ Welcome to the QuickButik coding challenge! This is a test of your ability to wo
    cd qb-challenge
    ```
 
-2. **Start the application**:
+2. **Setup**:
+
+   1. Create a ``.env`` file inside the backend folder
+   2. Copy the content from ``example.env`` and add it to the ``.env``
+
+3. **Start the application**:
    ```bash
    docker-compose up --build
    ```
 
-3. **Access the application**:
+4. **Access the application**:
    - Frontend: [http://localhost:3000](http://localhost:3000)
    - Backend API: [http://localhost:3001](http://localhost:3001)
+   - Swagger docs: [http://localhost:8080](http://localhost:8080)
    - MySQL Database: localhost:3306
 
-4. **Navigate to the challenge**:
-   - Visit [http://localhost:3000/challenge](http://localhost:3000/challenge) to see the current product grid implementation
+5. **Navigate to the challenge**:
+   - Visit [http://localhost:3000/challenge](http://localhost:3000/challenge)
+   - Visit [http://localhost:3000/challenge-simple](http://localhost:3000/challenge-simple)
 
-## 📋 Current State
+## Information
+
+### Backend
+The backend is built using **Express.js** and **Prisma ORM** these routes
+   - /health (Checks whether service is healthy)
+   - /api/v1/products (Fetches products)
+   - /api/v1/categories (Fetches categories)
+
+### Frontend
+The Frontend has two routes for the infinite-scroll. Search and category filtering has been added. It is possible to toggle between **list** and **grid** view.
+
+   #### /challenge
+   This solution uses the popular library **react-virtuoso** in order to solve virtual-scrolling. Reason why i chose this library is because it's lightweight compared to others like **react-window** and it's also still being maintained.
+
+   #### /challenge-simple
+   This solution doesn't have virtual-scrolling which makes it inferior to the other solution. This simply utilizes intersection-observer in order to have infinite-scrolling.
+
+## 📋 Previous State
 
 ### Backend (`/backend`)
 The backend is a **Node.js/Express** application that provides a REST API for products. Currently, it's in a basic state with room for improvement:

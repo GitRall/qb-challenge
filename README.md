@@ -40,7 +40,7 @@ Welcome to the QuickButik coding challenge! This is a test of your ability to wo
 ## Information
 
 ### Backend
-The backend is built using **Express.js** and **Prisma ORM** these routes
+The backend is built using **Express.js** and **Prisma ORM**
    - /health (Checks whether service is healthy)
    - /api/v1/products (Fetches products)
    - /api/v1/categories (Fetches categories)

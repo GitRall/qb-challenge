@@ -4,7 +4,6 @@ interface Label {
 }
 
 export function ToggleView({ labels, callback }: { labels: Label, callback: (isChecked: boolean) => unknown }) {
-
     const handleToggle = (event: React.ChangeEvent<HTMLInputElement>) => {
         callback(event.target.checked)
     }

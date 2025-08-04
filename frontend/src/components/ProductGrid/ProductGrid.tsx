@@ -32,6 +32,9 @@ interface CategoriesResponseData {
 
 type View = 'list' | 'grid'
 
+{/* gridComponents and ItemWrapper is used by VirtuosoGrid. 
+  These needs to stay outside the component. 
+  Otherwise the grid will remount with each render due to new component instances. */ }
 const gridComponents = {
   List: forwardRef(({ style, children, ...props }: GridListProps, ref: Ref<HTMLDivElement>) => (
     <div
@@ -115,6 +118,7 @@ export function ProductGrid() {
   }
 
   useEffect(() => {
+    // initial fetch
     fetchProducts()
     fetchCategories()
   }, [])
@@ -146,7 +150,6 @@ export function ProductGrid() {
 
   return (
     <div>
-      {/* ToggleView */}
       <ToggleView
         labels={{
           left: 'List',

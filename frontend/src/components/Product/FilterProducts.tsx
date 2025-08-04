@@ -14,16 +14,20 @@ export function FilterProducts({ products, categories, callback }: { products: P
     }
 
     useEffect(() => {
+        // Check if any filtering is active
         const isFiltering = !!search || !!checkedCategories.length
-        // Filter products on input value
+
         const filtered = products.filter((product) => {
             if (!!search && !!checkedCategories.length) {
+                // if both filter options are active we should check for items matching both
                 return (
                     product.name.toLowerCase().includes(search.toLowerCase()) &&
                     checkedCategories.includes(product.category.name.toLowerCase())
                 )
             } else {
+                // check if either of the options match
                 return (
+                    // needs to check if search is truthy else it will match due to it being empty string
                     !!search ? product.name.toLowerCase().includes(search.toLowerCase()) : false ||
                         checkedCategories.includes(product.category.name.toLowerCase())
                 )
@@ -45,9 +49,11 @@ export function FilterProducts({ products, categories, callback }: { products: P
                     label = label.toLowerCase()
                     let rv: string[] = []
                     if (checked) {
+                        // if checkbox is being checked we add it to the checkedCategories array
                         rv = [...checkedCategories, label]
 
                     } else {
+                        // if unchecked, remove item from checkedCategories
                         const index = checkedCategories.findIndex((c) => c === label)
                         if (index > -1) {
                             checkedCategories.splice(index, 1)

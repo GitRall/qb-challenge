@@ -23,7 +23,7 @@ interface ProductsResponseData {
 }
 
 interface CategoriesResponseData {
-  categories: Category[]
+    categories: Category[]
 }
 
 type View = 'list' | 'grid'
@@ -45,10 +45,6 @@ export function ProductGridSimple() {
     const observer = useRef<IntersectionObserver | null>(null)
     const [filteredProducts, setFilteredProducts] = useState<Product[]>([])
     const [isFiltering, setIsFiltering] = useState<boolean>(false)
-
-    const handleToggleSwitch = (isChecked: boolean) => {
-        setView(isChecked ? 'grid' : 'list')
-    }
 
     const fetchProducts = async (page: number = 1, limit: number = 10) => {
         setLoading(true)
@@ -92,6 +88,11 @@ export function ProductGridSimple() {
         }
     }, [])
 
+    const handleFilter = useCallback((products: Product[], isFiltering: boolean) => {
+        setFilteredProducts(products)
+        setIsFiltering(isFiltering)
+    }, [])
+
     const observedElement = useCallback((node: HTMLDivElement) => {
         if (loading) return
         if (observer.current) observer.current.disconnect()
@@ -124,16 +125,15 @@ export function ProductGridSimple() {
                     left: 'List',
                     right: 'Grid'
                 }}
-                callback={handleToggleSwitch}
+                callback={(isChecked) => {
+                    setView(isChecked ? 'grid' : 'list')
+                }}
             />
 
             <div className='mb-4'>
                 <FilterProducts
                     products={products}
-                    callback={(products, isFiltering) => {
-                        setFilteredProducts(products)
-                        setIsFiltering(isFiltering)
-                    }}
+                    callback={handleFilter}
                     categories={categories}
                 />
             </div>

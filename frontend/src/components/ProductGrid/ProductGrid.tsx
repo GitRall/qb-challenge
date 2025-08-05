@@ -1,12 +1,12 @@
 'use client'
 
-import { useEffect, useState, PropsWithChildren, useCallback } from 'react'
+import { useEffect, useState, useCallback } from 'react'
 import { Product } from '@/types/Product'
 import { Category } from '@/types/Category'
 import { ProductCard } from '@/components/ProductGrid/ProductCard'
 import { ToggleInput } from '@/components/ToggleInput'
 import { FilterProducts } from '@/components/Product/FilterProducts'
-import { Virtuoso, VirtuosoGrid, GridItemProps, GridListProps } from 'react-virtuoso'
+import { VirtuosoGrid, GridItemProps, GridListProps, ContextProp } from 'react-virtuoso'
 import { forwardRef, Ref } from 'react'
 
 interface PaginationData {
@@ -48,24 +48,24 @@ const gridComponents = {
       {children}
     </div>
   )),
-  Item: ({ children, ...props }: GridItemProps) => (
+  Item: ({ children, ...props }: GridItemProps & ContextProp<{ view: string }>) => (
     <div
       {...props}
-      className='p-[8] w-[33%]'
+      className={`p-[8] ${props.context.view === 'list' ? 'w-[100%]' : 'w-[33%]'}`}
     >
       {children}
     </div>
   ),
 }
 
-const ItemWrapper = ({ children, ...props }: PropsWithChildren) => (
+const ItemWrapper = ({ children, ...props }: any) => (
   <div
     {...props}
-    className='h-[300px]'
+    className={`${props.view === 'list' ? '' : 'h-[300px]'}`}
   >
     {children}
   </div>
-);
+)
 
 export function ProductGrid() {
   const [error, setError] = useState<boolean>(false)
@@ -169,29 +169,23 @@ export function ProductGrid() {
         />
       </div>
 
-      {view === 'list' ? <Virtuoso
+      <VirtuosoGrid
         useWindowScroll
         totalCount={pagination.total}
         data={isFiltering ? filteredProducts : products}
+        context={{ view: view }}
+        components={{ List: gridComponents.List, Item: gridComponents.Item, Footer }}
         endReached={() => pagination.hasNextPage && !isFiltering ? fetchProducts(pagination.page + 1) : null}
-        components={{ Footer }}
-        itemContent={(_, product) => (
-          <div className='grid gap-4 mb-5'>
-            <ProductCard product={product} />
-          </div>
-        )}
+        itemContent={(_, product) => {
+          if (!product) return
+          return (
+            <ItemWrapper view={view}>
+              <ProductCard product={product} />
+            </ItemWrapper>
+          )
+        }
+        }
       />
-        :
-        <VirtuosoGrid
-          useWindowScroll
-          totalCount={pagination.total}
-          data={isFiltering ? filteredProducts : products}
-          components={{ List: gridComponents.List, Item: gridComponents.Item, Footer }}
-          endReached={() => pagination.hasNextPage && !isFiltering ? fetchProducts(pagination.page + 1) : null}
-          itemContent={(_, product) => <ItemWrapper>
-            <ProductCard product={product} />
-          </ItemWrapper>}
-        />}
     </div>
   )
 }

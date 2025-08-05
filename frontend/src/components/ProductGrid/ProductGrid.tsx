@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState, PropsWithChildren } from 'react'
+import { useEffect, useState, PropsWithChildren, useCallback } from 'react'
 import { Product } from '@/types/Product'
 import { Category } from '@/types/Category'
 import { ProductCard } from '@/components/ProductGrid/ProductCard'
@@ -84,10 +84,6 @@ export function ProductGrid() {
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([])
   const [isFiltering, setIsFiltering] = useState<boolean>(false)
 
-  const handleToggleSwitch = (isChecked: boolean) => {
-    setView(isChecked ? 'grid' : 'list')
-  }
-
   const fetchProducts = async (page: number = 1, limit: number = 10) => {
     setLoading(true)
     try {
@@ -123,6 +119,11 @@ export function ProductGrid() {
     fetchCategories()
   }, [])
 
+  const handleFilter = useCallback((products: Product[], isFiltering: boolean) => {
+    setFilteredProducts(products)
+    setIsFiltering(isFiltering)
+  }, [])
+
   const Footer = () => {
     if (loading) {
       return (
@@ -155,16 +156,15 @@ export function ProductGrid() {
           left: 'List',
           right: 'Grid'
         }}
-        callback={handleToggleSwitch}
+        callback={(isChecked) => {
+          setView(isChecked ? 'grid' : 'list')
+        }}
       />
 
       <div className='mb-4'>
         <FilterProducts
           products={products}
-          callback={(products, isFiltering) => {
-            setFilteredProducts(products)
-            setIsFiltering(isFiltering)
-          }}
+          callback={handleFilter}
           categories={categories}
         />
       </div>

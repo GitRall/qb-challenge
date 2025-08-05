@@ -34,7 +34,7 @@ export function FilterProducts({ products, categories, callback }: { products: P
             }
         })
         callback(filtered, isFiltering)
-    }, [search, checkedCategories])
+    }, [search, checkedCategories, products, callback])
 
 
     return (

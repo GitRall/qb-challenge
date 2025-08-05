@@ -4,7 +4,7 @@ import { useEffect, useState, useRef, useCallback } from 'react'
 import { Product } from '@/types/Product'
 import { Category } from '@/types/Category'
 import { ProductCard } from '@/components/ProductGrid/ProductCard'
-import { ToggleView } from '@/components/ProductGrid/ToggleView'
+import { ToggleInput } from '@/components/ToggleInput'
 import { FilterProducts } from '@/components/Product/FilterProducts'
 
 interface PaginationData {
@@ -119,8 +119,7 @@ export function ProductGridSimple() {
 
     return (
         <div>
-            {/* ToggleView */}
-            <ToggleView
+            <ToggleInput
                 labels={{
                     left: 'List',
                     right: 'Grid'

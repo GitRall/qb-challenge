@@ -4,7 +4,7 @@ import { useEffect, useState, PropsWithChildren } from 'react'
 import { Product } from '@/types/Product'
 import { Category } from '@/types/Category'
 import { ProductCard } from '@/components/ProductGrid/ProductCard'
-import { ToggleView } from '@/components/ProductGrid/ToggleView'
+import { ToggleInput } from '@/components/ToggleInput'
 import { FilterProducts } from '@/components/Product/FilterProducts'
 import { Virtuoso, VirtuosoGrid, GridItemProps, GridListProps } from 'react-virtuoso'
 import { forwardRef, Ref } from 'react'
@@ -150,7 +150,7 @@ export function ProductGrid() {
 
   return (
     <div>
-      <ToggleView
+      <ToggleInput
         labels={{
           left: 'List',
           right: 'Grid'

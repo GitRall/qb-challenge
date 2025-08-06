@@ -5,9 +5,9 @@ interface CheckboxState {
     checked: boolean
 }
 
-export function CheckboxList({ values, title, callback }: { values: CheckboxState[], title?: string, callback: (label: string, checked: boolean) => unknown }) {
+export function CheckboxList({ values, title, onCheckboxChange }: { values: CheckboxState[], title?: string, onCheckboxChange: (label: string, checked: boolean) => unknown }) {
     const handleInput = (event: React.ChangeEvent<HTMLInputElement>) => {
-        callback(event.target.value, event.target.checked)
+        onCheckboxChange(event.target.value, event.target.checked)
     }
 
     return (

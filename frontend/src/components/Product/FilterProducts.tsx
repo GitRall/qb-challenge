@@ -5,7 +5,7 @@ import { Product } from '@/types/Product'
 import { Category } from '@/types/Category'
 import { CheckboxList } from '@/components/CheckboxList'
 
-export function FilterProducts({ products, categories, callback }: { products: Product[], categories: Category[], callback: (arr: Product[], isFiltering: boolean) => unknown }) {
+export function FilterProducts({ products, categories, onFilteringChange }: { products: Product[], categories: Category[], onFilteringChange: (arr: Product[], isFiltering: boolean) => unknown }) {
     const [search, setSearch] = useState<string>('')
     const [checkedCategories, setCheckedCategories] = useState<string[]>([])
 
@@ -33,8 +33,8 @@ export function FilterProducts({ products, categories, callback }: { products: P
                 )
             }
         })
-        callback(filtered, isFiltering)
-    }, [search, checkedCategories, products, callback])
+        onFilteringChange(filtered, isFiltering)
+    }, [search, checkedCategories, products, onFilteringChange])
 
 
     return (
@@ -45,7 +45,7 @@ export function FilterProducts({ products, categories, callback }: { products: P
                     return { label: c.name, checked: false }
                 })}
                 title='Filter categories'
-                callback={(label, checked) => {
+                onCheckboxChange={(label, checked) => {
                     label = label.toLowerCase()
                     let rv: string[] = []
                     if (checked) {

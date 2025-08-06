@@ -3,9 +3,9 @@ interface Label {
     right: string
 }
 
-export function ToggleInput({ labels, callback }: { labels: Label, callback: (isChecked: boolean) => unknown }) {
+export function ToggleInput({ labels, onToggleChange }: { labels: Label, onToggleChange: (isChecked: boolean) => unknown }) {
     const handleToggle = (event: React.ChangeEvent<HTMLInputElement>) => {
-        callback(event.target.checked)
+        onToggleChange(event.target.checked)
     }
 
     return (

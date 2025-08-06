@@ -125,7 +125,7 @@ export function ProductGridSimple() {
                     left: 'List',
                     right: 'Grid'
                 }}
-                callback={(isChecked) => {
+                onToggleChange={(isChecked) => {
                     setView(isChecked ? 'grid' : 'list')
                 }}
             />
@@ -133,7 +133,7 @@ export function ProductGridSimple() {
             <div className='mb-4'>
                 <FilterProducts
                     products={products}
-                    callback={handleFilter}
+                    onFilteringChange={handleFilter}
                     categories={categories}
                 />
             </div>

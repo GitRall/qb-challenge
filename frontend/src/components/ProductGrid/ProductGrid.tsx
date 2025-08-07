@@ -81,8 +81,8 @@ export function ProductGrid() {
   })
   const [categories, setCategories] = useState<Category[]>([])
   const [loading, setLoading] = useState<boolean>(true)
-  const [filteredProducts, setFilteredProducts] = useState<Product[]>([])
-  const [isFiltering, setIsFiltering] = useState<boolean>(false)
+  const [search, setSearch] = useState<string>('')
+  const [checkedCategories, setCheckedCategories] = useState<string[]>([])
 
   const fetchProducts = async (page: number = 1, limit: number = 10) => {
     setLoading(true)
@@ -113,15 +113,55 @@ export function ProductGrid() {
     }
   }
 
+  const handleSearchFilter = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearch(event.target.value)
+  }
+
+  const handleCategoryFilter = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const label = event.target.value.toLowerCase()
+    let rv: string[] = []
+    if (event.target.checked) {
+      // if checkbox is being checked we add it to the checkedCategories array
+      rv = [...checkedCategories, label]
+
+    } else {
+      // if unchecked, remove item from checkedCategories
+      const index = checkedCategories.findIndex((c) => c === label)
+      if (index > -1) {
+        checkedCategories.splice(index, 1)
+        rv = [...checkedCategories]
+      }
+    }
+    setCheckedCategories(rv)
+  }
+
+  const filterProducts = (products: Product[]) => {
+    // Check if any filtering is active
+    const isFiltering = !!search || !!checkedCategories.length
+    if (!isFiltering) return products
+
+    return products.filter((product) => {
+      if (!!search && !!checkedCategories.length) {
+        // if both filter options are active we should check for items matching both
+        return (
+          product.name.toLowerCase().includes(search.toLowerCase()) &&
+          checkedCategories.includes(product.category.name.toLowerCase())
+        )
+      } else {
+        // check if either of the options match
+        return (
+          // needs to check if search is truthy else it will match due to it being empty string
+          !!search ? product.name.toLowerCase().includes(search.toLowerCase()) : false ||
+            checkedCategories.includes(product.category.name.toLowerCase())
+        )
+      }
+    })
+  }
+
   useEffect(() => {
     // initial fetch
     fetchProducts()
     fetchCategories()
-  }, [])
-
-  const handleFilter = useCallback((products: Product[], isFiltering: boolean) => {
-    setFilteredProducts(products)
-    setIsFiltering(isFiltering)
   }, [])
 
   const Footer = () => {
@@ -163,19 +203,19 @@ export function ProductGrid() {
 
       <div className='mb-4'>
         <FilterProducts
-          products={products}
-          onFilteringChange={handleFilter}
           categories={categories}
+          onSearchChange={handleSearchFilter}
+          onCategoryChange={handleCategoryFilter}
         />
       </div>
 
       <VirtuosoGrid
         useWindowScroll
         totalCount={pagination.total}
-        data={isFiltering ? filteredProducts : products}
+        data={filterProducts(products)}
         context={{ view: view }}
         components={{ List: gridComponents.List, Item: gridComponents.Item, Footer }}
-        endReached={() => pagination.hasNextPage && !isFiltering ? fetchProducts(pagination.page + 1) : null}
+        endReached={() => pagination.hasNextPage && !search && !checkedCategories.length ? fetchProducts(pagination.page + 1) : null}
         itemContent={(_, product) => {
           if (!product) return
           return (

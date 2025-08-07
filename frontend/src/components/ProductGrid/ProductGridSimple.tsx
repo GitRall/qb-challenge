@@ -94,20 +94,13 @@ export function ProductGridSimple() {
 
     const handleCategoryFilter = (event: React.ChangeEvent<HTMLInputElement>) => {
         const label = event.target.value.toLowerCase()
-        let rv: string[] = []
         if (event.target.checked) {
             // if checkbox is being checked we add it to the checkedCategories array
-            rv = [...checkedCategories, label]
-
+            setCheckedCategories((prevCheckedCategories) => [...prevCheckedCategories, label])
         } else {
             // if unchecked, remove item from checkedCategories
-            const index = checkedCategories.findIndex((c) => c === label)
-            if (index > -1) {
-                checkedCategories.splice(index, 1)
-                rv = [...checkedCategories]
-            }
+            setCheckedCategories((prevCheckedCategories) => prevCheckedCategories.filter((c) => label !== c))
         }
-        setCheckedCategories(rv)
     }
 
     const filterProducts = (products: Product[]) => {

@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState, useCallback } from 'react'
+import { useEffect, useState } from 'react'
 import { Product } from '@/types/Product'
 import { Category } from '@/types/Category'
 import { ProductCard } from '@/components/ProductGrid/ProductCard'
@@ -58,7 +58,7 @@ const gridComponents = {
   ),
 }
 
-const ItemWrapper = ({ children, ...props }: any) => (
+const ItemWrapper = ({ children, ...props }: React.PropsWithChildren<{ view: View }>) => (
   <div
     {...props}
     className={`${props.view === 'list' ? '' : 'h-[300px]'}`}

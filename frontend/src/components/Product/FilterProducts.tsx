@@ -1,7 +1,5 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import { Product } from '@/types/Product'
 import { Category } from '@/types/Category'
 import { CheckboxList } from '@/components/CheckboxList'
 

@@ -17,7 +17,7 @@ export function ProductGridSimple({ productsData, categoriesData }: ProductGridP
     const [view, setView] = useState<View>('list')
     const [products, setProducts] = useState<Product[]>(productsData.products)
     const [pagination, setPagination] = useState<PaginationData>(productsData.pagination)
-    const [categories, setCategories] = useState<Category[]>(categoriesData.categories)
+    const [categories] = useState<Category[]>(categoriesData.categories)
     const [loading, setLoading] = useState<boolean>(false)
     const [search, setSearch] = useState<string>('')
     const [checkedCategories, setCheckedCategories] = useState<string[]>([])

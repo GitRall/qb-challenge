@@ -1,7 +1,5 @@
 'use server'
 
-import { ProductsResponseData } from '@/types/Product'
-
 export async function fetchCategories() {
   const response = await fetch(`${process.env.BACKEND_URL}/api/v1/categories`)
 

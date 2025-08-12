@@ -6,7 +6,6 @@ import { Category, CategoriesResponseData } from '@/types/Category'
 import { ProductCard } from '@/components/ProductGrid/ProductCard'
 import { ToggleInput } from '@/components/ToggleInput'
 import { FilterProducts } from '@/components/Product/FilterProducts'
-import { fetchProducts } from '@/lib/products'
 
 type View = 'list' | 'grid'
 
@@ -26,7 +25,8 @@ export function ProductGridSimple({ productsData, categoriesData }: ProductGridP
     const handleFetchProducts = async (page: number = 1, limit: number = 10) => {
         setLoading(true)
         try {
-            const data = await fetchProducts(page, limit)
+            const response = await fetch(`/api/products?page=${page}&limit=${limit}`)
+            const data: ProductsResponseData = await response.json()
             setProducts(products => [...products, ...data.products])
             setPagination(() => { return { ...data.pagination } })
 
@@ -115,7 +115,7 @@ export function ProductGridSimple({ productsData, categoriesData }: ProductGridP
     }
 
     return (
-        <div>
+        <>
             <ToggleInput
                 labels={{
                     left: 'List',
@@ -156,6 +156,6 @@ export function ProductGridSimple({ productsData, categoriesData }: ProductGridP
                     </div> :
                     !pagination.hasNextPage ? <div className='text-center'>Nothing more to show</div> : null}
             </div>
-        </div>
+        </>
     )
 }

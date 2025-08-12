@@ -8,7 +8,6 @@ import { ToggleInput } from '@/components/ToggleInput'
 import { FilterProducts } from '@/components/Product/FilterProducts'
 import { VirtuosoGrid, GridItemProps, GridListProps, ContextProp } from 'react-virtuoso'
 import { forwardRef, Ref } from 'react'
-import { fetchProducts } from '@/lib/products'
 
 type View = 'list' | 'grid'
 
@@ -62,7 +61,8 @@ export function ProductGrid({ productsData, categoriesData }: ProductGridProps) 
   const handleFetchProducts = async (page: number = 1, limit: number = 10) => {
     setLoading(true)
     try {
-      const data = await fetchProducts(page, limit)
+      const response = await fetch(`/api/products?page=${page}&limit=${limit}`)
+      const data: ProductsResponseData = await response.json()
       setProducts(products => [...products, ...data.products])
       setPagination(() => { return { ...data.pagination } })
 
@@ -141,7 +141,7 @@ export function ProductGrid({ productsData, categoriesData }: ProductGridProps) 
   }
 
   return (
-    <div>
+    <>
       <ToggleInput
         labels={{
           left: 'List',
@@ -177,6 +177,6 @@ export function ProductGrid({ productsData, categoriesData }: ProductGridProps) 
         }
         }
       />
-    </div>
+    </>
   )
 }

@@ -1,14 +1,8 @@
+import { fetchCategories } from "@/lib/categories"
+
 export async function GET() {
   try {
-    const response = await fetch(
-      `${process.env.BACKEND_URL}/api/v1/categories`,
-    )
-
-    if (!response.ok) {
-      throw new Error(`Backend request failed: ${response.status}`)
-    }
-
-    const data = await response.json()
+    const data = fetchCategories()
 
     return Response.json(data)
   } catch (error) {

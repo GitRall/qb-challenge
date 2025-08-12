@@ -12,3 +12,18 @@ export interface Product {
   stock_quantity: number
   rating: number
 }
+
+export interface ProductsResponseData {
+  products: Product[]
+  pagination: PaginationData
+  error?: boolean
+}
+
+export interface PaginationData {
+  page: number
+  limit: number
+  total: number
+  totalPages: number
+  hasNextPage: boolean
+  hasPrevPage: boolean
+}

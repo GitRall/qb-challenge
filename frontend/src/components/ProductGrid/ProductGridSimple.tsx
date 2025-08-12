@@ -1,56 +1,32 @@
 'use client'
 
 import { useEffect, useState, useRef, useCallback } from 'react'
-import { Product } from '@/types/Product'
-import { Category } from '@/types/Category'
+import { Product, PaginationData, ProductsResponseData } from '@/types/Product'
+import { Category, CategoriesResponseData } from '@/types/Category'
 import { ProductCard } from '@/components/ProductGrid/ProductCard'
 import { ToggleInput } from '@/components/ToggleInput'
 import { FilterProducts } from '@/components/Product/FilterProducts'
-
-interface PaginationData {
-    page: number
-    limit: number
-    total: number
-    totalPages: number
-    hasNextPage: boolean
-    hasPrevPage: boolean
-}
-
-interface ProductsResponseData {
-    products: Product[]
-    pagination: PaginationData
-    error?: boolean
-}
-
-interface CategoriesResponseData {
-    categories: Category[]
-}
+import { fetchProducts } from '@/lib/products'
 
 type View = 'list' | 'grid'
 
-export function ProductGridSimple() {
+interface ProductGridProps { productsData: ProductsResponseData, categoriesData: CategoriesResponseData }
+
+export function ProductGridSimple({ productsData, categoriesData }: ProductGridProps) {
     const [error, setError] = useState<boolean>(false)
     const [view, setView] = useState<View>('list')
-    const [products, setProducts] = useState<Product[]>([])
-    const [pagination, setPagination] = useState<PaginationData>({
-        page: 1,
-        limit: 10,
-        total: 0,
-        totalPages: 0,
-        hasNextPage: false,
-        hasPrevPage: false
-    })
-    const [categories, setCategories] = useState<Category[]>([])
-    const [loading, setLoading] = useState<boolean>(true)
+    const [products, setProducts] = useState<Product[]>(productsData.products)
+    const [pagination, setPagination] = useState<PaginationData>(productsData.pagination)
+    const [categories, setCategories] = useState<Category[]>(categoriesData.categories)
+    const [loading, setLoading] = useState<boolean>(false)
     const [search, setSearch] = useState<string>('')
     const [checkedCategories, setCheckedCategories] = useState<string[]>([])
     const observer = useRef<IntersectionObserver | null>(null)
 
-    const fetchProducts = async (page: number = 1, limit: number = 10) => {
+    const handleFetchProducts = async (page: number = 1, limit: number = 10) => {
         setLoading(true)
         try {
-            const response = await fetch(`/api/products?page=${page}&limit=${limit}`)
-            const data: ProductsResponseData = await response.json()
+            const data = await fetchProducts(page, limit)
             setProducts(products => [...products, ...data.products])
             setPagination(() => { return { ...data.pagination } })
 
@@ -65,24 +41,11 @@ export function ProductGridSimple() {
         }
     }
 
-    const fetchCategories = async () => {
-        try {
-            const response = await fetch('/api/categories')
-            const data: CategoriesResponseData = await response.json()
-            setCategories(data.categories)
-        } catch (error) {
-            console.error('Error fetching categories:', error)
-        }
-    }
-
     const cleanupObserver = () => {
         if (observer.current) observer.current.disconnect()
     }
 
     useEffect(() => {
-        fetchProducts()
-        fetchCategories()
-
         return () => {
             cleanupObserver()
         }
@@ -139,7 +102,7 @@ export function ProductGridSimple() {
         observer.current = new IntersectionObserver((entries) => {
             const [entry] = entries
             if (entry.isIntersecting && pagination.hasNextPage) {
-                fetchProducts(pagination.page + 1)
+                handleFetchProducts(pagination.page + 1)
             }
         }, options);
         if (node) observer.current.observe(node)
